@@ -1,0 +1,104 @@
+2021-12-23T00:05:34+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost:8081/wp/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=http://localhost:8081/wp/cart/
+    [CANCELURL] => http://localhost:8081/wp/cart/?cancel_order=true&order=wc_order_cAhWtIGgOCttX&order_id=380&redirect=http%3A%2F%2Flocalhost%3A8081%2Fwp%2Fcart%2F&_wpnonce=7162abde0c&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Buvlja Pijaca
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_GB
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Riblja Čorba – Osmi Nervni Slom
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1050
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost:8081/wp/product/8-nervni-slom/
+    [PAYMENTREQUEST_0_AMT] => 1260
+    [PAYMENTREQUEST_0_CURRENCYCODE] => RSD
+    [PAYMENTREQUEST_0_ITEMAMT] => 1050
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 210
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 2205
+    [PAYMENTREQUEST_0_SHIPTONAME] => Matija Colakovic 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Kneza Viseslava 142/11
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Belgrade
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => RS00
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 11000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => RS
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0665741025
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => matija.colo@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 380
+)
+
+2021-12-23T00:05:35+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2021-12-23T00:05:36Z
+    [CORRELATIONID] => 7d0a9c2b030fc
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+2021-12-23T00:05:51+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => http://localhost:8081/wp/wc-api/Eh_PayPal_Express_Payment/?c=express_details&express=true&p=http://localhost:8081/wp/cart/
+    [CANCELURL] => http://localhost:8081/wp/cart/?cancel_order=true&order=wc_order_dv1OgAjXGpI5M&order_id=381&redirect=http%3A%2F%2Flocalhost%3A8081%2Fwp%2Fcart%2F&_wpnonce=7162abde0c&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => Buvlja Pijaca
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [LOCALECODE] => en_GB
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Riblja Čorba – Osmi Nervni Slom
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1050
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => http://localhost:8081/wp/product/8-nervni-slom/
+    [PAYMENTREQUEST_0_AMT] => 1260
+    [PAYMENTREQUEST_0_CURRENCYCODE] => RSD
+    [PAYMENTREQUEST_0_ITEMAMT] => 1050
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 210
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 2205
+    [PAYMENTREQUEST_0_SHIPTONAME] => Matija Colakovic 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Kneza Viseslava 142/11
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Belgrade
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => RS00
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 11000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => RS
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0665741025
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => matija.colo@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 381
+)
+
+2021-12-23T00:05:52+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2021-12-23T00:05:53Z
+    [CORRELATIONID] => cea435faee749
+    [ACK] => Failure
+    [BUILD] => 56144363
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+

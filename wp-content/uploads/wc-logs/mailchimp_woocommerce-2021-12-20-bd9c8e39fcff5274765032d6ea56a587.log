@@ -1,0 +1,172 @@
+2021-12-20T13:09:02+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 61c05207ac724
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 2d16037098
+            [name] => Buvlja Pijaca
+            [domain] => http://localhost:8081/wp
+            [email_address] => matija.colo@gmail.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => sr_Cyrl_ME
+            [timezone] => +01:00
+            [phone] => 0665741025
+            [address] => Array
+                (
+                    [address1] => FON
+                    [city] => Belgrade
+                    [province] => RS00
+                    [postal_code] => 11000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0665741025
+                    [company] => Buvlja Pijaca
+                )
+
+        )
+
+)
+
+2021-12-20T13:09:06+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 61c05207ac724
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 2d16037098
+            [name] => Buvlja Pijaca
+            [domain] => http://localhost:8081/wp
+            [email_address] => matija.colo@gmail.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => sr_Cyrl_ME
+            [timezone] => +01:00
+            [phone] => 0665741025
+            [address] => Array
+                (
+                    [address1] => FON
+                    [city] => Belgrade
+                    [province] => RS00
+                    [postal_code] => 11000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0665741025
+                    [company] => Buvlja Pijaca
+                )
+
+        )
+
+)
+
+2021-12-20T13:09:09+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 61c05207ac724
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 2d16037098
+            [name] => Buvlja Pijaca
+            [domain] => http://localhost:8081/wp
+            [email_address] => matija.colo@gmail.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => sr_Cyrl_ME
+            [timezone] => +01:00
+            [phone] => 0665741025
+            [address] => Array
+                (
+                    [address1] => FON
+                    [city] => Belgrade
+                    [province] => RS00
+                    [postal_code] => 11000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0665741025
+                    [company] => Buvlja Pijaca
+                )
+
+        )
+
+)
+
+2021-12-20T13:09:14+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Mon, Dec 20, 2021 1:09 PM
+2021-12-20T13:09:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-12-20T13:09:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 2
+2021-12-20T13:09:16+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-12-20T13:09:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-12-20T13:09:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-12-20T13:09:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 76
+2021-12-20T13:09:18+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 78
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 105
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 108
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 111
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 113
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 116
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 119
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 121
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 123
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 127
+2021-12-20T13:09:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 131
+2021-12-20T13:09:20+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-12-20T13:09:22+00:00 NOTICE promo_code_submit.success :: #76 :: code: bp070707
+2021-12-20T13:09:22+00:00 NOTICE product_submit.success :: addStoreProduct :: #78
+2021-12-20T13:09:23+00:00 NOTICE product_submit.success :: addStoreProduct :: #105
+2021-12-20T13:09:24+00:00 NOTICE product_submit.success :: addStoreProduct :: #108
+2021-12-20T13:09:25+00:00 NOTICE product_submit.success :: addStoreProduct :: #111
+2021-12-20T13:09:25+00:00 NOTICE product_submit.success :: addStoreProduct :: #113
+2021-12-20T13:09:26+00:00 NOTICE product_submit.success :: addStoreProduct :: #116
+2021-12-20T13:09:27+00:00 NOTICE product_submit.success :: addStoreProduct :: #119
+2021-12-20T13:09:28+00:00 NOTICE product_submit.success :: addStoreProduct :: #121
+2021-12-20T13:09:28+00:00 NOTICE product_submit.success :: addStoreProduct :: #123
+2021-12-20T13:09:29+00:00 NOTICE product_submit.success :: addStoreProduct :: #127
+2021-12-20T13:09:30+00:00 NOTICE product_submit.success :: addStoreProduct :: #131
+2021-12-20T13:09:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-12-20T13:09:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 2
+2021-12-20T13:09:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 104
+2021-12-20T13:09:32+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-12-20T13:09:35+00:00 ERROR order_submit.error :: addStoreOrder :: #104 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:8081/wp/my-account/view-order/104/</p> on 1890 in C:\xampp\htdocs\wp\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-12-20T13:09:58+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Dec 20, 2021 1:09 PM (total time: 00:00:44)
+2021-12-20T19:08:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:09:04+00:00 NOTICE product_submit.success :: addStoreProduct :: #209
+2021-12-20T19:10:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:11:10+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:12:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:12:11+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:13:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:13:27+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:15:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:15:33+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:15:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:16:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:16:24+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:16:35+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:21:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 215
+2021-12-20T19:22:28+00:00 NOTICE product_submit.success :: addStoreProduct :: #215
+2021-12-20T19:34:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 221
+2021-12-20T19:35:03+00:00 NOTICE product_submit.success :: addStoreProduct :: #221
+2021-12-20T19:35:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 221
+2021-12-20T19:35:12+00:00 NOTICE product_submit.success :: updateStoreProduct :: #221
+2021-12-20T19:35:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 215
+2021-12-20T19:36:11+00:00 NOTICE product_submit.success :: updateStoreProduct :: #215
+2021-12-20T19:36:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 221
+2021-12-20T19:36:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 215
+2021-12-20T19:37:06+00:00 NOTICE product_submit.success :: updateStoreProduct :: #221
+2021-12-20T19:37:06+00:00 NOTICE product_submit.success :: updateStoreProduct :: #215
+2021-12-20T19:37:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:38:18+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:38:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 221
+2021-12-20T19:39:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 215
+2021-12-20T19:39:13+00:00 NOTICE product_submit.success :: updateStoreProduct :: #221
+2021-12-20T19:39:14+00:00 NOTICE product_submit.success :: updateStoreProduct :: #215
+2021-12-20T19:39:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:39:25+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 209
+2021-12-20T19:39:25+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:39:33+00:00 NOTICE product_submit.success :: updateStoreProduct :: #209
+2021-12-20T19:47:25+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 223
+2021-12-20T19:48:33+00:00 NOTICE product_submit.success :: addStoreProduct :: #223

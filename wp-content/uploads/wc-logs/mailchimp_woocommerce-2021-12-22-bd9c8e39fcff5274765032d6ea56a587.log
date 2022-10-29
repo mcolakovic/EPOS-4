@@ -1,0 +1,93 @@
+2021-12-22T10:48:51+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:49:20+00:00 NOTICE abandoned_cart.success :: email: user@gmail.com :: checkout_url: http://localhost:8081/wp/checkout/?mc_cart_id=cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:49:21+00:00 NOTICE cart.member.updated :: Updated user@gmail.com subscriber status to transactional and language to en
+2021-12-22T10:50:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:50:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:50:56+00:00 NOTICE abandoned_cart.success :: email: user@gmail.com :: checkout_url: http://localhost:8081/wp/checkout/?mc_cart_id=cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:50:57+00:00 NOTICE abandoned_cart.success :: email: user@gmail.com :: checkout_url: http://localhost:8081/wp/checkout/?mc_cart_id=cba1f2d695a5ca39ee6f343297a761a4
+2021-12-22T10:51:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 363
+2021-12-22T10:51:42+00:00 NOTICE debug :: Order ID 363 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-12-22T10:53:15+00:00 NOTICE system.debug :: order 363 is in on-hold status, and is being skipped for now.
+2021-12-22T10:56:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 363
+2021-12-22T10:56:55+00:00 NOTICE debug :: Order ID 363 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-12-22T11:00:41+00:00 ERROR order_submit.error :: addStoreOrder :: #363 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:8081/wp/my-account/view-order/363/</p> on 1890 in C:\xampp\htdocs\wp\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-12-22T23:07:05+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 61c05207ac724
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 2d16037098
+            [name] => Buvlja Pijaca
+            [domain] => http://localhost:8081/wp
+            [email_address] => matija.colo@gmail.com
+            [currency_code] => RSD
+            [money_format] => рсд
+            [primary_locale] => sr_Cyrl_ME
+            [timezone] => +01:00
+            [phone] => 0665741025
+            [address] => Array
+                (
+                    [address1] => FON
+                    [city] => Belgrade
+                    [province] => RS00
+                    [postal_code] => 11000
+                    [country] => RS
+                    [country_code] => RS
+                    [phone] => 0665741025
+                    [company] => Buvlja Pijaca
+                )
+
+        )
+
+)
+
+2021-12-22T23:10:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 7
+2021-12-22T23:10:39+00:00 NOTICE debug :: Order ID 363 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-12-22T23:10:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 363
+2021-12-22T23:11:06+00:00 NOTICE member.sync :: Updated Member user@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => User
+            [LNAME] => User
+        )
+
+)
+
+2021-12-22T23:12:20+00:00 ERROR order_submit.error :: addStoreOrder :: #363 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost:8081/wp/my-account/view-order/363/</p> on 1890 in C:\xampp\htdocs\wp\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2021-12-22T23:15:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 366
+2021-12-22T23:15:58+00:00 NOTICE debug :: Order ID 366 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2021-12-22T23:17:28+00:00 NOTICE system.debug :: order 366 is in on-hold status, and is being skipped for now.
+2021-12-22T23:35:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 367
+2021-12-22T23:36:17+00:00 NOTICE product_submit.success :: addStoreProduct :: #367
+2021-12-22T23:47:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 368
+2021-12-22T23:48:23+00:00 NOTICE product_submit.success :: addStoreProduct :: #368
+2021-12-22T23:48:32+00:00 NOTICE product.deleted :: deleted product 368
+2021-12-22T23:51:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 368
+2021-12-22T23:51:14+00:00 NOTICE product_submit.success :: addStoreProduct :: #368
+2021-12-22T23:52:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 368
+2021-12-22T23:52:24+00:00 NOTICE product_submit.success :: updateStoreProduct :: #368
+2021-12-22T23:56:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 368
+2021-12-22T23:57:17+00:00 NOTICE product_submit.success :: updateStoreProduct :: #368

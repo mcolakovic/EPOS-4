@@ -1,0 +1,111 @@
+# Translation of Plugins - Preferred Languages - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Preferred Languages - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-04 09:41:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Preferred Languages - Stable (latest release)\n"
+
+#: inc/functions.php:985
+msgid "Some of the languages are not installed. Re-save changes to download translations."
+msgstr "Some of the languages are not installed. Re-save changes to download translations."
+
+#. translators: accessibility text
+#: inc/functions.php:864
+msgid "Add to list (Alt+A)"
+msgstr "Add to list (Alt+A)"
+
+#. translators: accessibility text
+#: inc/functions.php:861
+msgid "Remove from list (Alt+Delete)"
+msgstr "Remove from list (Alt+Delete)"
+
+#. translators: accessibility text
+#: inc/functions.php:858
+msgid "Move down (Alt+Down)"
+msgstr "Move down (Alt+Down)"
+
+#. translators: accessibility text
+#: inc/functions.php:855
+msgid "Move up (Alt+Up)"
+msgstr "Move up (Alt+Up)"
+
+#. translators: %s: English (United States)
+#: inc/functions.php:873
+msgid "No languages selected. Falling back to %s."
+msgstr "No languages selected. Falling back to %s."
+
+#: inc/functions.php:876
+msgid "No languages selected. Falling back to Site Default."
+msgstr "No languages selected. Falling back to Site Default."
+
+#. Author URI of the plugin
+msgid "https://pascalbirchler.com"
+msgstr "https://pascalbirchler.com"
+
+#. Author of the plugin
+msgid "Pascal Birchler"
+msgstr "Pascal Birchler"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/swissspidy/preferred-languages/"
+msgstr "https://github.com/swissspidy/preferred-languages/"
+
+#. Plugin Name of the plugin
+msgid "Preferred Languages"
+msgstr "Preferred Languages"
+
+#: inc/functions.php:970
+msgid "Add"
+msgstr "Add"
+
+#: inc/functions.php:947
+msgid "Inactive Locales"
+msgstr "Inactive Locales"
+
+#: inc/functions.php:940
+msgid "Remove"
+msgstr "Remove"
+
+#: inc/functions.php:929
+msgid "Move Down"
+msgstr "Move Down"
+
+#: inc/functions.php:918
+msgid "Move Up"
+msgstr "Move Up"
+
+#. translators: %s: English (United States)
+#: inc/functions.php:887
+msgid "Falling back to %s."
+msgstr "Falling back to %s."
+
+#: inc/functions.php:884
+msgid "Falling back to Site Default."
+msgstr "Falling back to Site Default."
+
+#: inc/functions.php:880
+msgid "Nothing set."
+msgstr "Nothing set."
+
+#. Description of the plugin
+#: inc/functions.php:869
+msgid "Choose languages for displaying WordPress in, in order of preference."
+msgstr "Choose languages for displaying WordPress in, in order of preference."
+
+#: inc/functions.php:777
+msgid "Language"
+msgstr "Language"
+
+#: inc/functions.php:696
+msgid "Site Language"
+msgstr "Site Language"
+
+#: inc/functions.php:22
+msgid "List of preferred locales."
+msgstr "List of preferred locales."

@@ -1,0 +1,5 @@
+the files
+- includes/js/src/shortcodes/yasr-log-users-fronted.js
+- includes/js/src/rater-js-src.js
+
+Are not minified bundled with webpack, it is just a simple minifing

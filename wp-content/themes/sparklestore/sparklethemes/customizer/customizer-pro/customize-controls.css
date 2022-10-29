@@ -1,0 +1,95 @@
+#customize-controls .control-section-sparklestore .accordion-section-title:hover,
+#customize-controls .control-section-sparklestore .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.rtl .control-section-sparklestore .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+#accordion-section-sparklestore .accordion-section-title .button {
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding: 0 25px 0;
+}
+
+#accordion-section-sparklestore .accordion-section-title:before{
+    display:none;
+}
+
+#accordion-section-sparklestoredoc .accordion-section-title .button {
+    float: right;
+}
+
+.control-section-sparkle-store-upgrade-section{
+    background: #FFF;
+    padding: 20px;
+    margin: 15px;
+}
+
+.control-section-sparkle-store-upgrade-section .button{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.control-section-sparkle-store-upgrade-section label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.customize-control-sparkle-store-upgrade-text{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.customize-control-sparkle-store-upgrade-text label{
+    padding: 0 0 0 26px;
+    display: block;
+}
+
+.customize-control-sparkle-store-upgrade-text .dashicons{
+    float: left;
+    margin-left: -26px;
+}
+
+.customize-control-sparkle-store-upgrade-text ul{
+    margin: 8px 0 0 16px;
+    font-style: italic;
+}
+
+.customize-control-sparkle-store-upgrade-text ul li{
+    margin-bottom: 3px;
+    padding-left: 8px;
+    line-height: 1.3;
+}
+
+.customize-control-sparkle-store-upgrade-text ul li:before{
+    content: '- ';
+    margin-left: -8px;
+}
+
+.customize-pane-parent #accordion-section-sparklestore_implink_link_section .accordion-section-title:before {
+    content: "\f512";
+}
+
+.customize-pane-parent #accordion-section-sparklestoredoc .accordion-section-title:before {
+    content: "\f331";
+}
+
+.customize-pane-parent #accordion-section-static_front_page .accordion-section-title:before {
+    content: "\f102";
+}
+
+.customize-pane-parent #accordion-section-sparklestore_breadcrumbs_normal_page_section .accordion-section-title:before {
+    content: "\f11c";
+}
+
+.customize-pane-parent #accordion-section-sparklestore_home_blog_settings_section .accordion-section-title:before {
+    content: "\f105";
+}

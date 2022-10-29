@@ -1,0 +1,522 @@
+# Translation of Themes - Twenty Twenty in Bosnian
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-17 11:58:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: bs_BA\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Naša zadana tema za 2020-tu je dizajnirana da uzme sve prednosti fleksibilnog blok editora. Organizacije i poslovi imaju mogućnost da kreiraju dinamične prve stranice sa beskrajnim rasporedima koristeći grupne i kolonske blokove. Kolona za centriranje sadržaja i fino uštimana tipografija je takođe čini savršenom za tradicionalne blogove. Kompletni stilovi uređivača daju dobru ideju o tome kako će vaš sadržaj da izgleda, čak i prije objavljivanja. Možete dati vašoj stranici lični dodir mijenjajući boju pozadine i boju naglašavanja u podešivaču teme. Boje svih elemenata na vašoj stranici su automatski izračunate bazirano na bojama koje izaberete, osiguravajući visoku, pristupačnu boju kontrasta za vaše posjetioce."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr "Dvije hiljade dvadeset"
+
+#: classes/class-twentytwenty-customize.php:250
+msgid "Show author bio"
+msgstr "Prikaži autorovu biografiju"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Pogledaj arhivu  <span aria-hidden=\"true\">&rarr;</span>"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Novi UMoMA otvara vrata"
+
+#: inc/template-tags.php:414
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "U"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Pridruži se klubu"
+
+#: inc/block-patterns.php:45 inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Članovi dobijaju pristup ekskluzivnim izložbama i prodajama. Naše članstvo košta $99.99 i naplaćivana su godišnje."
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Postani član i dobij ekskluzivne ponude."
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Od Signac do Matisse"
+
+#: inc/block-patterns.php:168 inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Život koji zaslužujem"
+
+#: inc/starter-content.php:85 inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "Oktobar 1 -- Decembar 1"
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "&#8220;Kiborzi, kao što je filozof Donna Haraway ustvrdila, nisu parosi. Oni se ne sjećaju kosmosa.&#8221;"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Pozorište operacija"
+
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174 inc/starter-content.php:73
+#: inc/starter-content.php:88 inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Pročitaj više"
+
+#: inc/starter-content.php:70 inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "August 1 -- Decembar 1"
+
+#: inc/block-patterns.php:154 inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Radovi  i dani"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Premijerna destinacija za modernu umjetnost u sjevernoj Švedskoj. Otvoreno od 10 prije podne do 6 poslije podne svaki dan za vrijeme ljetnih mjeseci."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Nova UMoMA otvara vrata"
+
+#: classes/class-twentytwenty-customize.php:399
+msgid "Overlay Opacity"
+msgstr "Neprozirnost pokrivača"
+
+#: classes/class-twentytwenty-customize.php:379
+msgid "The color used for the text in the overlay."
+msgstr "Boja korištena za tekst u prekrivaču."
+
+#: classes/class-twentytwenty-customize.php:378
+msgid "Overlay Text Color"
+msgstr "Boja teksta na pokrivaču"
+
+#: classes/class-twentytwenty-customize.php:357
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Boja korištena za pokrivač. Zadana je boja akcentiranja."
+
+#: classes/class-twentytwenty-customize.php:356
+msgid "Overlay Background Color"
+msgstr "Boja pozadine pokrivača"
+
+#: classes/class-twentytwenty-customize.php:187
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Primijeni prilagođenu boju za veze, dugmad, naglašene slike."
+
+#: classes/class-twentytwenty-customize.php:287
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Postavke za \"Naslovni predložak\" predloška stranice. Dodaj izdvojenu sliku da se koristi kao pozadina."
+
+#: classes/class-twentytwenty-customize.php:127
+msgid "Primary Color"
+msgstr "Primarna boja"
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Sa sedam spratova šokantne arhitekture, UMoMA pokazuje izložbe međunarodne savremene umjetnosti, nekada uz umjetnost historijske retrospektive. Egzistencijalna, politička i filozofska pitanja koja su čista našem programu. Kako posjetioc ste pozvani na vođenu turu umjetničkih govora, lekcija, filmskih projekcija i drugih događaja sa besplatnim prijemom."
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Izložbe su napravljene u UMoMA u suradnji sa umjetnicima i muzejima širom svijeta i često privlače međunarodnu pažnju. UMoMA je primila specijalnu pohvalu od europskog muzeja godine, i bila je na vrhu kandidata za Nagradu za švedski muzej godine kao i za Nagradu za muzej vijeća Europe."
+
+#: searchform.php:28 template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Pretraga:"
+
+#: index.php:101
+msgid "search again"
+msgstr "traži ponovo"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Za vašu pretragu smo našli %s rezultat"
+msgstr[1] "Za vašu pretragu smo našli %s rezultata"
+msgstr[2] "Za vašu pretragu smo našli %s rezultata"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Gore %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Na vrh %s"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "G"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 nije pronađeno"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:72
+msgid "%1$s at %2$s"
+msgstr "%1$s u %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:86
+msgid "Edit"
+msgstr "Uredi"
+
+#: classes/class-twentytwenty-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čeka na moderaciju."
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Komentariši"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Jedan komentar na &ldquo;%s&rdquo;"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s odgovor na &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s odgovora na &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s odgovora na &ldquo;%2$s&rdquo;"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Komentari"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Komentari su onemogućeni."
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "Primarno"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:223
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Uredi <span class=\"screen-reader-text\">%s</span>"
+
+#: functions.php:276
+msgid "Footer Menu"
+msgstr "Meni u podnožju"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Pages:"
+msgstr "Stranice:"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Podnožje"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Page"
+msgstr "Stranica"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Predložak za cijelu širinu"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:27
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Starije<span class=\"nav-short\">objave</span>"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:19
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Novije<span class=\"nav-short\">Objave</span>"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Objava"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Zatvori pretragu"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Raširi socijalne veze"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Zatvori menu"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Društvene veze"
+
+#. translators: %s: Author name.
+#. translators: %s: Author name.
+#: inc/template-tags.php:375 template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "Od %s"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Razvij dole"
+
+#: searchform.php:31
+msgctxt "submit button"
+msgid "Search"
+msgstr "Pretraži:"
+
+#: searchform.php:29
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Pretraga &hellip;"
+
+#: index.php:32
+msgid "Search:"
+msgstr "Pretraži:"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Nije moguće pronaći bilo koje rezultate vaše potrage. Možete pokušati ponovo kroz formu za pretrage ispod."
+
+#: inc/template-tags.php:466
+msgid "Sticky post"
+msgstr "Ljepljiva objava"
+
+#: inc/template-tags.php:428
+msgid "Tags"
+msgstr "Oznake"
+
+#: inc/template-tags.php:410 template-parts/content-cover.php:70
+#: template-parts/entry-header.php:36
+msgid "Categories"
+msgstr "Kategorije"
+
+#: inc/template-tags.php:392
+msgid "Post date"
+msgstr "Datum objave"
+
+#: inc/template-tags.php:368
+msgid "Post author"
+msgstr "Autor objave"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Meni linkova na društvene mreže"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Stranica nije pronađena"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Tražena stranica se ne može pronaći. Mogla je biti obrisana, promijenjenog imena, ili nije ni postojala."
+
+#: classes/class-twentytwenty-customize.php:105
+msgid "Header &amp; Footer Background Color"
+msgstr "Boja pozadine zaglavlja i podnožja"
+
+#: classes/class-twentytwenty-customize.php:206
+msgid "Theme Options"
+msgstr "Opcije teme"
+
+#: classes/class-twentytwenty-customize.php:229
+msgid "Show search in header"
+msgstr "Pokaži pretragu u zaglavlju"
+
+#: classes/class-twentytwenty-customize.php:271
+msgid "On archive pages, posts show:"
+msgstr "Na stranicama arhiva, objave prikazuju:"
+
+#: classes/class-twentytwenty-customize.php:273
+msgid "Full text"
+msgstr "Cijeli tekst"
+
+#: classes/class-twentytwenty-customize.php:274
+msgid "Summary"
+msgstr "Suštinu"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:285
+msgid "Cover Template"
+msgstr "Predložak naslovnice"
+
+#: classes/class-twentytwenty-customize.php:309
+msgid "Fixed Background Image"
+msgstr "Pričvršćena slika pozadine"
+
+#: classes/class-twentytwenty-customize.php:310
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Pravi efekat paralaksu kada posjetilac razvija stranicu."
+
+#: classes/class-twentytwenty-customize.php:400
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Budite sigurni da je kontrast dovoljno visok da je tekst uočljiv (čitak)."
+
+#: classes/class-twentytwenty-customize.php:85
+msgid "Retina logo"
+msgstr "Retina Logo"
+
+#: classes/class-twentytwenty-customize.php:86
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Skalira logo na polovinu postavljene slike, praveći je oštrom na visokorezolucijskim ekranima."
+
+#: classes/class-twentytwenty-walker-comment.php:137
+msgid "By Post Author"
+msgstr "Od autora objave"
+
+#: classes/class-twentytwenty-walker-comment.php:60
+msgid "says:"
+msgstr "kaže:"
+
+#: classes/class-twentytwenty-walker-page.php:110 inc/template-tags.php:580
+msgid "Show sub menu"
+msgstr "Pokaži podmeni"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:73
+msgid "#%d (no title)"
+msgstr "#%d (nema naslova)"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Noviji komentari"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Stariji komentari"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Pokretana WordPress-om"
+
+#: functions.php:273
+msgid "Desktop Horizontal Menu"
+msgstr "Horizontalni meni radne površine"
+
+#: functions.php:274
+msgid "Desktop Expanded Menu"
+msgstr "Rašireni meni radne površine"
+
+#: functions.php:275
+msgid "Mobile Menu"
+msgstr "Mobilni meni"
+
+#: functions.php:277
+msgid "Social Menu"
+msgstr "Društveni meni"
+
+#: functions.php:362
+msgid "Skip to the content"
+msgstr "Preskoči na sadržaj"
+
+#: functions.php:389
+msgid "Footer #1"
+msgstr "Podnožje #1"
+
+#: functions.php:391
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Spravice na ovoj površi će biti prikazane u prvoj koloni u podnožju."
+
+#: functions.php:401
+msgid "Footer #2"
+msgstr "Podnožje #2"
+
+#: functions.php:403
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Spravice na ovoj površi će biti prikazane u drugoj koloni u podnožju."
+
+#: functions.php:516
+msgid "Accent Color"
+msgstr "Boja naglašavanja"
+
+#: functions.php:531
+msgid "Subtle Background"
+msgstr "Suptilna pozadina"
+
+#: functions.php:544
+msgid "Background Color"
+msgstr "Boja pozadine"
+
+#: functions.php:559
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Mala"
+
+#: functions.php:560
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "M"
+
+#: functions.php:565
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Normalna"
+
+#: functions.php:566
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "N"
+
+#: functions.php:571
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Velika"
+
+#: functions.php:572
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "V"
+
+#: functions.php:577
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Veća"
+
+#: functions.php:578
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Meni"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Nastavi čitati"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "https://bs.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress tim"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr "https://bs.wordpress.org/themes/twentytwenty/"

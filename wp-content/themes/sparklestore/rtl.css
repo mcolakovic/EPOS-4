@@ -1,0 +1,195 @@
+body{
+    direction:rtl;
+    unicode-bidi:embed;
+}
+ul, ol {
+    padding: 0 20px 0px 0px;
+}
+
+.sparklestore_ecommerce_items li a i, .sparklestore_quick_contact span{
+    margin-left: 5px;
+    margin-right: 0;
+}
+.site-cart-items-wrap .count{
+    right: 0;
+    left: unset;
+}
+.chosen-container-single .chosen-single::after{
+    left:10px;
+    right:unset;
+}
+
+.box-header-nav .main-menu > ul > .page_item, .box-header-nav .main-menu > .menu-item{
+    float:right;
+}
+.block-nav-category .block-title::before{
+    display: none;
+}
+
+.block-nav-category {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.block-nav-category .block-title::after {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 49em){
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+        width: 32%;
+        margin-right: 0;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+        
+        .woocommerce ul.products li.last, .woocommerce-page ul.products li.last {
+        margin-right: 0;
+        margin-left: 0 !important;
+    }
+}
+
+.cross-sells h2, .cart_totals h2, .up-sells > h2, .related > h2, .woocommerce-billing-fields h3, .woocommerce-shipping-fields h3, .woocommerce-additional-fields h3, #order_review_heading, .woocommerce-order-details h2, .woocommerce-column--billing-address h2, .woocommerce-column--shipping-address h2, .woocommerce-Address-title h3, .woocommerce-MyAccount-content h3, .wishlist-title h2, .comments-area h2.comments-title, .woocommerce-Reviews h2.woocommerce-Reviews-title, .woocommerce-Reviews #review_form_wrapper .comment-reply-title, .woocommerce-account .woocommerce h2, .woocommerce-customer-details h2.woocommerce-column__title, .widget .widget-title,
+.block-nav-category .block-content,
+.box-header-nav .main-menu{
+    text-align: right;
+}
+.box-header-nav .main-menu .children, .box-header-nav .main-menu .sub-menu{
+    right:0;
+    left:unset;
+}
+
+.box-header-nav .main-menu .children > .page_item.page_item_has_children > a::after, .box-header-nav .main-menu .sub-menu > .menu-item.menu-item-has-children > a::after,
+.block-nav-category .vertical-menu .page_item.page_item_has_children > a::after, .block-nav-category .vertical-menu .menu-item.menu-item-has-children > a::after {
+    float: left;
+    transform: rotate(90deg);
+}
+.box-header-nav .main-menu .children .children, .box-header-nav .main-menu .sub-menu .sub-menu,
+.block-nav-category .vertical-menu .children, .block-nav-category .vertical-menu .sub-menu{
+    right:100%;
+    left:unset;
+}
+
+.widget_meta ul li::before, .widget_nav_menu ul li::before{
+    content: '';
+    margin:0;
+    width:0;
+}
+.widget_meta ul li::after, .widget_nav_menu ul li::after{
+    content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    margin-right: -20px;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+    transform: rotate(180deg);
+}
+.articlesListing .article .metainfo div{
+    margin-left:25px;
+    margin-right: unset;
+}
+.breadcrumbs .trail-items{
+    direction: ltr;
+}
+.breadcrumbs .trail-items li::after{
+    content: "\eac6";
+}
+
+.cross-sells h2, .cart_totals h2, .up-sells > h2, .related > h2, .woocommerce-billing-fields h3, .woocommerce-shipping-fields h3, .woocommerce-additional-fields h3, #order_review_heading, .woocommerce-order-details h2, .woocommerce-column--billing-address h2, .woocommerce-column--shipping-address h2, .woocommerce-Address-title h3, .woocommerce-MyAccount-content h3, .wishlist-title h2, .comments-area h2.comments-title, .woocommerce-Reviews h2.woocommerce-Reviews-title, .woocommerce-Reviews #review_form_wrapper .comment-reply-title, .woocommerce-account .woocommerce h2, .woocommerce-customer-details h2.woocommerce-column__title, .widget .widget-title{
+    border-right: 3px solid;
+    padding-right: 10px;
+    padding-left: unset;
+    border-left: unset;
+}
+
+.widget_archive ul li a, .widget_categories ul li a, .widget_product_categories ul li a{
+    float: right;
+}
+.widget_categories ul li::before, .widget_recent_comments ul li::before, .widget_rss ul li::before, .widget_recent_entries ul li::before, .widget_pages ul li::before, .widget_meta ul li::before, .widget_nav_menu ul li::before, .widget_archive ul li::before, .widget_custom_html ul li::before, .widget_text ul li::before, .widget_product_categories ul li::before, .woocommerce.widget_rating_filter ul li::before {
+    margin-right: -20px;
+    margin-left: 0;
+    float: right;
+}
+.woocommerce .widget_shopping_cart .cart_list li a.remove, .woocommerce.widget_shopping_cart .cart_list li a.remove,
+.block-minicart .shopcart-description{
+    left:0;
+    right:unset;
+}
+.woocommerce-MyAccount-navigation ul li a {
+    padding-right: 35px;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    padding-right: 20px;
+    padding-left: unset;
+}
+.woocommerce-account .addresses .title .edit {
+    float: left;
+}
+.woocommerce .product_list_widget ins .woocommerce-Price-amount{
+    float:right;
+}
+.footer-widgets .widget .widget-title{
+    border-right-color: transparent;
+}
+
+select {
+    background: url(assets/images/down-arrow.png) no-repeat right #f0f0f0;
+    background-position-x: right;
+    -webkit-appearance: none;
+    background-position-x: 5%;
+}
+.woocommerce-ordering select {
+    padding: 5px 5px 5px 25px;
+    cursor: pointer;
+}
+.sparklestore_ecommerce_items li a i, .sparklestore_quick_contact span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.widget_categories ul li:before, .widget_recent_comments ul li:before, .widget_rss ul li:before, .widget_recent_entries ul li:before, .widget_pages ul li:before, .widget_meta ul li:before, .widget_nav_menu ul li:before, .widget_archive ul li:before, .widget_custom_html ul li:before, .widget_text ul li:before, .widget_product_categories ul li:before, .woocommerce.widget_rating_filter ul li:before {
+    margin-right: -20px;
+    float: right;
+    margin-left: 0;
+}
+.widget_nav_menu ul li:before{
+    transform: rotate(-180deg);
+}
+.scrollup {
+    right: auto;
+    left: 10px;
+}
+.woocommerce ul.cart_list li img, 
+.woocommerce ul.product_list_widget li img {
+    float: unset;
+    margin-left: 10px;
+    margin-right: 0;
+    float: right;
+}
+
+.woocommerce .product_list_widget ins .woocommerce-Price-amount {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.footer-widgets .widget .widget-title:before {
+    left: auto;
+    right:0;
+}
+
+.cross-sells h2, .cart_totals h2, .up-sells>h2, .related>h2, .woocommerce-billing-fields h3, .woocommerce-shipping-fields h3, .woocommerce-additional-fields h3, #order_review_heading, .woocommerce-order-details h2, .woocommerce-column--billing-address h2, .woocommerce-column--shipping-address h2, .woocommerce-Address-title h3, .woocommerce-MyAccount-content h3, .wishlist-title h2, .comments-area h2.comments-title, .woocommerce-Reviews h2.woocommerce-Reviews-title, .woocommerce-Reviews #review_form_wrapper .comment-reply-title, .woocommerce-account .woocommerce h2, .woocommerce-customer-details h2.woocommerce-column__title, .widget .widget-title {
+    text-align: right;
+}
+
+.widget_archive ul li, .widget_product_categories ul li, .widget_categories ul li {
+    text-align: left;
+    display: inline-block;
+}
+ul, ol {
+    padding: 0 20px 0 0;
+}
+.widget_archive ul li a, .widget_categories ul li a, .widget_product_categories ul li a {
+    float: right;
+}

@@ -1,0 +1,670 @@
+# Translation of Themes - Twenty Twenty-One in Serbian
+# This file is distributed under the same license as the Themes - Twenty Twenty-One package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-14 22:52:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Themes - Twenty Twenty-One\n"
+
+#. Description of the theme
+msgid "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog."
+msgstr "Twenty Twenty-One је празно платно за ваше идеје и прави уређивача блокова вашом најбољом четкицом. Са новим мустрама блокова које вам дозвољавају да направите прелепе распореде у року од неколико секунди, меке боје ове теме и привлачни — а опет ванвременски — дизајн, учиниће да ваш рад заблиста. Погледајте како Twenty Twenty-One уздиже ваш портфељ, пословно веб место или лични блог."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty-One"
+msgstr "Twenty Twenty-One"
+
+#: inc/template-tags.php:245
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "Старији <span class=\"nav-short\">чланци</span>"
+
+#: inc/template-tags.php:234
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "Новији <span class=\"nav-short\">чланци</span>"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:189
+#: classes/class-twenty-twenty-one-customize-notice-control.php:42
+msgid "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
+msgstr "https://wordpress.org/support/article/twenty-twenty-one/#dark-mode-support"
+
+#. translators: %s: Twenty Twenty-One support article URL.
+#: classes/class-twenty-twenty-one-dark-mode.php:188
+msgid "Dark Mode is a device setting. If a visitor to your site requests it, your site will be shown with a dark background and light text. <a href=\"%s\">Learn more about Dark Mode.</a>"
+msgstr "Тамни режим је поставка уређаја. Ако посетилац вашег веб места то затражи, вае веб место ће бити приказано са тамном позадином и светлим текстом. <a href=\"%s\">Сазнајте више о тамном режиму.</a>"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:192
+msgid "Dark Mode can also be turned on and off with a button that you can find in the bottom right corner of the page."
+msgstr "Тамни режим се такође може укључити и искључити дугметом које можете пронаћи у доњем десном углу странице."
+
+#: classes/class-twenty-twenty-one-dark-mode.php:408
+msgid "This website uses LocalStorage to save the setting when Dark Mode support is turned on or off.<br> LocalStorage is necessary for the setting to work and is only used when a user clicks on the Dark Mode button.<br> No data is saved in the database or transferred."
+msgstr "Ово веб место користи LocalStorage да би сачувало подешавање када је подршка за тамни режим укључена или искључена.<br> LocalStorage iје неопходан да би подешавање радило и користи се само када корисник притисне на дугме тамног режима<br> Ниједан податак није сачуван у бази података или пренесен."
+
+#: classes/class-twenty-twenty-one-dark-mode.php:407
+msgid "Suggested text:"
+msgstr "Suggested text:"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:406
+msgid "Twenty Twenty-One uses LocalStorage when Dark Mode support is enabled."
+msgstr "Twenty Twenty-One користи LocalStorage када је подршка за тамни режим укључена."
+
+#: classes/class-twenty-twenty-one-dark-mode.php:199
+msgid "Dark Mode support"
+msgstr "Подршка за тамни режим"
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:43
+msgid "Learn more about Dark Mode."
+msgstr "Сазнајте више о тамном режиму."
+
+#: classes/class-twenty-twenty-one-customize-notice-control.php:41
+msgid "To access the Dark Mode settings, select a light background color."
+msgstr "Да бисте приступили подешавањима тамног режима, изаберите светлу боју позадине."
+
+#: classes/class-twenty-twenty-one-dark-mode.php:145
+msgid "Colors & Dark Mode"
+msgstr "Боје и тамни режим"
+
+#: inc/template-tags.php:77
+msgctxt "Label for sticky posts"
+msgid "Featured post"
+msgstr "Издвојени чланак"
+
+#: inc/template-functions.php:399
+msgctxt "Post password form"
+msgid "Submit"
+msgstr "Предај"
+
+#: inc/template-functions.php:399
+msgctxt "Post password form"
+msgid "Password"
+msgstr "Лозинка"
+
+#: inc/template-functions.php:174
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "Без наслова"
+
+#: inc/block-patterns.php:117
+msgctxt "Block pattern sample content"
+msgid "Cambridge, MA, 02139"
+msgstr "Крушевац 37000"
+
+#: inc/block-patterns.php:117
+msgctxt "Block pattern sample content"
+msgid "123 Main Street"
+msgstr "Главна улица 123"
+
+#: inc/block-patterns.php:117
+msgctxt "Block pattern sample content"
+msgid "123-456-7890"
+msgstr "037/555-333"
+
+#: inc/block-patterns.php:117
+msgctxt "Block pattern sample content"
+msgid "example@example.com"
+msgstr "primer@primer.net"
+
+#: classes/class-twenty-twenty-one-customize.php:143
+msgctxt "Customizer control"
+msgid "Background color"
+msgstr "Боја позадине"
+
+#. translators: %s: WordPress Version.
+#: inc/back-compat.php:42 inc/back-compat.php:61 inc/back-compat.php:86
+msgid "This theme requires WordPress 5.3 or newer. You are running version %s. Please upgrade."
+msgstr "Ова тема захтева Вордпрес 5.3 или новији. Користите издање %s. Молимо вас да га ажурирате."
+
+#. translators: %: Page number.
+#: image.php:46 template-parts/content/content-single.php:30
+#: template-parts/content/content-page.php:36
+#: template-parts/content/content.php:36
+msgid "Page %"
+msgstr "Страница %"
+
+#: functions.php:187
+msgctxt "Font size"
+msgid "XXXL"
+msgstr "XXXL"
+
+#: functions.php:181
+msgctxt "Font size"
+msgid "XXL"
+msgstr "XXL"
+
+#: functions.php:175
+msgctxt "Font size"
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:169
+msgctxt "Font size"
+msgid "L"
+msgstr "L"
+
+#: functions.php:163
+msgctxt "Font size"
+msgid "M"
+msgstr "M"
+
+#: functions.php:157
+msgctxt "Font size"
+msgid "S"
+msgstr "S"
+
+#: functions.php:151
+msgctxt "Font size"
+msgid "XS"
+msgstr "XS"
+
+#: comments.php:87
+msgid "Leave a comment"
+msgstr "Оставите коментар"
+
+#. translators: %s: Comment count number.
+#: comments.php:40
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s коментар"
+msgstr[1] "%s коментара"
+msgstr[2] "%s коментара"
+
+#: comments.php:35
+msgid "1 comment"
+msgstr "1 коментар"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:358
+msgid "On"
+msgstr "Укључено"
+
+#: classes/class-twenty-twenty-one-dark-mode.php:355
+msgid "Off"
+msgstr "Искључено"
+
+#. translators: %s: On/Off
+#: classes/class-twenty-twenty-one-dark-mode.php:345
+msgid "Dark Mode: %s"
+msgstr "Тамни режим: %s"
+
+#: inc/template-functions.php:397
+msgid "This content is password protected. Please enter a password to view."
+msgstr "Овај садржај је заштићен лозинком. Молимо вас да унесете лозинку да бисте га видели."
+
+#: inc/menu-functions.php:35
+msgid "Open menu"
+msgstr "Отвори изборник"
+
+#: inc/template-functions.php:399
+msgctxt "Post password form"
+msgid "Enter"
+msgstr "Унеси"
+
+#: inc/starter-content.php:128
+msgctxt "Theme starter content"
+msgid "Check out the Support Forums"
+msgstr "Погледајте форуме подршке"
+
+#: inc/starter-content.php:122
+msgctxt "Theme starter content"
+msgid "Read the Theme Documentation"
+msgstr "Прочитајте документацију теме"
+
+#: inc/starter-content.php:112
+msgctxt "Theme starter content"
+msgid "Need help?"
+msgstr "Потребна помоћ?"
+
+#: inc/starter-content.php:97
+msgctxt "Theme starter content"
+msgid "Twenty Twenty-One also includes an overlap style for column blocks. With a Columns block selected, open the \"Styles\" panel within the Editor sidebar. Choose the \"Overlap\" block style to try it out."
+msgstr "Twenty Twenty-One укључује преклапајући стил за блокове ступаца. Када је изабран блок Ступци, отворите таблу „Стилови“ унутар бочне траке уређивача. Изаберите стил блока „Преклапање“ да бисте га пробали."
+
+#: inc/starter-content.php:93
+msgctxt "Theme starter content"
+msgid "Overlap columns"
+msgstr "Преклапајући ступци"
+
+#: inc/starter-content.php:87
+msgctxt "Theme starter content"
+msgid "Twenty Twenty-One includes stylish borders for your content. With an Image block selected, open the \"Styles\" panel within the Editor sidebar. Select the \"Frame\" block style to activate it."
+msgstr "Twenty Twenty-One укључује елегантне ивице за ваш садржај. Када је изабран блок слика, отворите таблу „Стилови“ унутар бочне траке уређивача. Изаберите стил блока „Оквир“ да бисте га укључили."
+
+#: inc/starter-content.php:83
+msgctxt "Theme starter content"
+msgid "Frame your images"
+msgstr "Уоквирите своје слике"
+
+#: inc/starter-content.php:77
+msgctxt "Theme starter content"
+msgid "Block patterns are pre-designed groups of blocks. To add one, select the Add Block button [+] in the toolbar at the top of the editor. Switch to the Patterns tab underneath the search bar, and choose a pattern."
+msgstr "Мустре блокова су унапред дизајниране групе блокова. Да бисте додали један, изаберите дугме Додај блок [+] на траци са алаткама на врху уређивача. Пребаците се на језичак „Мустре“ испод траке за претрагу и одаберите мустру."
+
+#: inc/starter-content.php:73
+msgctxt "Theme starter content"
+msgid "Add block patterns"
+msgstr "Додајте мустре блокова"
+
+#: inc/starter-content.php:30 inc/starter-content.php:33
+msgctxt "Theme starter content"
+msgid "Create your website with blocks"
+msgstr "Направите своје веб место са блоковима"
+
+#: inc/block-patterns.php:107
+msgid "Reading"
+msgstr "Читање"
+
+#: inc/block-patterns.php:60
+msgid "Playing in the Sand"
+msgstr "Играње у песку"
+
+#. translators: %s: Parent post.
+#: image.php:59
+msgid "Published in %s"
+msgstr "Објављено под %s"
+
+#: classes/class-twenty-twenty-one-customize.php:113
+msgid "Summary"
+msgstr "Сажетак"
+
+#: classes/class-twenty-twenty-one-customize.php:90
+msgid "Excerpt Settings"
+msgstr "Подешавања одломка"
+
+#: inc/block-styles.php:98
+msgid "Thick"
+msgstr "Дебела"
+
+#: classes/class-twenty-twenty-one-customize.php:111
+msgid "On Archive Pages, posts show:"
+msgstr "На страницама архиве, чланци показују:"
+
+#. translators: %s: Author name.
+#: template-parts/post/author-bio.php:31
+msgid "View all of %s's posts."
+msgstr "Види све чланке од %s."
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:49 template-parts/post/author-bio.php:19
+msgid "By %s"
+msgstr "Од %s"
+
+#: template-parts/content/content-none.php:61
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа да не можемо да пронађемо оно што сте тражили. Можда ће претраживање помоћи."
+
+#: template-parts/content/content-none.php:56
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Жао нам је, али ништа не одговара вашем упиту. Молимо вас да покушате поново са другим кључним речима."
+
+#. translators: %s: Link to WP admin new post page.
+#: template-parts/content/content-none.php:43
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Спремни сте да објавите свој први чланак? <a href=\"%s\">Започните овде</a>."
+
+#: single.php:40
+msgid "Previous post"
+msgstr "Претходни чланак"
+
+#: single.php:39
+msgid "Next post"
+msgstr "Следећи чланак"
+
+#. translators: %s: Parent post link.
+#: single.php:25
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"meta-nav\">Објављено под</span><span class=\"post-title\">%s</span>"
+
+#: searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Претражи"
+
+#: searchform.php:24
+msgid "Search&hellip;"
+msgstr "Претрага&hellip;"
+
+#. translators: %d: The number of search results.
+#: search.php:33
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] "Пронашли смо %d резултат за вашу претрагу."
+msgstr[1] "Пронашли смо %d резултата за вашу претрагу."
+msgstr[2] "Пронашли смо %d резултата за вашу претрагу."
+
+#. translators: %s: Search term.
+#: template-parts/content/content-none.php:22 search.php:21
+msgid "Results for \"%s\""
+msgstr "Резултати за „%s“"
+
+#. translators: %s: List of tags.
+#: inc/template-tags.php:118 inc/template-tags.php:162
+msgid "Tagged %s"
+msgstr "Означено %s"
+
+#. translators: %s: List of categories.
+#: inc/template-tags.php:108 inc/template-tags.php:152
+msgid "Categorized as %s"
+msgstr "Категоризовано као %s"
+
+#. translators: Used between list items, there is a space after the comma.
+#: inc/template-tags.php:104 inc/template-tags.php:114
+#: inc/template-tags.php:148 inc/template-tags.php:158
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:92 inc/template-tags.php:135 image.php:68 image.php:93
+#: template-parts/content/content-page.php:48
+msgid "Edit %s"
+msgstr "Уреди %s"
+
+#. translators: %s: Name of current post.
+#: inc/template-functions.php:132
+msgid "Continue reading %s"
+msgstr "Настави са читањем %s"
+
+#: inc/block-styles.php:71
+msgid "Dividers"
+msgstr "Разделници"
+
+#: inc/block-styles.php:62
+msgid "Frame"
+msgstr "Оквир"
+
+#: inc/block-styles.php:35 inc/block-styles.php:44 inc/block-styles.php:53
+#: inc/block-styles.php:80 inc/block-styles.php:89
+msgid "Borders"
+msgstr "Ивице"
+
+#: inc/block-styles.php:26
+msgid "Overlap"
+msgstr "Преклапање"
+
+#: inc/block-patterns.php:116
+msgctxt "Block pattern description"
+msgid "A block with 3 columns that display contact information and social media links."
+msgstr "Блок са 3 ступца који приказују информације за контакт и друштвене везе."
+
+#: inc/block-patterns.php:114
+msgid "Contact information"
+msgstr "Информације за контактирање"
+
+#: inc/block-patterns.php:106
+msgctxt "Block pattern description"
+msgid "A list of projects with thumbnail images."
+msgstr "Списак пројеката са сличицама."
+
+#: inc/block-patterns.php:104
+msgid "Portfolio list"
+msgstr "Списак портфеља"
+
+#: inc/block-patterns.php:95
+msgctxt "Block pattern description"
+msgid "An overlapping columns block with two images and a text description."
+msgstr "Блок ступаца који се преклапају са две слике и текстуалним описом."
+
+#: inc/block-patterns.php:92
+msgid "Overlapping images and text"
+msgstr "Слике и текст који се преклапају"
+
+#: inc/block-patterns.php:83
+msgctxt "Block pattern description"
+msgid "A media & text block with a big image on the left and a smaller one with bordered frame on the right."
+msgstr "Блок садржаја и текста са великом сликом са леве стране и мањом са оивиченим оквиром на десној страни."
+
+#: inc/block-patterns.php:80
+msgid "Two images showcase"
+msgstr "Приказане две слике"
+
+#: inc/block-patterns.php:71
+msgctxt "Block pattern description"
+msgid "Three images inside an overlapping columns block."
+msgstr "Три слике унутар блока преклапајућих ступаца."
+
+#: inc/block-patterns.php:68
+msgid "Overlapping images"
+msgstr "Слике које се преклапају"
+
+#: inc/block-patterns.php:59
+msgctxt "Block pattern description"
+msgid "A Media & Text block with a big image on the left and a heading on the right. The heading is followed by a separator and a description paragraph."
+msgstr "Блок садржаја и текста са великом сликом са леве стране и насловом са десне стране. Наслов прати растављач и пасус описа."
+
+#: inc/block-patterns.php:56
+msgid "Media and text article title"
+msgstr "Садржај и текст чланка наслов"
+
+#: inc/block-patterns.php:48
+msgid "example@example.com"
+msgstr "primer@primer.net"
+
+#: inc/block-patterns.php:48
+msgid "Dribbble"
+msgstr "Дрибл"
+
+#: inc/block-patterns.php:48
+msgid "Instagram"
+msgstr "Инстаграм"
+
+#: inc/block-patterns.php:48
+msgid "Twitter"
+msgstr "Твитер"
+
+#: inc/block-patterns.php:48
+msgid "Let&#8217;s Connect."
+msgstr "Хајде да се повежемо."
+
+#: inc/block-patterns.php:47
+msgctxt "Block pattern description"
+msgid "A huge text followed by social networks and email address links."
+msgstr "Велики текст праћен везама друштвених мрежа и адреса е-поште."
+
+#: inc/block-patterns.php:44
+msgid "Links area"
+msgstr "Простор веза"
+
+#: inc/block-patterns.php:36
+msgid "A new portfolio default theme for WordPress"
+msgstr "Нова подразумевана портфељ тема за Вордпрес"
+
+#: inc/block-patterns.php:33
+msgid "Large text"
+msgstr "Велики текст"
+
+#: image.php:81
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Пуна величина"
+
+#. translators: %s: Publish date.
+#: inc/template-tags.php:29
+msgid "Published %s"
+msgstr "Објављено %s"
+
+#: comments.php:62 inc/template-tags.php:228 image.php:43
+#: template-parts/content/content-single.php:27
+#: template-parts/content/content-page.php:33
+#: template-parts/content/content.php:33
+msgid "Page"
+msgstr "Страна"
+
+#: template-parts/header/site-nav.php:19
+msgid "Close"
+msgstr "Затвори"
+
+#: template-parts/header/site-nav.php:16
+msgid "Menu"
+msgstr "Изборник"
+
+#: inc/starter-content.php:154 functions.php:76
+#: template-parts/header/site-nav.php:13
+msgid "Primary menu"
+msgstr "Примарни изборник"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Скочи на садржај"
+
+#: functions.php:360
+msgid "Add widgets here to appear in your footer."
+msgstr "Овде додајте виџете како би се појавили у вашем подножју."
+
+#: functions.php:358
+msgid "Footer"
+msgstr "Подножје"
+
+#: functions.php:309
+msgid "Red to purple"
+msgstr "Црвена ка љубичастој"
+
+#: functions.php:304
+msgid "Purple to red"
+msgstr "Љубичаста ка црвеној"
+
+#: functions.php:299
+msgid "Yellow to red"
+msgstr "Жута ка црвеној"
+
+#: functions.php:294
+msgid "Red to yellow"
+msgstr "Црвена ка жутој"
+
+#: functions.php:289
+msgid "Yellow to green"
+msgstr "Жута ка зеленој"
+
+#: functions.php:284
+msgid "Green to yellow"
+msgstr "Зелена ка жутој"
+
+#: functions.php:279
+msgid "Yellow to purple"
+msgstr "Жута ка љубичастој"
+
+#: functions.php:274
+msgid "Purple to yellow"
+msgstr "Љубичаста ка жутој"
+
+#: functions.php:263
+msgid "White"
+msgstr "Бела"
+
+#: functions.php:258
+msgid "Yellow"
+msgstr "Жута"
+
+#: functions.php:253
+msgid "Orange"
+msgstr "Наранџаста"
+
+#: functions.php:248
+msgid "Red"
+msgstr "Црвена"
+
+#: functions.php:243
+msgid "Purple"
+msgstr "Љубичаста"
+
+#: functions.php:238
+msgid "Blue"
+msgstr "Плава"
+
+#: functions.php:233
+msgid "Green"
+msgstr "Зелена"
+
+#: functions.php:228
+msgid "Gray"
+msgstr "Сива"
+
+#: inc/block-styles.php:107 functions.php:223
+msgid "Dark gray"
+msgstr "Тамно сива"
+
+#: functions.php:218
+msgid "Black"
+msgstr "Црна"
+
+#: functions.php:186
+msgid "Gigantic"
+msgstr "Гигантско"
+
+#: functions.php:180
+msgid "Huge"
+msgstr "Огромно"
+
+#: functions.php:174
+msgid "Extra large"
+msgstr "Веома велико"
+
+#: functions.php:168
+msgid "Large"
+msgstr "Велико"
+
+#: functions.php:162
+msgid "Normal"
+msgstr "Нормално"
+
+#: functions.php:156
+msgid "Small"
+msgstr "Мало"
+
+#: functions.php:150
+msgid "Extra small"
+msgstr "Веома мало"
+
+#. translators: %s: WordPress.
+#: footer.php:60
+msgid "Proudly powered by %s."
+msgstr "Са поносом покреће %s."
+
+#: footer.php:24 inc/starter-content.php:165 functions.php:77
+msgid "Secondary menu"
+msgstr "Секундарни изборник"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Затворено за коментаре."
+
+#: comments.php:71
+msgid "Newer comments"
+msgstr "Новији коментари"
+
+#: comments.php:67
+msgid "Older comments"
+msgstr "Старији коментари"
+
+#: classes/class-twenty-twenty-one-customize.php:114
+msgid "Full text"
+msgstr "Цео текст"
+
+#: classes/class-twenty-twenty-one-customize.php:80
+msgid "Display Site Title & Tagline"
+msgstr "Прикажи наслов и поднаслов веб места"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Изгледа да ништа није пронађено на овом месту. Можда да покушате претраживање?"
+
+#: 404.php:16 template-parts/content/content-none.php:30
+msgid "Nothing here"
+msgstr "Овде нема ничега"
+
+#. Author URI of the theme
+#: footer.php:61
+msgid "https://wordpress.org/"
+msgstr "https://sr.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "Вордпресова екипа"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwentyone/"
+msgstr "https://sr.wordpress.org/themes/twentytwentyone/"

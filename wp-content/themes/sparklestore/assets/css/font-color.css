@@ -1,0 +1,683 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #232529;
+}
+pre {
+	background: #eeeeee;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+}
+
+mark, ins {
+    color: #232529;
+}
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+body {
+    color: #232529;
+}
+label {
+    color: #232529;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #232529;
+}
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+blockquote {
+    color: #232529;
+}
+#respond .form-submit input#submit,
+a.button,
+button,
+input[type="submit"] {
+    color: #ffffff;
+}
+a.button:hover,
+a.button:focus,
+button:hover,
+input[type="submit"]:hover{
+    color: #ffffff;
+}
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a{
+    color: #232529;
+}
+a:hover, 
+a:focus, 
+a:active {
+    color: #f33c3c;
+}
+
+/* Accessibility
+--------------------------------------------- */
+/* Text meant only for screen readers. */
+.screen-reader-text:focus {
+	color: #003772;
+}
+/**
+ * Top Notice Boards
+*/
+.notice-bar-label,
+.ticker-content,
+.noticeclose{
+    color: #ffffff;
+}
+.noticeclose :hover{
+    color: #f33c3c;
+}
+
+/**
+ * CHOSEN 
+*/
+.chosen-container .chosen-results li.highlighted {
+    color: #ffffff;
+}
+.chosen-container .chosen-results li.result-selected{
+    color: #ffffff;
+}
+
+/**
+ * BLOCK MINI CART 
+*/
+.site-cart-items-wrap{
+    color: #ffffff;
+}
+.site-cart-items-wrap .count {
+    color: #232529;
+}
+.header-top .ecommerce_items .site-cart-items-wrap:hover{
+    color:#f33c3c;
+}
+
+.widget .woocommerce-mini-cart__buttons a.checkout:last-child{
+    color: #ffffff;
+}
+.woocommerce .widget .woocommerce-mini-cart__buttons>a.button{
+    color: #515151;
+}
+.woocommerce .widget .woocommerce-mini-cart__buttons>a.button.checkout{
+    color: #ffffff;
+}
+
+/****
+ * Vertical Menu
+*/
+.block-nav-category .block-title{
+    color: #ffffff;
+}
+.block-nav-category .vertical-menu .page_item.current_page_item>a,
+.block-nav-category .vertical-menu li:hover>a,
+.block-nav-category .vertical-menu li>a.focus-visible, 
+.block-nav-category .view-all-category a:hover{
+    color: #ffffff;
+}
+.block-nav-category .view-all-category a{
+    color: #ffffff;
+}
+
+
+/******
+* Menu 
+*/
+.box-header-nav .main-menu .page_item a,
+.box-header-nav .main-menu>.menu-item>a{
+    color: #ffffff;
+}
+.box-header-nav .main-menu .page_item.current_page_item>a,
+.box-header-nav .main-menu .page_item:hover>a,
+.box-header-nav .main-menu>.menu-item.current-menu-item>a,
+.box-header-nav .main-menu>.menu-item:hover>a{
+    color: #ffffff;
+    background-color: #f33c3c;
+}
+.box-header-nav .main-menu .children>.page_item.focus>a,
+.box-header-nav .main-menu .sub-menu>.menu-item.focus>a,
+.box-header-nav .main-menu .children>.page_item:hover>a,
+.box-header-nav .main-menu .sub-menu>.menu-item:hover>a{
+    color: #ffffff;
+}
+
+/***
+* All Slider Layout
+*/
+.sparklestore-caption {
+    color: #ffffff;
+}
+.sparklestore-caption h2{
+    color: #ffffff;
+}
+
+/****
+ * General Button
+*/
+.btn-primary {
+    color: #ffffff;
+}
+/****
+ * Promo Block Widget
+*/
+.promo_block_area .promo-img-info-inner p{
+    color: #ffffff;
+}
+.promo_block_area .promo-img-info-inner h3 {
+    color: #ffffff;
+}
+/********
+ * Services Area
+*/
+.services_item .services_icon{
+    color: #f33c3c;
+}
+/******
+* Breadcrumbs
+*/
+.breadcrumbs-wrap.withimage h2 {
+    color: #fff;
+}
+.breadcrumbs.withimage .trail-items li,
+.breadcrumbs.withimage .trail-items li a:hover,
+.breadcrumbs.withimage .trail-items li::after{
+    color: #fff;
+}
+
+.breadcrumbs .trail-items li a{
+    color: #f33c3c;
+}
+.breadcrumbs .trail-items li a:hover{
+    color: #232529;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Shop Product Result Count
+--------------------------------------------------------------*/
+.sparklestore-products-per-page {
+    color: #6b6464;
+}
+.sparklestore-products-per-page .per-page-title {
+    color: #232529;
+}
+.sparklestore-products-per-page .per-page-variation {
+    color: #6b6464;
+}
+.sparklestore-products-per-page .per-page-variation.current-variation {
+    color: #232529;
+}
+.sparklestore-products-per-page .per-page-variation:focus, 
+.sparklestore-products-per-page .per-page-variation:hover {
+    color: #232529;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Product Display Details
+--------------------------------------------------------------*/
+/**************
+ * Product Hover Style Four ( Add ot Cart in Plugin items icon )
+*/
+.store_products_items_info .products_item_info a{
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Product Flash Items
+--------------------------------------------------------------*/
+.flash > span {
+    color: #ffffff;
+}
+/*--------------------------------------------------------------
+## WooCommerce Product Price
+--------------------------------------------------------------*/
+.woocommerce ul.products li.product .price,
+.store_products_item_details .price,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price{
+    color: #009966;
+}
+.woocommerce ul.products li.product .price del,
+.store_products_item_details .price del,
+.woocommerce div.product p.price del, 
+.woocommerce div.product span.price del {
+    color: #f33c3c;
+}
+.woocommerce ul.products li.product .price ins,
+.store_products_item_details .price ins,
+.woocommerce div.product p.price ins, 
+.woocommerce div.product span.price ins {
+    color: #009966;
+}
+/*--------------------------------------------------------------
+## WooCommerce Add to Cart button
+--------------------------------------------------------------*/
+.woocommerce a.added_to_cart,
+.woocommerce a.product_type_simple,
+.woocommerce a.button.add_to_cart_button,
+.woocommerce a.button.product_type_grouped,
+.woocommerce a.button.product_type_external,
+.woocommerce a.button.product_type_variable{
+    color: #ffffff;
+}
+.woocommerce a.added_to_cart:before,
+.woocommerce a.product_type_simple:before,
+.woocommerce a.button.add_to_cart_button:before,
+.woocommerce a.button.product_type_grouped:before,
+.woocommerce a.button.product_type_external:before,
+.woocommerce a.button.product_type_variable:before{
+    color: #ffffff;
+}
+.woocommerce a.added_to_cart:hover,
+.woocommerce a.product_type_simple:hover,
+.woocommerce a.button.add_to_cart_button:hover,
+.woocommerce a.button.product_type_grouped:hover,
+.woocommerce a.button.product_type_external:hover,
+.woocommerce a.button.product_type_variable:hover{
+    color: #f33c3c;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    color: #ffffff;
+}
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover {
+    color: #f33c3c;
+}
+/*--------------------------------------------------------------
+## WooCommerce Pagination
+--------------------------------------------------------------*/
+.woocommerce nav.woocommerce-pagination ul li .page-numbers {
+    color: #f33c3c;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    color: #ffffff;
+}
+/*--------------------------------------------------------------
+## Woocommerce My Account
+--------------------------------------------------------------*/
+.woocommerce-MyAccount-navigation ul li:before {
+    color: #ffffff;
+}
+.woocommerce-MyAccount-content a {
+    color: #f33c3c;
+}
+.woocommerce-MyAccount-navigation ul li a {
+    color: #fff;
+}
+.woocommerce-MyAccount-navigation ul li a:hover{
+    color: #f33c3c;
+}
+.woocommerce-MyAccount-navigation ul li:hover:before{
+    color: #f33c3c;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Cart
+--------------------------------------------------------------*/
+.woocommerce button.button:disabled, 
+.woocommerce button.button:disabled[disabled]{
+    color: #ffffff;
+}
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+    color: #f33c3c;
+}
+.woocommerce-message::before,
+.woocommerce-info::before {
+    color: #f33c3c;
+}
+/*--------------------------------------------------------------
+## WooCommerce wishlist
+--------------------------------------------------------------*/
+.woocommerce.woocommerce-wishlist a.button.alt:hover {
+    color: #f33c3c;
+}
+/**
+ * Single Product Page
+*/
+/* Single Summary Wrapper */
+.woocommerce.single-product div.product .product_title {
+    color: #232529;
+}
+.woocommerce div.product p.in-stock {
+    color: #009966;
+}
+.woocommerce div.product .out-of-stock{
+    color: #f33c3c;
+}
+/* Quntity input & Add to Cart **/
+.woocommerce .quantity .minus,
+.woocommerce .quantity .plus {
+    color: #ffffff;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button {
+    color: #ffffff;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button:before {
+    color: #ffffff;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button:hover{
+    color: #f33c3c;
+}
+/** Group Product */
+.woocommerce-grouped-product-list-item__price .woocommerce-Price-amount{
+    color: #009966;
+}
+.woocommerce-grouped-product-list-item__price del .woocommerce-Price-amount{
+    color: #f33c3c;
+}
+/* External Plugins in Product Single Page */
+.single-product div.product .entry-summary .product-sizechart,
+.single-product div.product .entry-summary a.compare, 
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist {
+    color: #232529;
+}
+.single-product div.product .entry-summary a.compare:hover{
+    color: #f33c3c;
+}
+/**
+ * Default Tabs Layout
+*/
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #ffffff;
+}
+.woocommerce div.product .woocommerce-tabs.nav-line ul.tabs li a{
+    color: #ffffff;
+}
+.woocommerce div.product .woocommerce-tabs.nav-line ul.tabs li.active a{
+    color: #232529;
+}
+/*--------------------------------------------------------------
+ ## Pagination Type
+--------------------------------------------------------------*/
+.page-numbers{
+    color: #ffffff;
+}
+.page-numbers.current{
+    color: #f33c3c;
+}
+.page-numbers:hover{
+    color: #f33c3c;
+}
+/**
+ * Singe Posts Tags
+*/
+.posts-tag ul li:first-child {
+    color: #ffffff;
+}
+.posts-tag ul li:hover {
+    color: #fff;
+}
+.posts-tag ul li a {
+    color: #fff;
+}
+/** Comments List
+--------------------------------------------- */
+.comment-author .fn .url {
+    color: #232529;
+}
+.comment-author .fn .url:hover {
+    color: #f33c3c;
+}
+.reply .comment-reply-link {
+    color: #ffffff;
+}
+#cancel-comment-reply-link {
+    color: #f33c3c;
+}
+#cancel-comment-reply-link:before {
+    color: #f33c3c;
+}
+/*--------------------------------------------------------------
+## Widget Area
+--------------------------------------------------------------*/
+/***************
+* Widget Title
+*/
+.cross-sells h2,
+.cart_totals h2,
+.up-sells>h2,
+.related>h2,
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3,
+.woocommerce-additional-fields h3,
+#order_review_heading,
+.woocommerce-order-details h2,
+.woocommerce-column--billing-address h2,
+.woocommerce-column--shipping-address h2,
+.woocommerce-Address-title h3,
+.woocommerce-MyAccount-content h3,
+.wishlist-title  h2,
+.comments-area  h2.comments-title,
+.woocommerce-Reviews h2.woocommerce-Reviews-title,
+.woocommerce-Reviews #review_form_wrapper .comment-reply-title, 
+.woocommerce-account .woocommerce h2,
+.woocommerce-customer-details h2.woocommerce-column__title,
+.widget .widget-title{
+    color: #232529;;
+}
+
+/***********
+ * All Widget
+*/
+.widget_categories ul li:before,
+.widget_recent_comments ul li:before,
+.widget_rss ul li:before,
+.widget_recent_entries ul li:before,
+.widget_pages ul li:before,
+.widget_meta ul li:before,
+.widget_nav_menu ul li:before,
+.widget_archive ul li:before,
+.widget_custom_html ul li:before,
+.widget_text ul li:before,
+.widget_product_categories ul li:before,
+.woocommerce.widget_rating_filter ul li:before{
+    color: #232529;
+}
+.widget_recent_entries .post-date {
+    color: #232529;
+}
+/** Widget Sidebar Search
+--------------------------------------------- */
+.widget_search .search-field::-webkit-input-placeholder,
+.widget_search .search-form:-moz-placeholder, 
+.widget_search .search-form:-ms-input-placeholder{
+    color: #232529;
+}
+.widget_search .search-field{
+    color: #232529; 
+}
+.widget_search .search-submit{
+    color: #ffffff;
+}
+/** Widget Calender
+--------------------------------------------- */
+.widget_calendar tbody td {
+    color: #232529;
+}
+.calendar_wrap caption {
+    color: #ffffff;
+}
+.calendar_wrap table td {
+    color: #232529;
+}
+/** WooCommerce Widget Product Search
+--------------------------------------------- */
+.widget_product_search .search-field::-webkit-input-placeholder,
+.widget_product_search .search-form:-moz-placeholder, 
+.widget_product_search .search-form:-ms-input-placeholder{
+    color: #232529;
+}
+.widget_product_search .search-field{
+    color: #232529; 
+}
+.widget_product_search button{
+    color: #ffffff;
+}
+
+/** UI Slider Widget
+--------------------------------------------- */
+.woocommerce .widget_price_filter .price_slider_amount .price_label{
+    color: #232529;
+}
+/*--------------------------------------------------------------
+# WooCommerce defautl widget area
+--------------------------------------------------------------*/
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a,
+.woocommerce-page ul.cart_list li a,
+.woocommerce-page ul.product_list_widget li a,
+.widget_top_rated_products .product_list_widget .product-title {
+    color: #232529;  
+}
+.woocommerce .product_list_widget .woocommerce-Price-amount{
+    color: #f33c3c;
+}
+.woocommerce .product_list_widget del .woocommerce-Price-amount{
+    color: #fb0404;
+}
+.woocommerce .product_list_widget ins .woocommerce-Price-amount{
+    color: #009966;
+}
+.woocommerce .star-rating span,
+.woocommerce-page .star-rating span {
+    color: #ffc60a;
+}
+.reviewer {
+    color: #232529;
+}
+/** WooCommerce Yith Extrenal Plugins Widget
+--------------------------------------------- */
+.widget.yith-woocompare-widget .compare,
+.widget.yith-woocompare-widget .clear-all {
+    color: #ffffff;
+}
+.widget.yith-woocompare-widget .compare:hover,
+.widget.yith-woocompare-widget .clear-all:hover {
+    color: #f33c3c;
+}
+/**
+ * Footer Folumn  
+*/
+.footer-widgets .widget .widget-title{
+    color: #ffffff;
+}
+.footer-widgets .widget ul li {
+    color: #ffffff;
+}
+.footer-widgets .textwidget.custom-html-widget,
+.footer-widgets .widget_text {
+    color: #ffffff;
+}
+.footer-widgets h1, 
+.footer-widgets h2, 
+.footer-widgets h3, 
+.footer-widgets h4, 
+.footer-widgets h5, 
+.footer-widgets h6
+.footer-widgets .widget ul li,
+.footer-widgets .widget ul li a,
+.footer-widgets .widget a,
+.footer-widgets .woocommerce ul.cart_list li a, 
+.footer-widgets .woocommerce ul.product_list_widget li a, 
+.footer-widgets .woocommerce-page ul.cart_list li a, 
+.footer-widgets .woocommerce-page ul.product_list_widget li a, 
+.footer-widgets .widget_top_rated_products .product_list_widget .product-title,
+.footer-widgets .widget ul li:before,
+.footer-widgets .widget a::before,
+.footer-widgets .calendar_wrap table td,
+.footer-widgets .calendar_wrap table th,
+.footer-widgets .cl-contact-box.style1 .cl-contact-field, 
+.footer-widgets .cl-contact-box.style3 .cl-contact-field,
+.footer-widgets .cl-contact-text h6,
+.footer-widgets .cl-contact-box.style2 .cl-contact-field,
+.footer-widgets .sparkle-content p,
+.footer-widgets .sparkle-content div,
+.footer-widgets .about-desc,
+.footer-widgets .about-address{
+    color: #fff;
+} 
+.footer-widgets .widget_top_rated_products .product_list_widget .product-title:hover,
+.footer-widgets .widget a:hover, 
+.footer-widgets .widget a:hover::before, 
+.footer-widgets .widget li:hover::before {
+    color: #f33c3c;
+}
+/* Footer Social Icon */
+.sub-top-inner .social ul li a:hover {
+    color: #ffffff;
+}
+/** Social Media */
+.social ul li a {
+    color: #ffffff;
+}
+.social ul li a:hover{
+    color: #003772;
+}
+/**
+ * Footer Menu
+*/
+.footer_menu ul li a{
+    color: #ffffff;
+}
+.footer_menu ul li a:hover{
+    color: #f33c3c;
+}
+/**
+ * Copyright and Privacy Policy
+*/
+.sub-footer-inner .coppyright{
+    color: #ffffff;
+}
+.sub-footer-inner .coppyright a{
+    color: #f33c3c;
+}
+.sub-footer-inner .coppyright a:hover{
+    color: #f33c3c
+}
+/**
+ * scrollTop To Top
+*/
+.scrollup {
+    color: #ffffff;
+}
+.scrollup i.fa{
+    color:#ffffff;
+}
+
+/**
+ * Main Slider Next & Prev Arrow
+*/
+.flex-direction-nav li a {
+    color: #ffffff;
+}
+.flex-direction-nav li a:hover {
+    color: #ffffff;
+}
+.owl-carousel:hover .owl-prev,
+.owl-carousel:hover .owl-next{
+    color: #ffffff;
+}

@@ -1,0 +1,634 @@
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+ a {
+	background-color: transparent;
+}
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+pre {
+	background: #eeeeee;
+}
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+body {
+    background-color: #f8f8f8;
+}
+
+hr {
+	background-color: #cccccc;
+}
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+select,
+textarea{
+    background-color: #f0f0f0;
+}
+blockquote {
+    background-color: #f8f8f8;
+}
+#respond .form-submit input#submit,
+a.button,
+button,
+input[type="submit"] {
+    background-color: #003772;
+}
+
+/* Accessibility
+--------------------------------------------- */
+/* Text meant only for screen readers. */
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/*****
+ * Top Header
+*/
+.header-top {
+    background-color: #f0f0f0;
+}
+
+/**
+ * CHOSEN 
+*/
+.chosen-container-single .chosen-single{
+    background: #f0f0f0;
+}
+.chosen-container .chosen-drop {
+    background: #fff;
+}
+.chosen-container .chosen-drop .chosen-search input{
+    background: #f0f0f0;
+}
+.chosen-container .chosen-results li.highlighted {
+    background-color: #003772;
+}
+.chosen-container .chosen-results li.result-selected{
+    background-color: #f33c3c;
+}
+
+/*--------------------------------------------------------------
+# container
+--------------------------------------------------------------*/
+.content-area{
+    background-color: #ffffff;
+}
+.widget-area{
+    background-color: #ffffff;
+}
+
+/**
+ * Advance Search 
+*/
+.block-search .btn-submit{
+    background-color: #f33c3c;
+}
+.block-search .input{
+    background-color: #ffffff;
+}
+
+/**
+ * BLOCK MINI CART 
+*/
+.site-cart-items-wrap{
+    background-color: #f33c3c;
+}
+.site-cart-items-wrap .count {
+    background-color: #ffffff;
+}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce.widget_shopping_cart .cart_list li a.remove {
+    background: #f7f7f7;
+}
+.woocommerce .widget_shopping_cart .cart_list li a.remove:hover,
+.woocommerce.widget_shopping_cart .cart_list li a.remove:hover {
+    background: #f33c3c;
+}
+.woocommerce .widget .woocommerce-mini-cart__buttons a.button{
+    background-color: #efefee;
+}
+.widget .woocommerce-mini-cart__buttons a.checkout:last-child{
+    background-color: #f33c3c;
+}
+.cart-widget-side {
+    background-color: #ffffff;
+}
+.site-header-cart .widget_shopping_cart {
+    background-color: #fafafa;
+}
+
+/****
+ * Vertical Menu
+*/
+.header-nav {
+    background-color: #003772;
+}
+
+.block-nav-category .block-title{
+    background-color:#f33c3c;
+}
+
+.block-nav-category .block-content{
+    background-color: #ffffff;
+}
+.block-nav-category .vertical-menu .page_item.current_page_item>a,
+.block-nav-category .vertical-menu li:hover>a, 
+.block-nav-category .view-all-category a:hover{
+    background-color:#f33c3c;
+}
+.block-nav-category .vertical-menu .children,
+.block-nav-category .vertical-menu .sub-menu{
+    background-color: #ffffff;
+}
+
+.block-nav-category .view-all-category a{
+    background: #003772;
+}
+.box-header-nav .main-menu .children,
+.box-header-nav .main-menu .sub-menu{
+    background-color: #ffffff;
+}
+.box-header-nav .main-menu .children>.page_item:hover>a,
+.box-header-nav .main-menu .sub-menu>.menu-item:hover>a{
+    background-color: #003772;
+}
+/**
+ * Single Previous & Next Nav
+*/
+.post-navigation{
+    background-color: #fdfdfd;
+}
+
+/***
+* All Slider Layout
+*/
+.home-slider-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flex-control-nav>li>a:before {
+    background-color: #ffffff;
+}
+.flex-control-nav>li>a:hover:before,
+.flex-control-nav>li>a.flex-active:before{
+    background-color: #033772;
+}
+
+/****
+ * General Button
+*/
+.btn-primary {
+    background-color: #003772;
+}
+.btn-primary:hover{
+    background-color: transparent;
+}
+/* .btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid;
+}
+.btn-primary {
+    border: 1px solid #003772;
+}
+.btn-primary:hover{
+    border: 1px solid #ffffff;
+}
+.btn-primary {
+    color: #ffffff;
+}
+.btn-primary:hover{
+    color: #003772;
+} */
+/**
+ * Category Collection
+*/
+.product.product-category:hover .woocommerce-loop-category__title {
+    background-color:#ffffff;
+}
+.product.product-category .woocommerce-loop-category__title {
+    background-color: rgba(240, 240, 240, 0.95);
+}
+/**
+ * Category Style Two
+*/
+.category-style-2 .products-cat-wrap {
+    background-color: #ffffff;
+}
+.product.product-category.category-style-2 .woocommerce-loop-category__title {
+    background-color:transparent;
+}
+/****
+ * Promo Block Widget
+*/
+.promo_block_area .promo-img-info-inner {
+    background: rgba(2, 2, 2, 0.25);
+}
+.promo_block_area .promo-img-info-inner h3::after {
+    background-color: #ffffff;
+}
+.promo_block_area .promo-banner-img-inner:hover .promo-img-info .promo-img-info-inner h3 {
+    background: #f33c3c;
+}
+
+/*******
+ * Blog Artical Item
+*/
+.box {
+    background: #fdfdfd;
+}
+.articlesListing .article .metainfo div:after {
+    background: #f33c3c;
+}
+/***************
+ * Blog Post List Layout
+*/
+.articallist{
+    background-color: #f6f6f6;
+}
+/********
+ * Services Area
+*/
+.services_area .services_item{
+    background: #f2f4f6;
+}
+/******
+* Breadcrumbs
+*/
+.breadcrumbs-wrap{
+    background-color: #f2f4f6;
+}
+.breadcrumbs-wrap.withimage::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Product Display Details
+--------------------------------------------------------------*/
+.store_products_item_details {
+    background-color: #ffffff;
+}
+
+.store_products_items_info .products_item_info {
+    background-color: #003772;
+}
+/**
+ * Plugins Itmes Hover Tooltip
+*/
+.store_products_items_info .yith-wcwl-add-button a.add_to_wishlist span,
+.store_products_items_info .sparkle-tooltip-label {
+    background-color: #f33c3c;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Product Flash Items
+--------------------------------------------------------------*/
+.woocommerce ul.products li.product .on_sale,
+.store_products_item_body .flash .on_sale{
+    background-color: #ffc60a;
+}
+.flash.new_sale > .onnew {
+    background-color: #009966;
+}
+.store_products_item .flash > .store_sale_label {
+    background-color: #f33c3c;
+}
+.flash > span {
+    background-color: #009966;
+}
+/*--------------------------------------------------------------
+## WooCommerce Add to Cart button
+--------------------------------------------------------------*/
+.woocommerce a.added_to_cart,
+.woocommerce a.product_type_simple,
+.woocommerce a.button.add_to_cart_button,
+.woocommerce a.button.product_type_grouped,
+.woocommerce a.button.product_type_external,
+.woocommerce a.button.product_type_variable{
+    background-color: #f33c3c;
+}
+.woocommerce a.added_to_cart:before,
+.woocommerce a.product_type_simple:before,
+.woocommerce a.button.add_to_cart_button:before,
+.woocommerce a.button.product_type_grouped:before,
+.woocommerce a.button.product_type_external:before,
+.woocommerce a.button.product_type_variable:before{
+    background-color: #f33c3c;
+}
+.woocommerce a.added_to_cart:hover,
+.woocommerce a.product_type_simple:hover,
+.woocommerce a.button.add_to_cart_button:hover,
+.woocommerce a.button.product_type_grouped:hover,
+.woocommerce a.button.product_type_external:hover,
+.woocommerce a.button.product_type_variable:hover{
+    background: transparent;
+}
+
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    background-color: #f33c3c;
+}
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover {
+    background-color:transparent;
+}
+/*--------------------------------------------------------------
+## WooCommerce Product display list view
+--------------------------------------------------------------*/
+.woocommerce .shop-product-list ul.products li.product{
+    background-color: #ffffff;
+}
+/*--------------------------------------------------------------
+## WooCommerce Pagination
+--------------------------------------------------------------*/
+.woocommerce nav.woocommerce-pagination ul {
+    background: transparent;
+}
+.woocommerce nav.woocommerce-pagination ul li .page-numbers {
+    background: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    background-color: #f33c3c;
+}
+/*--------------------------------------------------------------
+## Woocommerce My Account
+--------------------------------------------------------------*/
+.woocommerce-MyAccount-navigation ul li a {
+    background-color: #f33c3c;
+}
+.woocommerce-MyAccount-navigation ul li a:hover{
+    background-color: transparent;
+}
+/*--------------------------------------------------------------
+## WooCommerce Cart
+--------------------------------------------------------------*/
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt {
+    background-color: #f33c3c;
+}
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+    background-color: transparent;
+}
+/*--------------------------------------------------------------
+## WooCommerce wishlist
+--------------------------------------------------------------*/
+.wishlist_table .product-add-to-cart a.button {
+    background-color: #f33c3c !important;
+}
+.woocommerce.woocommerce-wishlist a.button.alt:hover {
+    background-color: transparent !important;
+}
+/**
+ * Single Product Page
+*/
+
+/********
+ * Light Box gallery__trigger
+*/
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger{
+    background-color: #ffffff;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger::before {
+    background-color: #ffffff;
+}
+/* Single Summary Wrapper */
+.single-product div.product .entry-summary .woocommerce-product-rating>span:not(.star-rating)::after{
+    background-color: #e5e5e5;
+}
+.single-product div.product .entry-summary .flash .on_sale {
+    background-color: #ff9900;
+}
+.single-product div.product .entry-summary .flash .store_sale_label {
+    background-color: #f33c3c;
+}
+/* Quntity input & Add to Cart **/
+.woocommerce .quantity .minus,
+.woocommerce .quantity .plus {
+    background-color: #cccccc;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button {
+    background-color: #f33c3c;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button:before {
+    background-color: #f33c3c;
+}
+/**
+ * Default Tabs Layout
+*/
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background-color: #003772;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background-color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+ ## Pagination Type
+--------------------------------------------------------------*/
+.pagination{
+    background-color: #fdfdfd;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(247, 247, 247, 0.82);
+    box-shadow: 0px 0px 1px 0px rgba(247, 247, 247, 0.82);
+}
+.page-numbers{
+    background-color: #f33c3c;
+}
+.page-numbers.current{
+    background-color: #ffffff;
+}
+.page-numbers:hover{
+    background: transparent;
+}
+/**
+ * Singe Posts Tags
+*/
+.posts-tag ul li {
+    background-color: #003772;
+}
+.posts-tag ul li:first-child {
+    background-color: #f33c3c;
+}
+.posts-tag ul li:hover {
+    background-color: #f33c3c;
+}
+/** Comments List
+--------------------------------------------- */
+.comment-list .comment-body {
+    background-color: #fdfdfd;
+}
+.reply .comment-reply-link {
+    background-color:#f33c3c;
+}
+#respond {
+    background-color: #ffffff;
+}
+/*--------------------------------------------------------------
+## Widget Area
+--------------------------------------------------------------*/
+/***************
+* Widget Title
+*/
+.cross-sells h2,
+.cart_totals h2,
+.up-sells>h2,
+.related>h2,
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3,
+.woocommerce-additional-fields h3,
+#order_review_heading,
+.woocommerce-order-details h2,
+.woocommerce-column--billing-address h2,
+.woocommerce-column--shipping-address h2,
+.woocommerce-Address-title h3,
+.woocommerce-MyAccount-content h3,
+.wishlist-title  h2,
+.comments-area  h2.comments-title,
+.woocommerce-Reviews h2.woocommerce-Reviews-title,
+.woocommerce-Reviews #review_form_wrapper .comment-reply-title, 
+.woocommerce-account .woocommerce h2,
+.woocommerce-customer-details h2.woocommerce-column__title,
+.widget .widget-title{
+    background-color: #fafafa;
+}
+
+/** Widget Sidebar Search
+--------------------------------------------- */
+.widget_search .search-submit{
+    background-color: #f33c3c;
+}
+/** Widget Calender
+--------------------------------------------- */
+.calendar_wrap caption {
+    background: none repeat scroll 0 0 #f33c3c;
+}
+/** WooCommerce Widget Product Search
+--------------------------------------------- */
+.widget_product_search button{
+    background-color: #f33c3c;
+}
+
+/** UI Slider Widget
+--------------------------------------------- */
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background-color: #f33c3c;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #cccccc;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button:hover::after{
+    background-color: rgba(255,255,255,0.3);
+}
+/** WooCommerce Yith Extrenal Plugins Widget
+--------------------------------------------- */
+.widget.yith-woocompare-widget .compare,
+.widget.yith-woocompare-widget .clear-all {
+    background-color: #f33c3c;
+}
+.widget.yith-woocompare-widget .compare:hover,
+.widget.yith-woocompare-widget .clear-all:hover {
+    background-color: transparent;
+}
+/*--------------------------------------------------------------
+## Footer Area
+--------------------------------------------------------------*/
+/*************
+ * Top Footer Widget
+*/
+.top-footer-area{
+    background-color: #f2f4f6;
+}
+/**
+ * Middle Footer Area
+*/
+.middle-footer-area{
+    background-color: #232529;
+}
+
+/**
+ * Footer Folumn  
+*/
+.footer-widgets .widget ul li {
+    background-color: transparent;
+}
+/**
+ * Bottom Full Footer Widget
+*/
+.bottom-footer-area {
+    background-color: #232529;
+}
+/**
+ * Sub Footer Area
+*/
+.sub-top-footer{
+    background-color: #232529;
+}
+/** Social Media */
+.social ul li a {
+    background-color: #003772;
+}
+.social ul li a:hover{
+    background-color:transparent;
+}
+/**
+ * Sub Footer Area
+*/
+.sub-footer {
+    background: #1d1e21;
+}
+/**
+ * Footer Menu
+*/
+.footer_menu ul li a:before {
+    background-color: rgba(224, 224, 224, 0.5);
+}
+/**
+ * scrollTop To Top
+*/
+.scrollup {
+    background-color: #033772;
+}
+
+/**
+ * Main Slider Next & Prev Arrow
+*/
+.flex-direction-nav li a {
+    background-color:#f33c3c;
+}
+.flex-direction-nav li a:hover {
+    background-color:transparent;
+}

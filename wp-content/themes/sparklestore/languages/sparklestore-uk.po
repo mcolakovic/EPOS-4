@@ -1,0 +1,1421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-13 17:23+0000\n"
+"PO-Revision-Date: 2018-09-08 02:36+0300\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+
+#: functions.php:72
+msgid "Primary"
+msgstr "Основна"
+
+#: functions.php:73 sparklethemes/sparkle-widgets/sparkle-category-collection.php:118 sparklethemes/sparkle-widgets/sparkle-products-area.php:26
+msgid "Category"
+msgstr "Категорія"
+
+#: functions.php:74
+msgid "Top Menu"
+msgstr "Верхнє Меню"
+
+#: functions.php:75
+msgid "Footer Menu"
+msgstr "Меню Підвалу"
+
+#: functions.php:139
+msgid "Right Sidebar Widget Area"
+msgstr "Права бічна панель віджетів"
+
+#: functions.php:149
+msgid "Left Sidebar Widget Area"
+msgstr "Ліва бічна панель віджетів"
+
+#: functions.php:160
+#, php-format
+msgid ""
+"Displays widgets on home page main content area.%1$s Note : Please go to %2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then \"Front page\" "
+"and \"Posts page\" to show added widgets"
+msgstr ""
+"Відображає віджети на головній сторінці основного вмісту.%1$s Примітка: будь ласка, перейдіть до%2$s \"Статична Головна Сторінка\"%3$s налаштування, виберіть "
+"\"Статична сторінка\", а потім \"Головна сторінка\" та \"Сторінка повідомлень\", щоб показати додані віджети"
+
+#: functions.php:163
+msgid ""
+"Displays widgets on Front/Home page. Note : First Create Page and Select \"Page Attributes Template\"(  FrontPage ) then Please go to Setting => "
+"Reading, Select \"A static page\" then \"Front page\" and add widgets to show on Home Page"
+msgstr ""
+"Відображає віджети на Головній/Домашній сторінці. Примітка: спочатку створити сторінку і виберіть \"Шаблон атрибутів сторінки\" ( ГоловнаСторінка), "
+"потім, будь ласка, перейдіть до Налаштування = > Читання, виберіть \"Статична сторінка\", то \"Головна сторінка\" і додайте віджети, щоб показати на Головній "
+"сторінці"
+
+#: functions.php:167 sparklethemes/customizer/customizer.php:365
+msgid "Sparkle: Main Widget Area"
+msgstr "Sparkle: Область віджетів"
+
+#: functions.php:177
+msgid "Footer Widget Area One"
+msgstr "Віджет області підвалу №1"
+
+#: functions.php:186
+msgid "Footer Widget Area Two"
+msgstr "Віджет області підвалу №2"
+
+#: functions.php:195
+msgid "Footer Widget Area Three"
+msgstr "Віджет області підвалу №3"
+
+#: functions.php:204
+msgid "Footer Widget Area Four"
+msgstr "Віджет області підвалу №4"
+
+#: functions.php:291 sparklethemes/sparkle-widgets/widgets-fields.php:264
+msgid "Upload"
+msgstr "Завантажити"
+
+#: functions.php:292 sparklethemes/sparkle-widgets/widgets-fields.php:266 sparklethemes/sparkle-widgets/widgets-fields.php:274
+msgid "Remove"
+msgstr "Видалити"
+
+#: 404.php:23 sparklethemes/functions.php:666
+msgid "404"
+msgstr "404"
+
+#: 404.php:24
+msgid "Oops! The Page you requested was not found!"
+msgstr "Ой! Запитувана сторінка не знайдена, пробачте!"
+
+#: 404.php:25
+msgid "Back To Home"
+msgstr "Повернутися на Головну"
+
+#: index.php:39 archive.php:38 search.php:38
+msgid "Prev"
+msgstr "Попередній"
+
+#: index.php:40 archive.php:39 search.php:39
+msgid "Next"
+msgstr "Наступний"
+
+#: comments.php:30
+msgid "Comments"
+msgstr "Коментарі"
+
+#: comments.php:41 comments.php:53
+msgid "Comment navigation"
+msgstr "Навігація коментарів"
+
+#: comments.php:44 comments.php:56
+msgid "Older Comments"
+msgstr "Старіші коментарі"
+
+#: comments.php:45 comments.php:57
+msgid "Newer Comments"
+msgstr "Новіші коментарі"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#: comments.php:76
+msgid "ADD COMMENT"
+msgstr "Додати коментар"
+
+#: header.php:47 sparklethemes/hooks/woocommerce.php:147 sparklethemes/hooks/woocommerce.php:155
+msgid "All Categories"
+msgstr "Усі категорії"
+
+#: header.php:57
+msgid "Menu"
+msgstr "Меню"
+
+#. Name of the template
+msgid "FrontPage Template"
+msgstr "Шаблон Титульної сторінки"
+
+#: sparklethemes/functions.php:82 sparklethemes/functions.php:91 template-parts/content-single.php:44 template-parts/content.php:44
+#: template-parts/content-search.php:37 sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:148
+msgid "0 Comment"
+msgstr "0 коментарів"
+
+#: sparklethemes/functions.php:82 sparklethemes/functions.php:91 template-parts/content-single.php:44 template-parts/content.php:44
+#: template-parts/content-search.php:37 sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:148 sparklethemes/core/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 Коментар"
+
+#: sparklethemes/functions.php:82 sparklethemes/functions.php:91 template-parts/content-single.php:44 template-parts/content.php:44
+#: template-parts/content-search.php:37 sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:148 sparklethemes/core/template-tags.php:64
+msgid "% Comments"
+msgstr "% Коментарів"
+
+#: sparklethemes/functions.php:82 sparklethemes/functions.php:91 template-parts/content-single.php:44 template-parts/content.php:44
+#: template-parts/content-search.php:37 sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:148
+msgid "Comments are Closed"
+msgstr "Коментарі закриті"
+
+#: sparklethemes/functions.php:304
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар очікує модерації."
+
+#: sparklethemes/functions.php:312
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s до %2$s"
+
+#: sparklethemes/functions.php:534
+msgid "Delete"
+msgstr "Видалити"
+
+#: sparklethemes/functions.php:535
+msgid "Close"
+msgstr "Закрити"
+
+#: sparklethemes/functions.php:554
+msgid "Display Layout Options"
+msgstr "Параметри відображення макета"
+
+#: sparklethemes/functions.php:567
+msgid "Left Sidebar"
+msgstr "Ліва бічна панель"
+
+#: sparklethemes/functions.php:572
+msgid "Right (Default)"
+msgstr "Права бічна панель(за замовчув.)"
+
+#: sparklethemes/functions.php:577
+msgid "Full width"
+msgstr "Повна ширина"
+
+#: sparklethemes/functions.php:582
+msgid "Both Sidebar"
+msgstr "Обидві бічні панелі"
+
+#: sparklethemes/functions.php:664 sparklethemes/functions.php:694
+#, php-format
+msgid "Search Results for : %s"
+msgstr "Результати пошуку для : %s"
+
+#: sparklethemes/functions.php:717
+msgid "Home"
+msgstr "Головна"
+
+#: sparklethemes/functions.php:732
+msgid "Archive by category"
+msgstr "Архів по категорії"
+
+#: sparklethemes/functions.php:734
+msgid "Search results for"
+msgstr "Результати пошуку для"
+
+#: sparklethemes/functions.php:800
+msgid "Posts tagged"
+msgstr "Повідомлення з позначками"
+
+#: sparklethemes/functions.php:804
+msgid "Articles posted by "
+msgstr "Статті, розміщені від "
+
+#: sparklethemes/functions.php:806
+msgid "Error 404"
+msgstr "Помилка 404, сторінка не знайдена"
+
+#: sparklethemes/functions.php:812
+msgid "Page"
+msgstr "Сторінка"
+
+#: sparklethemes/functions.php:875
+msgid "Install Required Plugins"
+msgstr "Встановити обов'язкові Плагіни"
+
+#: sparklethemes/functions.php:876
+msgid "Install Plugins"
+msgstr "Встановити плагіни"
+
+#: sparklethemes/functions.php:877
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Встановлення плагіна: %s"
+
+#: sparklethemes/functions.php:878
+msgid "Something went wrong with the plugin API."
+msgstr "Щось пошкоджено з API плагіна."
+
+#: sparklethemes/functions.php:879
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+"Ця тема вимагає наступного плагіна: %1$s.\n"
+"Ця тема вимагає наступних плагінів: %1$s."
+msgstr[1] ""
+"Ця тема вимагає наступного плагіна: %1$s.\n"
+"Ця тема вимагає наступних плагінів: %1$s."
+msgstr[2] ""
+"Ця тема вимагає наступного плагіна: %1$s.\n"
+"Ця тема вимагає наступних плагінів: %1$s."
+
+#: sparklethemes/functions.php:882
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+"Ця тема рекомендує наступний плагін: %1$s.\n"
+"Ця тема рекомендує наступні плагіни: %1$s."
+msgstr[1] ""
+"Ця тема рекомендує наступний плагін: %1$s.\n"
+"Ця тема рекомендує наступні плагіни: %1$s."
+msgstr[2] ""
+"Ця тема рекомендує наступний плагін: %1$s.\n"
+"Ця тема рекомендує наступні плагіни: %1$s."
+
+#: sparklethemes/functions.php:885
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагіни %1$s."
+msgstr[1] ""
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагіни %1$s."
+msgstr[2] ""
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб встановити плагіни %1$s."
+
+#: sparklethemes/functions.php:888
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Наступний плагін потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s.\n"
+"Наступні плагіни потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s."
+msgstr[1] ""
+"Наступний плагін потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s.\n"
+"Наступні плагіни потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s."
+msgstr[2] ""
+"Наступний плагін потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s.\n"
+"Наступні плагіни потрібно оновити до останньої версії, щоб забезпечити максимальну сумісність з цією темою: %1$s."
+
+#: sparklethemes/functions.php:891
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+"Доступне оновлення для: %1$s.\n"
+"Доступні оновлення для наступних плагінів: %1$s."
+msgstr[1] ""
+"Доступне оновлення для: %1$s.\n"
+"Доступні оновлення для наступних плагінів: %1$s."
+msgstr[2] ""
+"Доступне оновлення для: %1$s.\n"
+"Доступні оновлення для наступних плагінів: %1$s."
+
+#: sparklethemes/functions.php:894
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+"Вибачте, але у вас немає правильних дозволів на оновлення плагіна %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів на оновлення плагінів  %1$s."
+msgstr[1] ""
+"Вибачте, але у вас немає правильних дозволів на оновлення плагіна %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів на оновлення плагінів  %1$s."
+msgstr[2] ""
+"Вибачте, але у вас немає правильних дозволів на оновлення плагіна %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів на оновлення плагінів  %1$s."
+
+#: sparklethemes/functions.php:897
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Наступний необхідний плагін наразі неактивний: %1$s.\n"
+"Наступні необхідні плагіни наразі неактивні: %1$s."
+msgstr[1] ""
+"Наступний необхідний плагін наразі неактивний: %1$s.\n"
+"Наступні необхідні плагіни наразі неактивні: %1$s."
+msgstr[2] ""
+"Наступний необхідний плагін наразі неактивний: %1$s.\n"
+"Наступні необхідні плагіни наразі неактивні: %1$s."
+
+#: sparklethemes/functions.php:900
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+"Нижче описаний рекомендований плагін наразі неактивний: %1$s.\n"
+"Нижче описані рекомендовані плагіин наразі неактивні: %1$s."
+msgstr[1] ""
+"Нижче описаний рекомендований плагін наразі неактивний: %1$s.\n"
+"Нижче описані рекомендовані плагіин наразі неактивні: %1$s."
+msgstr[2] ""
+"Нижче описаний рекомендований плагін наразі неактивний: %1$s.\n"
+"Нижче описані рекомендовані плагіин наразі неактивні: %1$s."
+
+#: sparklethemes/functions.php:903
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагіни %1$s."
+msgstr[1] ""
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагіни %1$s."
+msgstr[2] ""
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагін %1$s.\n"
+"Вибачте, але у вас немає правильних дозволів, щоб активувати плагіни %1$s."
+
+#: sparklethemes/functions.php:906
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+"Почати встановлення плагіна\n"
+"Почати встановлення плагінів"
+msgstr[1] ""
+"Почати встановлення плагіна\n"
+"Почати встановлення плагінів"
+msgstr[2] ""
+"Почати встановлення плагіна\n"
+"Почати встановлення плагінів"
+
+#: sparklethemes/functions.php:909
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+"Почати оновлення плагіна\n"
+"Початок оновлення плагінів"
+msgstr[1] ""
+"Почати оновлення плагіна\n"
+"Початок оновлення плагінів"
+msgstr[2] ""
+"Почати оновлення плагіна\n"
+"Початок оновлення плагінів"
+
+#: sparklethemes/functions.php:912
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+"Почати активацію плагіна\n"
+"Початок активацію плагінів"
+msgstr[1] ""
+"Почати активацію плагіна\n"
+"Початок активацію плагінів"
+msgstr[2] ""
+"Почати активацію плагіна\n"
+"Початок активацію плагінів"
+
+#: sparklethemes/functions.php:915
+msgid "Return to Required Plugins Installer"
+msgstr "Повернутися до встановлювача обов'язкових плагінів"
+
+#: sparklethemes/functions.php:916
+msgid "Plugin activated successfully."
+msgstr "Плагін успішно активовано."
+
+#: sparklethemes/functions.php:917
+msgid "The following plugin was activated successfully:"
+msgstr "Наступний плагін успішно активовано:"
+
+#: sparklethemes/functions.php:918
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Не вжито жодних дій. Плагін %1$s вже був активним."
+
+#: sparklethemes/functions.php:919
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагін не активований.  Для цієї теми потрібна вища версія % s  . Будь ласка, оновіть плагін."
+
+#: sparklethemes/functions.php:920
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всі плагіни успішно встановлені та активовані. %1$s"
+
+#: sparklethemes/functions.php:921
+msgid "Please contact the administrator of this site for help."
+msgstr "Будь ласка, зв'яжіться з адміністратором цього сайту за допомогою."
+
+#: template-parts/content-single.php:54 template-parts/content-page.php:18
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готові опублікувати свій перший пост? <a href=\"%1$s\">Почніть тут</a>."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Вибачте, але нічого не співпало з вашими пошуковими умовами. Будь ласка, спробуйте знову, використовуючи різні ключові слова."
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Схоже, ми не можемо знайти те, що ви шукаєте. Можливо, пошук може допомогти."
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:29 sparklethemes/core/template-tags.php:71
+#, php-format
+msgid "Edit %s"
+msgstr "Редагувати %s"
+
+#: template-parts/content.php:53 template-parts/content-search.php:46
+msgid "Read More"
+msgstr "Читати далі"
+
+#: woocommerce/global/quantity-input.php:36
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Кількість"
+
+#: woocommerce/global/quantity-input.php:36
+#, php-format
+msgid "%s quantity"
+msgstr "%s кількість"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:17
+msgid "SP: Quick Contact Info"
+msgstr "SP: Швидка контактна інформація"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:18
+msgid "A widget that shows quick contact information"
+msgstr "Віджет, що показує швидку контактну інформацію"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:28 sparklethemes/sparkle-widgets/sparkle-category-products.php:58
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:62
+msgid "Title"
+msgstr "Заголовок"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:33
+msgid "Contact Address"
+msgstr "Контактна адреса"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:39
+msgid "Contact Number"
+msgstr "Контактний номер"
+
+#: sparklethemes/sparkle-widgets/contact-info.php:44
+msgid "Contact Email Address"
+msgstr "Контактна Email адреса"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:17
+msgid "SP: Woo Category Collection"
+msgstr "SP: Woo Колекція категорій"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:18
+msgid "A widget that shows WooCommerce category"
+msgstr "Віджет, що показує категорію WooCommerce"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:53
+msgid "Main Title"
+msgstr "Головний Заголовок"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:59
+msgid "Category Section Very Short Description"
+msgstr "Дуже короткий опис Секції категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:66 sparklethemes/sparkle-widgets/sparkle-products-area.php:79
+msgid "Select Category"
+msgstr "Виберіть категорію"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-collection.php:115 sparklethemes/sparkle-widgets/sparkle-category-collection.php:119
+msgid "Products"
+msgstr "Товари"
+
+#: sparklethemes/sparkle-widgets/widgets-fields.php:11
+msgid "Select Categories"
+msgstr "Виберіть категорії"
+
+#: sparklethemes/sparkle-widgets/widgets-fields.php:26
+msgid "Select Pages"
+msgstr "Виберіть сторінки"
+
+#: sparklethemes/sparkle-widgets/widgets-fields.php:260
+msgid "No file chosen"
+msgstr "Не вибрано жодного файлу"
+
+#: sparklethemes/sparkle-widgets/widgets-fields.php:269
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Оновіть свою версію WordPress для повної підтримки мультимедіа."
+
+#: sparklethemes/sparkle-widgets/widgets-fields.php:284
+msgid "View File"
+msgstr "Переглянути файл"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:16
+msgid "SP: Woo Category With Product"
+msgstr "SP: Woo категорія з товаром"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:17
+msgid "A widget that shows woocommerce category feature image with selected category products"
+msgstr "Віджет, що показує категорію woocommerce функцію із зображенням продуктів категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:24
+msgid "Right Align Category Image"
+msgstr "Вирівнювання Праворуч Зображення категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:25
+msgid "Left Align Category Image"
+msgstr "Вирівнювання Ліворуч Зображення категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:48 sparklethemes/sparkle-widgets/sparkle-category-products.php:75
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:53
+msgid "Select Product Category"
+msgstr "Виберіть категорію продукту"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:63 sparklethemes/sparkle-widgets/sparkle-products-area.php:67
+msgid "Very Short Description"
+msgstr "Дуже короткий опис"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:69
+msgid "Select Display Style (Image Alignment)"
+msgstr "Оберіть стиль відображення (Вирівнювання зображень)"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:81 sparklethemes/sparkle-widgets/sparkle-products-area.php:85
+msgid "Enter Number of Products Show"
+msgstr "Введіть кількість продуктів"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:86
+msgid "Checked to Display Category Info"
+msgstr "Перевірено для відображення інформації про категорію"
+
+#: sparklethemes/sparkle-widgets/sparkle-category-products.php:154
+msgid "Shop Now"
+msgstr "Здійснити покупку"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:15
+msgid "SP: Promo Widget Section"
+msgstr "SP: 3 Секції Promo Віджет"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:16
+msgid "A widget that promote you busincess visual way"
+msgstr "Віджет, який сприяє вашому бізнесу візуально"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:27
+msgid "Promo Section One"
+msgstr "Promo Секція 1"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:33 sparklethemes/sparkle-widgets/sparkle-promo.php:58 sparklethemes/sparkle-widgets/sparkle-promo.php:83
+#: sparklethemes/sparkle-widgets/sparkle-fullpromo.php:27
+msgid "Select Promo Page"
+msgstr "Оберіть Промо-сторінку"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:39
+msgid "Promo One Button Link"
+msgstr "Promo 1 кнопка Link"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:52
+msgid "Promo Section Two"
+msgstr "Promo Секція 2"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:64
+msgid "Promo Two Button Link"
+msgstr "Promo 2 кнопка Link"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:77
+msgid "Promo Section Three"
+msgstr "Promo Секція 3"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:89
+msgid "Promo Three Button Link"
+msgstr "Promo 3 кнопка Link"
+
+#: sparklethemes/sparkle-widgets/sparkle-promo.php:100 sparklethemes/sparkle-widgets/sparkle-fullpromo.php:45
+msgid "Check to Disable Promo Information"
+msgstr "Вимкнути рекламну інформацію"
+
+#: sparklethemes/sparkle-widgets/sparkle-fullpromo.php:16
+msgid "SP: Full Promo Widget"
+msgstr "SP: Повний Promo віджет"
+
+#: sparklethemes/sparkle-widgets/sparkle-fullpromo.php:17
+msgid "A widget that promote you busincess"
+msgstr "Віджет, що рекламує ваш бизнес"
+
+#: sparklethemes/sparkle-widgets/sparkle-fullpromo.php:33
+msgid "Promo Button Link"
+msgstr "Promo кнопка Link"
+
+#: sparklethemes/sparkle-widgets/sparkle-fullpromo.php:39
+msgid "Promo Button Text"
+msgstr "Promo текст кнопки"
+
+#: sparklethemes/sparkle-widgets/sparkle-tabs-category.php:17
+msgid "SP: Woo Category Tabs"
+msgstr "SP: Woo Вкладки - категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-tabs-category.php:18
+msgid "A widget that shows WooCommerce category in multiple tabs with category  \"related products\""
+msgstr "Віджет, що показує категорію WooCommerce у кількох вкладках із продуктами, \"пов'язаними з категоріями\""
+
+#: sparklethemes/sparkle-widgets/sparkle-tabs-category.php:51
+msgid "Select Category Tabs"
+msgstr "Оберіть вкладки категорій"
+
+#: sparklethemes/sparkle-widgets/sparkle-tabs-category.php:58
+msgid "Enter the Number Products Display"
+msgstr "Введіть відображення кількості товарів"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:17
+msgid "SP: Blogs Widget Section"
+msgstr "SP: Секція Віджету блога"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:18
+msgid "A widget that shows blogs posts"
+msgstr "Віджет показує публікації блогів"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:42
+msgid "Blogs Main Title"
+msgstr "Назва секції Блога"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:48
+msgid "Blogs Very Short Description"
+msgstr "Дуже короткий опис секції блога"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:55
+msgid "Select Blogs Category"
+msgstr "Оберіть категорію блогів"
+
+#: sparklethemes/sparkle-widgets/sparkle-blogs-widget.php:62
+msgid "Enter Display Numebr of Posts"
+msgstr "Введіть відображення кількості повідомлень"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:16
+msgid "SP: Woo Product Area"
+msgstr "SP: Woo Область Товару"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:17
+msgid "A widget that shows woocommerce all type product (Latest, Feature, On Sale, UpSell) and selected category products"
+msgstr "Віджет, який показує woocommerce всі типи товарів (Найновіші, Рекомендовані, Зі знижками, Лідери Продажу) і вибирає продукти категорії"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:25 sparklethemes/sparkle-widgets/sparkle-products-area.php:73
+msgid "Select Product Type"
+msgstr "Виберіть тип товару"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:27
+msgid "Latest Product"
+msgstr "Найновіші товари"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:28
+msgid "UpSell Product"
+msgstr "Лідери продажу"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:29
+msgid "Feature Product"
+msgstr "Рекомендовані товари"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:30
+msgid "On Sale Product"
+msgstr "Акційні товари"
+
+#: sparklethemes/sparkle-widgets/sparkle-products-area.php:121
+msgid "New"
+msgstr "Новий"
+
+#: sparklethemes/core/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубліковано %s"
+
+#: sparklethemes/core/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "автор публікації %s"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: sparklethemes/core/template-tags.php:50 sparklethemes/core/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#: sparklethemes/core/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Опубліковано в %1$s"
+
+#: sparklethemes/core/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Позначений %1$s"
+
+#: sparklethemes/core/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Залишити коментар"
+
+#: sparklethemes/customizer/customizer.php:23 sparklethemes/customizer/customizer.php:295
+msgid "Select Slider Page"
+msgstr "Виберіть сторінку слайдера"
+
+#: sparklethemes/customizer/customizer.php:35
+msgid "SparkleStore Pro"
+msgstr "SparkleStore Pro"
+
+#: sparklethemes/customizer/customizer.php:36
+msgid "Buy Pro"
+msgstr "Купити Pro"
+
+#: sparklethemes/customizer/customizer.php:46
+msgid "Important Links"
+msgstr "Важливі посилання"
+
+#: sparklethemes/customizer/customizer.php:57 sparklethemes/admin/about-theme/sparklestore-about.php:186
+#: sparklethemes/admin/about-theme/sparklestore-about.php:188
+msgid "Documentation"
+msgstr "Документація"
+
+#: sparklethemes/customizer/customizer.php:57
+msgid "Live Demo"
+msgstr "Дивитися Demo"
+
+#: sparklethemes/customizer/customizer.php:57
+msgid "Support Forum"
+msgstr "Форум підтримки"
+
+#: sparklethemes/customizer/customizer.php:57
+msgid "Like Us in Facebook"
+msgstr "Like нас на Facebook"
+
+#: sparklethemes/customizer/customizer.php:68
+#, php-format
+msgid "Please do rate our theme if you liked it %1$s"
+msgstr "Будь ласка, оцініть нашу тему, якщо вам сподобалося %1$s"
+
+#: sparklethemes/customizer/customizer.php:68
+msgid "Rate/Review"
+msgstr "Рейтинг / Огляд"
+
+#: sparklethemes/customizer/customizer.php:79
+msgid ""
+"<strong>Instruction - Setting up Home Page</strong><br/>\n"
+"        1. Create a new page (any title, like Home )<br/>\n"
+"        2. In right column: Page Attributes -> Template: Home Page<br/>\n"
+"        3. Click on Publish<br/>\n"
+"        4. Go to Appearance-> Customize -> Static Front Page<br/>\n"
+"        5. Select - A static page<br/>\n"
+"        6. In Front Page, select the page that you created in the step 1<br/>\n"
+"        7. Save changes"
+msgstr ""
+"<strong>Інструкція - Налаштування домашньої сторінки</strong><br/>\n"
+"        1. Створіть нову сторінку (будь-який заголовок, наприклад, Головна)<br/>\n"
+"        2. У правій колонці: Атрибути сторінки -> Шаблон: Домашня сторінка<br/>\n"
+"        3. Нажміть \"Опублікувати\"<br/>\n"
+"        4. Перейдіть до вигляду -> Налаштування -> Статична Титульна сторінка<br/>\n"
+"        5. Вибрати - Статична сторінка<br/>\n"
+"        6. За Титульну сторінку виберіть сторінку, яку ви створили на кроці 1<br/>\n"
+"        7. Зберегти зміни"
+
+#: sparklethemes/customizer/customizer.php:96
+msgid "Quick Contact Info"
+msgstr "Швидка контактна інформація"
+
+#: sparklethemes/customizer/customizer.php:106
+#, php-format
+msgid "Use font awesome icon: Eg: %1$s. %2$sSee more here%3$s"
+msgstr "Використовуйте шрифт awesome icon: Наприклад: %1$s. %2$sБільше дивіться тут %3$s"
+
+#: sparklethemes/customizer/customizer.php:107
+msgid "Enter Email Icon"
+msgstr "Введіть значок Email"
+
+#: sparklethemes/customizer/customizer.php:119
+msgid "Email Address"
+msgstr "Адреса електронної пошти"
+
+#: sparklethemes/customizer/customizer.php:132 sparklethemes/customizer/customizer.php:157 sparklethemes/customizer/customizer.php:183
+#: sparklethemes/customizer/customizer.php:421 sparklethemes/customizer/customizer.php:462 sparklethemes/customizer/customizer.php:503
+#: sparklethemes/customizer/customizer.php:544
+#, php-format
+msgid "Use font awesome icon: Eg: %1$s. %2$s See more here%3$s"
+msgstr "Використовуйте шрифт awesome icon: Наприклад: %1$s. %2$sБільше дивіться тут %3$s"
+
+#: sparklethemes/customizer/customizer.php:133
+msgid "Phone Icon"
+msgstr "Введіть значок Phone"
+
+#: sparklethemes/customizer/customizer.php:145
+msgid "Phone Number"
+msgstr "Номер телефону"
+
+#: sparklethemes/customizer/customizer.php:158
+msgid "Address Icon"
+msgstr "Введіть значок адреси"
+
+#: sparklethemes/customizer/customizer.php:170
+msgid "Address"
+msgstr "Адреса"
+
+#: sparklethemes/customizer/customizer.php:184
+msgid "Start Time Icon"
+msgstr "Введіть значок початку роботи"
+
+#: sparklethemes/customizer/customizer.php:196
+msgid "Opening Time"
+msgstr "Час відкриття"
+
+#: sparklethemes/customizer/customizer.php:207
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: sparklethemes/customizer/customizer.php:216
+msgid "Themes Colors"
+msgstr "Кольори Теми"
+
+#: sparklethemes/customizer/customizer.php:227
+msgid "WebLayout Options"
+msgstr "Параметри веб-макета"
+
+#: sparklethemes/customizer/customizer.php:240
+msgid "Enable / Disable Top Header"
+msgstr "Увімкнути / Вимкнути верхній заголовок"
+
+#: sparklethemes/customizer/customizer.php:244
+msgid "Boxed Layout"
+msgstr "Фіксований Макет"
+
+#: sparklethemes/customizer/customizer.php:245
+msgid "Full Width Layout"
+msgstr "Макет повної ширини"
+
+#: sparklethemes/customizer/customizer.php:253 sparklethemes/customizer/customizer.php:289
+msgid "Slider Settings Options"
+msgstr "Налаштування слайдера"
+
+#: sparklethemes/customizer/customizer.php:265 sparklethemes/customizer/customizer.php:385
+msgid "Enable/Disable Section"
+msgstr "Увімкнути / Вимкнути секцію"
+
+#: sparklethemes/customizer/customizer.php:269 sparklethemes/customizer/customizer.php:389 sparklethemes/customizer/customizer.php:866
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: sparklethemes/customizer/customizer.php:270 sparklethemes/customizer/customizer.php:390 sparklethemes/customizer/customizer.php:867
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: sparklethemes/customizer/customizer.php:286
+msgid "Slider Settings Area"
+msgstr "Налаштування слайдера"
+
+#: sparklethemes/customizer/customizer.php:290
+msgid "Add New Slider"
+msgstr "Додати новий слайдер"
+
+#: sparklethemes/customizer/customizer.php:300
+msgid "Enter Button Text"
+msgstr "Ввести текст кнопки"
+
+#: sparklethemes/customizer/customizer.php:305
+msgid "Enter Button Url"
+msgstr "Ввести URL кнопки"
+
+#: sparklethemes/customizer/customizer.php:318
+msgid "Manage breadcrumbs settings here as you want"
+msgstr "Параметри Хлібних крихт"
+
+#: sparklethemes/customizer/customizer.php:320
+msgid "Breadcrumbs Settings"
+msgstr "Налаштування Хлібних крихт"
+
+#: sparklethemes/customizer/customizer.php:325
+msgid "WooCommerce Breadcrumbs"
+msgstr "WooCommerce Хлібні крихти"
+
+#: sparklethemes/customizer/customizer.php:336 sparklethemes/customizer/customizer.php:354
+msgid "Upload Breadcrumbs Background Image"
+msgstr "Завантажте фонове зображення Breadcrumbs"
+
+#: sparklethemes/customizer/customizer.php:343
+msgid "Normal Post/Page & Archive Settings"
+msgstr "Налаштування звичайної публікації /сторінки та архівної"
+
+#: sparklethemes/customizer/customizer.php:373
+msgid "Services Area Settings"
+msgstr "Налаштування області послуг"
+
+#: sparklethemes/customizer/customizer.php:402
+msgid "Manage Services Area Location"
+msgstr "Керування розташуванням області послуг"
+
+#: sparklethemes/customizer/customizer.php:405
+msgid "Options to Manage Service Area Below the Header or Abote the Footer Area"
+msgstr "Параметри керування Області Послуг"
+
+#: sparklethemes/customizer/customizer.php:407
+msgid "Below the Header"
+msgstr "Під заголовком"
+
+#: sparklethemes/customizer/customizer.php:408
+msgid "Abover the Footer"
+msgstr "Над Областю підвала"
+
+#: sparklethemes/customizer/customizer.php:422
+msgid "Service Icon One"
+msgstr "Піктограма сервіса 1"
+
+#: sparklethemes/customizer/customizer.php:435
+msgid "Service One Title"
+msgstr "Заголовок сервісу 1"
+
+#: sparklethemes/customizer/customizer.php:448 sparklethemes/customizer/customizer.php:489 sparklethemes/customizer/customizer.php:530
+#: sparklethemes/customizer/customizer.php:571
+msgid "Service Area Description"
+msgstr "Опис сервісу"
+
+#: sparklethemes/customizer/customizer.php:463
+msgid "Service Icon Two"
+msgstr "Піктограма сервіса 2"
+
+#: sparklethemes/customizer/customizer.php:476
+msgid "Service Two Title"
+msgstr "Заголовок сервісу 2"
+
+#: sparklethemes/customizer/customizer.php:504
+msgid "Service Icon Three"
+msgstr "Піктограма сервіса 3"
+
+#: sparklethemes/customizer/customizer.php:517
+msgid "Service Three Title"
+msgstr "Заголовок сервісу 3"
+
+#: sparklethemes/customizer/customizer.php:545
+msgid "Service Icon Four"
+msgstr "Піктограма сервіса 4"
+
+#: sparklethemes/customizer/customizer.php:558
+msgid "Service Four Title"
+msgstr "Заголовок сервісу 4"
+
+#: sparklethemes/customizer/customizer.php:583
+msgid "Mange products and singel product page settings"
+msgstr "Керування товарами та налаштування сторінки окремого продукту"
+
+#: sparklethemes/customizer/customizer.php:585
+msgid "WooCommerce Settings"
+msgstr "Налаштування WooCommerce"
+
+#: sparklethemes/customizer/customizer.php:591
+msgid "Products Pages Settings"
+msgstr "Настройки сторінок товарів"
+
+#: sparklethemes/customizer/customizer.php:603
+msgid "Select Products pages Layout"
+msgstr "Виберіть Макет сторінок товарів"
+
+#: sparklethemes/customizer/customizer.php:621
+msgid "Select Products Pages Row"
+msgstr "Кількість сторінок товарів в рядку"
+
+#: sparklethemes/customizer/customizer.php:638
+msgid "Enter Products Display Per Page"
+msgstr "Відображати продуктів на сторінці"
+
+#: sparklethemes/customizer/customizer.php:648
+msgid "Single Products Page Settings"
+msgstr "Налаштування сторінки окремого продукту"
+
+#: sparklethemes/customizer/customizer.php:660
+msgid "Select Single Products Page Layout"
+msgstr "Оберіть Макет сторінки окремого продукту"
+
+#: sparklethemes/customizer/customizer.php:676
+msgid "Footer Settings"
+msgstr "Параметри підвалу"
+
+#: sparklethemes/customizer/customizer.php:682
+msgid "Social Media Options"
+msgstr "Параметри соціальних медіа"
+
+#: sparklethemes/customizer/customizer.php:694
+msgid "Check to activate social links area"
+msgstr "Увімкнути активацію соціальних зв'язків"
+
+#: sparklethemes/customizer/customizer.php:702
+msgid "Facebook"
+msgstr "Facebook"
+
+#: sparklethemes/customizer/customizer.php:707
+msgid "Twitter"
+msgstr "Twitter"
+
+#: sparklethemes/customizer/customizer.php:712
+msgid "Google-Plus"
+msgstr "Google-Plus"
+
+#: sparklethemes/customizer/customizer.php:717
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: sparklethemes/customizer/customizer.php:722
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: sparklethemes/customizer/customizer.php:727
+msgid "YouTube"
+msgstr "YouTube"
+
+#: sparklethemes/customizer/customizer.php:754
+msgid "Check to show in new tab"
+msgstr "Перевірте, щоб показати в новій вкладці"
+
+#: sparklethemes/customizer/customizer.php:765
+msgid "Payment Logo Images"
+msgstr "Зображення платіжних логотипів"
+
+#: sparklethemes/customizer/customizer.php:777 sparklethemes/customizer/customizer.php:788 sparklethemes/customizer/customizer.php:799
+#: sparklethemes/customizer/customizer.php:810 sparklethemes/customizer/customizer.php:821 sparklethemes/customizer/customizer.php:832
+msgid "Upload Payment Logo Image"
+msgstr "Завантажити зображення платіжних логотипів"
+
+#: sparklethemes/customizer/customizer.php:837
+msgid "Copyright Message Area"
+msgstr "Область Copyright"
+
+#: sparklethemes/customizer/customizer.php:850
+msgid "Copyright"
+msgstr "Copyright"
+
+#: sparklethemes/hooks/woocommerce.php:10
+msgid "My Cart"
+msgstr "Моя корзина"
+
+#: sparklethemes/hooks/woocommerce.php:46
+msgid "Add to Wishlist"
+msgstr "Додати в Обране"
+
+#: sparklethemes/hooks/woocommerce.php:47
+msgid "Add Wishlist"
+msgstr "Додати в Обране"
+
+#: sparklethemes/hooks/woocommerce.php:53
+msgid "View Wishlist"
+msgstr "Подивитися Обране"
+
+#: sparklethemes/hooks/woocommerce.php:57
+msgid "Browse Wishlist"
+msgstr "Переглянути Обране"
+
+#: sparklethemes/hooks/woocommerce.php:78
+msgid "Wishlist"
+msgstr "Обране"
+
+#: sparklethemes/hooks/woocommerce.php:109
+msgid "Compare"
+msgstr "Порівняти"
+
+#: sparklethemes/hooks/woocommerce.php:170
+msgid "Search entire store here..."
+msgstr "Пошук по магазину..."
+
+#: sparklethemes/hooks/woocommerce.php:172
+msgid "Search"
+msgstr "Пошук"
+
+#: sparklethemes/hooks/woocommerce.php:257
+msgid "Sale!"
+msgstr "Акція!"
+
+#: sparklethemes/hooks/header.php:12
+msgid "Skip to content"
+msgstr "Перейти до вмісту"
+
+#: sparklethemes/hooks/header.php:143
+msgid "Recently added item(s)"
+msgstr "Нещодавно додані елементи"
+
+#: sparklethemes/hooks/footer.php:91
+#, php-format
+msgid "%1$s By %2$s"
+msgstr "%1$s до %2$s"
+
+#: sparklethemes/hooks/footer.php:91
+msgid "Sparkle Themes"
+msgstr "Sparkle Themes"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:33 sparklethemes/admin/about-theme/sparklestore-about.php:108
+msgid "About"
+msgstr "Про"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:67
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Дія не вдалася. Будь ласка, оновіть сторінку та повторіть спробу."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:71
+msgid "Cheatin&#8217; huh?"
+msgstr "Обман&#8217; так?"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:85
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:86
+#, php-format
+msgid "Welcome! Thank you for choosing sparklestore! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:88
+msgid "Get started with sparklestore"
+msgstr "Початок роботи з sparklestore"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:123
+msgid "Theme Info"
+msgstr "Інформація по темі"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:125
+msgid "View Demo"
+msgstr "View Demo"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:127 sparklethemes/admin/about-theme/sparklestore-about.php:200
+msgid "View PRO version"
+msgstr "View PRO version"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:129
+msgid "Rate this theme"
+msgstr "Оцініть цю тему"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:138
+msgid "Free Vs Pro"
+msgstr "Бескоштовна Vs Pro"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:142
+msgid "More Themes"
+msgstr "Більше тем"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:146
+msgid "Changelog"
+msgstr "Історія змін"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:180
+msgid "Theme Customizer"
+msgstr "Настроювач теми"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:181
+msgid "All Theme Options are available via Customize screen."
+msgstr "Всі параметри теми доступні через екран налаштування."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:182 sparklethemes/admin/about-theme/sparklestore-about.php:277
+msgid "Customize"
+msgstr "Налаштувати"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:187
+msgid "Please view our documentation page to setup the theme."
+msgstr "Будь ласка, перегляньте нашу сторінку документації, щоб налаштувати тему."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:192
+msgid "Got theme support question?"
+msgstr "У вас є питання до служби підтримки теми?"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:193
+msgid "Please put it in our dedicated support forum."
+msgstr "Будь-ласка, розмістіть це на нашому спеціальному форумі підтримки."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:194
+msgid "Support"
+msgstr "Підтримка"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:198
+msgid "Need more features?"
+msgstr "Вам потрібні додаткові функції?"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:199 sparklethemes/admin/about-theme/sparklestore-about.php:439
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Оновіть версію до PRO для більш цікавих функцій."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:204
+msgid "Have you need customization?"
+msgstr "Вам потрібна настройка?"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:205
+msgid "Please send message with your requirement."
+msgstr "Будь ласка, надішліть повідомлення з вашою вимогою."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:206
+msgid "Customization"
+msgstr "Налаштування"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:212 sparklethemes/admin/about-theme/sparklestore-about.php:220
+msgid "Translate"
+msgstr "Перекласти"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:216
+msgid "Click below to translate this theme into your own language."
+msgstr "Клацніть нижче, щоб перекласти цю тему на вашу рідну мову."
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:232
+msgid "Return to Updates"
+msgstr "Повернутися до оновлень"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:232
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Повернутися до інформаційної панелі & rarr; Оновлення"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:235
+msgid "Go to Dashboard &rarr; Home"
+msgstr "До інформаційної панелі &rarr; на Головну"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:235
+msgid "Go to Dashboard"
+msgstr "До інформаційної панелі"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:275
+msgid "Active"
+msgstr "Активний"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:313
+msgid "Activate"
+msgstr "Активувати"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:322
+msgid "Install Now"
+msgstr "Install Now"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:325
+msgid "Live Preview"
+msgstr "Попередній перегляд"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:387
+msgid "View changelog below:"
+msgstr "Переглянути журнал змін нижче:"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:444
+msgid "Features"
+msgstr "Рекомендації"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:445
+msgid "sparklestore"
+msgstr "sparklestore"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:446
+msgid "sparklestore Pro"
+msgstr "sparklestore Pro"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:451
+msgid "Price"
+msgstr "Ціна"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:452
+msgid "Free"
+msgstr "Безкоштовно"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:453
+msgid "$59"
+msgstr "$59"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:456
+msgid "Import Demo Data"
+msgstr "Імпорт демо-даних"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:461
+msgid "Pre Loaders"
+msgstr "Попередні завантаження"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:466
+msgid "Header Layouts"
+msgstr "Макети Заголовка"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:467 sparklethemes/admin/about-theme/sparklestore-about.php:495
+msgid "1"
+msgstr "1"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:468
+msgid "3"
+msgstr "3"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:472
+msgid "Google Fonts"
+msgstr "Google Шрифти"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:474
+msgid "600+"
+msgstr "600+"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:477
+msgid "Typography Options"
+msgstr "Параметри типографії"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:482
+msgid "No. of Widgets"
+msgstr "Кількість віджетів"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:483
+msgid "7"
+msgstr "7"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:484
+msgid "19"
+msgstr "19"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:488
+msgid "Unlimited Colors"
+msgstr "Необмежена кількість кольорів"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:494
+msgid "Blog Layouts"
+msgstr "Макети блога"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:496
+msgid "4"
+msgstr "4"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:500
+msgid "Team Member"
+msgstr "Член команди"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:506
+msgid "Testimonial"
+msgstr "Відгуки"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:512
+msgid "Revolution Slider"
+msgstr "Революційний слайдер"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:518
+msgid "Footer Copyright"
+msgstr "Copyright в області подвалу"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:524
+msgid "Advance Breadcrumbs"
+msgstr "Розширені Хлібні крошки"
+
+#: sparklethemes/admin/about-theme/sparklestore-about.php:533
+msgid "View Pro"
+msgstr "Переглянути Pro"
+
+#. Name of the theme
+msgid "SparkleStore"
+msgstr "SparkleStore"
+
+#. Description of the theme
+msgid ""
+"Sparkle Store is a clean, beautiful and fully customizable responsive modern e-commerce/WooCommerce WordPress theme. It is esthetically minimalist, fresh-faced "
+"and bright, elegantly styled and well developed, readily responsive e-commerce WordPress store theme. It is a perfect theme for commercial endeavors of all "
+"kinds, from digital download shops to online commercial retail of all kinds. It integrates the industry standard WooCommerce, YITH WooCommerce Wishlist, YITH "
+"WooCommerce Quick View e-commerce plugin, a wonderful solution for all your online commerce needs, which allows your users to browse your product catalogs or "
+"store in easy but stylish grace, add items to their shopping carts intuitively, and proceed to checkout and make payments, all right off your website. Official "
+"Support Forum: http://sparklewpthemes.com/support/ Full Demo: http://demo.sparklewpthemes.com/sparklestore/demos/ and Docs: http://docs.sparklewpthemes.com/"
+"sparklestore/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://sparklewpthemes.com/wordpress-themes/sparklestore"
+msgstr ""
+
+#. Author of the theme
+msgid "sparklewpthemes"
+msgstr "sparklewpthemes"
+
+#. Author URI of the theme
+msgid "http://sparklewpthemes.com/"
+msgstr ""

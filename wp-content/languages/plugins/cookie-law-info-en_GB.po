@@ -1,0 +1,1727 @@
+# Translation of Plugins - CookieYes | GDPR Cookie Consent &amp; Compliance Notice (CCPA Ready) - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - CookieYes | GDPR Cookie Consent &amp; Compliance Notice (CCPA Ready) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-16 08:19:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - CookieYes | GDPR Cookie Consent &amp; Compliance Notice (CCPA Ready) - Stable (latest release)\n"
+
+#: admin/modules/cookie-scaner/views/scan-results.php:54
+msgid "Clicking “Add to cookie list” will import the discovered cookies to the <a href=\"%s\" target=\"_blank\">Cookie List</a> and thus display them in the cookie declaration section of your consent banner."
+msgstr "Clicking “Add to cookie list” will import the discovered cookies to the <a href=\"%s\" target=\"_blank\">Cookie List</a> and then display them in the cookie declaration section of your consent banner."
+
+#: admin/modules/cookie-scaner/views/scan-results.php:44
+msgid "Total cookies"
+msgstr "Total cookies"
+
+#: admin/modules/cookie-scaner/views/scan-results.php:14
+msgid "Cookie scan result for your website"
+msgstr "Cookie scan result for your website"
+
+#: admin/modules/cookie-scaner/views/settings.php:195
+msgid "Cookie scanner"
+msgstr "Cookie scanner"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:522
+msgid "No cookies found"
+msgstr "No cookies found"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:516
+msgid "cookies deleted."
+msgstr "cookies deleted."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:513
+msgid "cookies skipped."
+msgstr "cookies skipped."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:511
+msgid "cookies added."
+msgstr "cookies added."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:418
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:415
+msgid "Unable to handle your request"
+msgstr "Unable to handle your request."
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:400
+msgid "Abort failed"
+msgstr "Abort failed"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:396
+msgid "Abort successfull"
+msgstr "Abort successful"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:210
+msgid "Scanning initiated successfully"
+msgstr "Scanning initiated successfully"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:196
+msgid "Scanner API is temporarily down please try again later."
+msgstr "Scanner API is temporarily down. Please try again later."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1250
+msgid "Scan website for cookies"
+msgstr "Scan website for cookies"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1218
+msgid "Identify what personal data they collect and what are the other purposes they serve."
+msgstr "Identify what personal data they collect and what other purposes they serve."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1217
+msgid "Discover the first-party and third-party cookies that are being used on your website ( Limited upto 100 pages )."
+msgstr "Discover the first-party and third-party cookies being used on your website (Limited to up to 100 pages)."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1215
+msgid "Our cookie scanning solution lets you:"
+msgstr "Our cookie scanning solution lets you:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1213
+msgid "Why scan your website for cookies?"
+msgstr "Why should you scan your website for cookies?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1100
+msgid "Invalid scan token"
+msgstr "Invalid scan token"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1072
+msgid "Failed to insert"
+msgstr "Failed to insert"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:1069
+msgid "Successfully inserted"
+msgstr "Successfully inserted"
+
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:267
+#: admin/modules/cookie-scaner/cookie-scaner.php:1067
+msgid "Token mismatch"
+msgstr "Token mismatch"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:994
+msgid "Your cookie list is empty"
+msgstr "Your cookie list is empty"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:658
+msgid "Unable to load cookie scanner. Scanning will not work on local servers"
+msgstr "Unable to load cookie scanner. Scanning will not work on local servers"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:639
+msgid "Once the scanning is complete, we will notify you by email."
+msgstr "Once the scanning is complete, we will notify you by email."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:637
+msgid "Your website is currently being scanned for cookies. This might take from a few minutes to a few hours, depending on your website speed and the number of pages to be scanned."
+msgstr "Your website is currently being scanned for cookies. This might take from a few minutes to a few hours, depending on your website speed and the number of pages to be scanned."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:629
+msgid "Total estimated time (Approx)"
+msgstr "Total estimated time"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:621
+#: admin/modules/cookie-scaner/views/scan-results.php:41
+msgid "Total URLs"
+msgstr "Total URLs"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:613
+msgid "Scan started at"
+msgstr "Scan started at"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:602
+msgid "Abort scan"
+msgstr "Abort scan"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:599
+msgid "Scan initiated..."
+msgstr "Scan initiated..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:570
+msgid "Scan aborted"
+msgstr "Scan aborted"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:553
+#: admin/modules/cookie-scaner/cookie-scaner.php:571
+msgid "Last scan:"
+msgstr "Last scan:"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:552
+msgid "Scan failed"
+msgstr "Scan failed"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:532
+msgid "Scan complete"
+msgstr "Scan complete"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:531
+msgid "Last scan: %1$s"
+msgstr "Last scan: %1$s"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:512
+msgid "You haven't performed a site scan yet."
+msgstr "You haven't performed a site scan yet."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:450
+msgid "Scan your website with CookieYes, our scanning solution for high-speed, accurate cookie scanning"
+msgstr "Scan your website with CookieYes, our scanning solution for high-speed and accurate cookie scanning"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:397
+msgid "Unknown"
+msgstr "Unknown"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:348
+msgid "Could not abort the scan, please try again"
+msgstr "Could not abort the scan. Please try again"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:347
+msgid "Aborting the scan..."
+msgstr "Aborting the scan..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:346
+msgid "Could not fetch the URLs, please try again"
+msgstr "Could not fetch the URLs. Please try again"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:345
+msgid "Total Cookies found"
+msgstr "Total cookies found"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:344
+msgid "Total URLs scanned"
+msgstr "Total URLs scanned"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:343
+msgid "Sending..."
+msgstr "Sending..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:342
+msgid "Checking API"
+msgstr "Checking API"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:341
+msgid "Thank you"
+msgstr "Thank you"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:339
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:338
+msgid "Scanning stopped."
+msgstr "Scanning has stopped."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:337
+msgid "Stopping..."
+msgstr "Stopping..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:336
+msgid "Error !!! Please reload the page to see cookie list."
+msgstr "Error!!! Please reload the page to see the cookie list."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:335
+msgid "Refreshing...."
+msgstr "Refreshing..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:334
+msgid "Importing...."
+msgstr "Importing..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:333
+msgid "Start import"
+msgstr "Start import"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:331
+msgid "Not recommended"
+msgstr "Not recommended"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:330
+msgid "Append"
+msgstr "Append"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:329
+msgid "Recommended"
+msgstr "Recommended"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:328
+msgid "Merge"
+msgstr "Merge"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:327
+msgid "Replace old"
+msgstr "Replace old"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:326
+msgid "Import options"
+msgstr "Import options"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:325
+msgid "View scan result"
+msgstr "View scan result"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:324
+#: admin/modules/cookie-scaner/views/scan-results.php:67
+msgid "Add to cookie list"
+msgstr "Add to the cookie list"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:323
+msgid "Download cookies as CSV"
+msgstr "Download cookies as CSV"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:322
+#: admin/modules/cookie-scaner/cookie-scaner.php:1259
+msgid "Scan again"
+msgstr "Scan again"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:321
+msgid "Stop"
+msgstr "Stop"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:319
+msgid "Scanning pages..."
+msgstr "Scanning pages..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:318
+msgid "Finding pages..."
+msgstr "Finding pages..."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:317
+msgid "Added to cookie list."
+msgstr "Added to the cookie list."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:316
+msgid "Scanning completed."
+msgstr "Scanning completed."
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:315
+msgid "Scanned"
+msgstr "Scanned"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:257
+#: admin/modules/cookie-scaner/cookie-scaner.php:258
+msgid "Cookie Scanner"
+msgstr "Cookie Scanner"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:63
+msgid "Failed"
+msgstr "Failed"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:62
+msgid "Stopped"
+msgstr "Stopped"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:61
+msgid "Completed"
+msgstr "Completed"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:60
+msgid "Incomplete"
+msgstr "Incomplete"
+
+#: admin/modules/cookies/cookies.php:855
+msgid "Migrate cookie categories"
+msgstr "Migrate cookie categories"
+
+#: admin/modules/cookies/cookies.php:847
+msgid "What happens after migration?"
+msgstr " What happens after migration?"
+
+#: admin/modules/cookies/cookies.php:733
+msgid "Turing off the category will remove it from the settings popup. Any scripts added under the category will not be rendered on the browser."
+msgstr "Turning off the category will remove it from the 'settings' popup. Any scripts added under the category will not be rendered on the browser."
+
+#: admin/modules/cookies/cookies.php:730
+msgid "Active"
+msgstr "Active"
+
+#: admin/modules/cookies/cookies.php:716
+msgid "Status"
+msgstr "Status"
+
+#: admin/modules/cookies/cookies.php:671 admin/modules/cookies/cookies.php:695
+msgid "Body scripts"
+msgstr "Body scripts"
+
+#: admin/modules/cookies/cookies.php:664 admin/modules/cookies/cookies.php:687
+msgid "Head scripts"
+msgstr "Head scripts"
+
+#: admin/modules/cookies/cookies.php:608 admin/modules/cookies/cookies.php:633
+msgid "Category default state"
+msgstr "Category default state"
+
+#: admin/modules/cookies/cookies.php:328
+msgid "Edit cookie category"
+msgstr "Edit cookie category"
+
+#: admin/modules/cookies/cookies.php:327
+msgid "Add cookie category"
+msgstr "Add cookie category"
+
+#: admin/modules/cookies/cookies.php:326
+msgid "Cookie Category"
+msgstr "Cookie Category"
+
+#: admin/modules/cookies/cookies.php:261
+msgid "ID"
+msgstr "ID"
+
+#: admin/modules/cookies/cookies.php:260
+msgid "Sensitivity"
+msgstr "Sensitivity"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:975
+#: admin/modules/cookies/cookies.php:256
+msgid "Cookie Name"
+msgstr "Cookie Name"
+
+#: admin/modules/cookies/cookies.php:221
+msgid "Cookie Duration:"
+msgstr "Cookie Duration:"
+
+#: admin/modules/cookies/cookies.php:61
+msgid "Term meta cannot be added to terms that are shared between taxonomies."
+msgstr "Term meta cannot be added to terms that are shared between taxonomies."
+
+#: admin/partials/cookie-law-info-admin_settings.php:62
+msgid "Plugin Developed By <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+msgstr "Plugin Developed By <a href=\"%s\" target=\"_blank\">WebToffee</a>"
+
+#: admin/partials/cookie-law-info-admin_settings.php:60
+msgid "Cookie Compliance Made Easy"
+msgstr "Cookie Compliance Made Easy"
+
+#: includes/class-cookie-law-info-cookieyes.php:1073
+msgid "Login"
+msgstr "Log in"
+
+#: includes/class-cookie-law-info-cookieyes.php:1070
+msgid "Reset password"
+msgstr "Reset password"
+
+#: includes/class-cookie-law-info-cookieyes.php:1067
+msgid "If you did not get the email, click “Reset password” to create a new password."
+msgstr "If you did not receive the email, click “Reset password” to create a new password."
+
+#: includes/class-cookie-law-info-cookieyes.php:1066
+msgid "Please check if you have received an email with your password from CookieYes."
+msgstr "Please check if you have received an email with your password from CookieYes."
+
+#: includes/class-cookie-law-info-cookieyes.php:1064
+msgid "Password"
+msgstr "Password"
+
+#: includes/class-cookie-law-info-cookieyes.php:1017
+msgid "Pending email verification!"
+msgstr "Pending email verification!"
+
+#: includes/class-cookie-law-info-cookieyes.php:1015
+msgid "Verification link sent"
+msgstr "Verification link sent"
+
+#: includes/class-cookie-law-info-cookieyes.php:1004
+msgid "If you didn't receive the email, click <a id='wt-cli-ckyes-email-resend-link' role='button'>here</a> to resend the verification email."
+msgstr "If you didn't receive the verification email, click <a id='wt-cli-ckyes-email-resend-link' role='button'>here</a> to resend."
+
+#. translators: %s: user email.
+#: includes/class-cookie-law-info-cookieyes.php:999
+msgid "We've sent an account verification link to the email address %s. Please click on the link given in email to verify your account with CookieYes."
+msgstr "We've sent an account verification link to the email address %s. Please click on the link in the email to verify your account with CookieYes."
+
+#: includes/class-cookie-law-info-cookieyes.php:899
+msgid "Delete this website"
+msgstr "Delete this website"
+
+#: includes/class-cookie-law-info-cookieyes.php:898
+msgid "This action will clear all your website data from CookieYes. If you have multiple websites added to your CookieYes account, then only the data associated with this website get deleted. Otherwise, your entire account will be deleted."
+msgstr "This action will clear all your website data from CookieYes. If you have multiple websites added to your CookieYes account, then only the data associated with this website will be deleted. Otherwise, your entire account will be deleted."
+
+#: includes/class-cookie-law-info-cookieyes.php:896
+msgid "Do you really want to delete your website from CookieYes"
+msgstr "Do you really want to delete your website from CookieYes?"
+
+#: includes/class-cookie-law-info-cookieyes.php:890
+msgid "Delete site data from CookieYes\t"
+msgstr "Delete site data from CookieYes\t"
+
+#: includes/class-cookie-law-info-cookieyes.php:783
+msgid "Could not identify the action"
+msgstr "Could not identify the action"
+
+#: includes/class-cookie-law-info-cookieyes.php:391
+msgid "Invalid token format"
+msgstr "Invalid token format"
+
+#: includes/class-cookie-law-info-cookieyes.php:388
+msgid "Invalid json token"
+msgstr "Invalid json token"
+
+#: includes/class-cookie-law-info-cookieyes.php:337
+msgid "Email has already verified"
+msgstr "The email has been already verified"
+
+#: includes/class-cookie-law-info-cookieyes.php:334
+msgid "A email verfication link has been sent to your email address. Click the link in the email to verify your account"
+msgstr "An email verification link has been sent to your email address. Click the link in the email to verify your account"
+
+#: includes/class-cookie-law-info-cookieyes.php:331
+msgid "A password reset message has been sent to your email address. Click the link in the email to reset your password"
+msgstr "A password reset message has been sent to your email address. Click the link in the email to reset your password"
+
+#: includes/class-cookie-law-info-cookieyes.php:328
+msgid "Successfully connected with CookieYes"
+msgstr "Successfully connected with CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:319
+msgid "Disconnected with cookieyes, please connect and scan again"
+msgstr "Disconnected with CookieYes, please connect and scan again"
+
+#: includes/class-cookie-law-info-cookieyes.php:316
+msgid "License is not activated, please activate your license and try again"
+msgstr "Licence is not activated, please activate your licence and try again"
+
+#: includes/class-cookie-law-info-cookieyes.php:313
+msgid "You already have an account with CookieYes."
+msgstr "You already have an account with CookieYes."
+
+#: includes/class-cookie-law-info-cookieyes.php:310
+msgid "Invalid credentials"
+msgstr "Invalid credentials"
+
+#: includes/class-cookie-law-info-cookieyes.php:289
+msgid "Connect"
+msgstr "Connect"
+
+#: includes/class-cookie-law-info-cookieyes.php:284
+msgid "Enter your email to create an account with CookieYes. By clicking “Connect”, your CookieYes account will be created automatically and you can start scanning your website for cookies right away!"
+msgstr "Enter your email to create an account with CookieYes. By clicking “Connect”, your CookieYes account will be created automatically and you can start scanning your website for cookies right away!"
+
+#: includes/class-cookie-law-info-cookieyes.php:282
+msgid "Welcome to CookieYes"
+msgstr "Welcome to CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:274
+msgid "Send password reset email"
+msgstr "Send password reset email"
+
+#: includes/class-cookie-law-info-cookieyes.php:272
+#: includes/class-cookie-law-info-cookieyes.php:286
+#: includes/class-cookie-law-info-cookieyes.php:1063
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-cookie-law-info-cookieyes.php:268
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#: includes/class-cookie-law-info-cookieyes.php:205
+msgid "Delete failed, please try again later"
+msgstr "Delete failed. Please try again later"
+
+#: includes/class-cookie-law-info-cookieyes.php:204
+msgid "Successfully deleted!"
+msgstr "Successfully deleted!"
+
+#: includes/class-cookie-law-info-cookieyes.php:181
+msgid "Disconnected from CookieYes"
+msgstr "Disconnected from CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:173
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: includes/class-cookie-law-info-cookieyes.php:171
+msgid "Connected to CookieYes"
+msgstr "Connected to CookieYes"
+
+#: includes/class-cookie-law-info-cookieyes.php:155
+#: includes/class-cookie-law-info-cookieyes.php:203
+msgid "Invalid request"
+msgstr "Invalid request"
+
+#: public/views/cookie-law-info_bar.php:40
+msgid "Powered by"
+msgstr "Powered by"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:977
+#: admin/modules/cookies/cookies.php:258
+#: public/modules/script-blocker/views/settings.php:147
+msgid "Category"
+msgstr "Category"
+
+#: public/modules/script-blocker/script-blocker.php:661
+msgid "Invalid script id"
+msgstr "Invalid script ID"
+
+#: admin/views/admin-settings-messagebar.php:195
+msgid "From Right Margin"
+msgstr "From Right Margin"
+
+#: admin/views/admin-settings-messagebar.php:153
+msgid "Enable revisit consent widget"
+msgstr "Enable revisit consent widget"
+
+#: admin/views/admin-settings-messagebar.php:10
+msgid "Revisit consent"
+msgstr "Revisit consent"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:150
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:149
+msgid "We do not collect any personal data when you submit this form. It's your feedback that we value."
+msgstr "We do not collect any personal data when you submit this form. It's your feedback that we value."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:91
+msgid "Upgrade to pro"
+msgstr "Upgrade to Pro"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:79
+msgid "Name the language and the translator plugin that you are using"
+msgstr "Name the language and the translator plugin you are using"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:67
+msgid "Translation issues"
+msgstr "Translation issues"
+
+#: admin/modules/cookies/views/necessary-settings.php:33
+#: admin/modules/cookies/views/non-necessary-settings.php:48
+#: admin/partials/cookie-law-info-privacy_overview.php:32
+#: admin/views/admin_necessary_cookie.php:33
+#: admin/views/admin_non_necessary_cookie.php:48
+msgid "Title"
+msgstr "Title"
+
+#: admin/partials/cookie-law-info-admin_settings.php:48
+msgid "Cookie bar is currently inactive"
+msgstr "The cookie bar is currently inactive"
+
+#: admin/partials/cookie-law-info-admin_settings.php:40
+msgid "Cookie bar is currently active"
+msgstr "The cookie bar is currently active"
+
+#: public/modules/script-blocker/views/settings.php:181
+msgid "Inactive"
+msgstr "Inactive"
+
+#: public/modules/script-blocker/views/settings.php:144
+msgid "Name"
+msgstr "Name"
+
+#: public/modules/script-blocker/views/settings.php:117
+msgid "Manage Script Blocking"
+msgstr "Manage Script Blocking"
+
+#: public/modules/script-blocker/views/settings.php:14
+msgid "Advanced script rendering is currently disabled. It should be enabled for the automatic script blocker to function. <a href=\"%s\">Enable.</a>"
+msgstr "Advanced script rendering is currently disabled. It should be enabled for the automatic script blocker to function. <a href=\"%s\">Enable.</a>"
+
+#: public/modules/script-blocker/views/settings.php:10
+msgid "<a href=\"javascript: submitform()\">%s</a>"
+msgstr "<a href=\"javascript: submitform()\">%s</a>"
+
+#: public/modules/script-blocker/views/settings.php:9
+msgid "Script blocker is currently disabled. Enable the blocker if you want any of the below listed plugins to be auto blocked."
+msgstr "Script blocker is currently disabled. Enable the blocker if you want any of the below-listed plugins to be auto-blocked."
+
+#: public/modules/script-blocker/views/settings.php:9
+msgid "Script blocker is enabled."
+msgstr "Script blocker is enabled."
+
+#: public/modules/script-blocker/script-blocker.php:255
+#: public/modules/script-blocker/views/settings.php:7
+msgid "Disable"
+msgstr "Disable"
+
+#: public/modules/script-blocker/script-blocker.php:254
+#: public/modules/script-blocker/views/settings.php:7
+msgid "Enable"
+msgstr "Enable"
+
+#: public/modules/script-blocker/script-blocker.php:252
+msgid "Advanced script rendering"
+msgstr "Advanced script rendering"
+
+#: public/modules/script-blocker/script-blocker.php:225
+msgid "Status updated"
+msgstr "Status updated"
+
+#: public/modules/script-blocker/script-blocker.php:199
+#: public/modules/script-blocker/script-blocker.php:200
+msgid "Script Blocker"
+msgstr "Script Blocker"
+
+#: includes/class-cookie-law-info-review_request.php:57
+msgid "Review now"
+msgstr "Review now"
+
+#: includes/class-cookie-law-info-review_request.php:56
+msgid "Not interested"
+msgstr "Not interested"
+
+#: includes/class-cookie-law-info-review_request.php:55
+msgid "Remind me later"
+msgstr "Remind me later"
+
+#: includes/class-cookie-law-info-review_request.php:52
+msgid "Hey, we at %sWebToffee%s would like to thank you for using our plugin. We would really appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr "Hey, we at %sWebToffee%s would like to thank you for using our plugin. We would really appreciate it if you could take a moment to drop a quick review that will inspire us to keep going."
+
+#: cookie-law-info.php:86
+msgid "Please make sure the cache is cleared after each plugin update especially if you have minified JS and/or CSS files."
+msgstr "Please make sure the cache is cleared after each plugin update, especially if you have minified JS and/or CSS files."
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:157
+msgid "Go to support"
+msgstr "Go to support"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:160
+msgid "I rather wouldn't say"
+msgstr "I'd rather not say"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:119
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "If you have a moment, please let us know why you are deactivating:"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:57
+msgid "Could you tell us more about that feature?"
+msgstr "Could you tell us more about that feature?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:55
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "The plugin is great, but I need a specific feature that you don't support"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:87
+msgid "Which plugin?"
+msgstr "Which plugin?"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:85
+msgid "I found a better plugin"
+msgstr "I found a better plugin"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:61
+msgid "A conflict with another plugin or theme"
+msgstr "A conflict with another plugin or theme"
+
+#: admin/views/admin-settings-general.php:17
+msgid "Enable cookie bar"
+msgstr "Enable cookie bar"
+
+#: admin/views/admin-settings-messagebar.php:92
+msgid "Position:"
+msgstr "Position:"
+
+#: admin/views/admin-settings-messagebar.php:62
+msgid "Show cookie bar as"
+msgstr "Show cookie bar as"
+
+#: admin/views/admin-settings-messagebar.php:9
+msgid "Cookie bar"
+msgstr "Cookie bar"
+
+#: admin/views/admin-settings-buttons.php:326
+msgid "The shortcode will be represented as a checkbox with select option to record consent."
+msgstr "The shortcode will be represented as a checkbox with a select option to record consent."
+
+#: admin/views/admin-settings-buttons.php:325
+msgid "The shortcode will be represented as a link whereever used."
+msgstr "The shortcode will be represented as a link wherever used."
+
+#: admin/views/admin-settings-buttons.php:324
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin/views/admin-settings-buttons.php:315
+msgid "CCPA Text"
+msgstr "CCPA Text"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:10
+msgid "Enable CCPA ?"
+msgstr "Enable CCPA?"
+
+#: admin/modules/ccpa/views/ccpa_settings.php:7
+msgid "CCPA Settings"
+msgstr "CCPA Settings"
+
+#: admin/modules/ccpa/ccpa.php:156
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/modules/ccpa/ccpa.php:152
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/modules/ccpa/ccpa.php:148
+msgid "Select the type of law"
+msgstr "Select the law"
+
+#: admin/modules/ccpa/ccpa.php:108
+#: admin/modules/cookie-scaner/cookie-scaner.php:332
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:159
+msgid "Cancel"
+msgstr "Cancel"
+
+#: admin/modules/ccpa/ccpa.php:107
+msgid "Confirm"
+msgstr "Confirm"
+
+#: public/modules/shortcode/shortcode.php:521
+msgid "Close and Accept"
+msgstr "Accept and Close"
+
+#: public/modules/shortcode/shortcode.php:521
+msgid "Close the cookie bar"
+msgstr "Close the cookie bar"
+
+#: public/views/cookie-law-info_bar.php:23
+msgid "Close"
+msgstr "Close"
+
+#: admin/modules/cookies/cookies.php:611 admin/modules/cookies/cookies.php:637
+#: admin/modules/cookies/views/non-necessary-settings.php:42
+#: admin/views/admin_non_necessary_cookie.php:42
+msgid "If you enable this option, the category toggle button will be in the active state for cookie consent."
+msgstr "If you enable this option, the category toggle button will be in the active state for cookie consent."
+
+#: admin/modules/cookies/views/non-necessary-settings.php:38
+#: admin/views/admin_non_necessary_cookie.php:38
+msgid "Default state"
+msgstr "Default state"
+
+#: public/views/cookie-law-info_popup_content.php:9
+msgid "Show less"
+msgstr "Show less"
+
+#: public/views/cookie-law-info_popup_content.php:9
+msgid "Show more"
+msgstr "Show more"
+
+#: admin/modules/cookies/cookies.php:610 admin/modules/cookies/cookies.php:636
+#: admin/modules/cookies/views/non-necessary-settings.php:40
+#: admin/views/admin_non_necessary_cookie.php:40
+#: public/views/cookie-law-info_popup_content.php:8
+msgid "Disabled"
+msgstr "Disabled"
+
+#: admin/modules/cookies/cookies.php:609 admin/modules/cookies/cookies.php:635
+#: admin/modules/cookies/views/non-necessary-settings.php:39
+#: admin/views/admin_non_necessary_cookie.php:39
+#: public/modules/script-blocker/views/settings.php:145
+#: public/views/cookie-law-info_popup_content.php:7
+msgid "Enabled"
+msgstr "Enabled"
+
+#: public/views/cookie-law-info_popup_content.php:6
+msgid "Always Enabled"
+msgstr "Always Enabled"
+
+#: admin/modules/cookies/cookies.php:412 admin/modules/cookies/cookies.php:413
+#: public/modules/script-blocker/views/settings.php:180
+msgid "Non-necessary"
+msgstr "Non-necessary"
+
+#: admin/modules/cookies/cookies.php:420 admin/modules/cookies/cookies.php:421
+msgid "Necessary"
+msgstr "Necessary"
+
+#: admin/views/admin-settings-help.php:30
+msgid "This is the cookie settings button rendering shortcode."
+msgstr "This is the cookie settings button rendering shortcode."
+
+#: admin/views/goto-pro.php:98
+msgid "Javascript helper functions"
+msgstr "JavaScript helper functions"
+
+#: admin/views/goto-pro.php:97
+msgid "GDPR compliance with Google Tag Manager"
+msgstr "GDPR compliance with Google Tag Manager"
+
+#: admin/views/admin-settings-buttons.php:13
+#: admin/views/admin-settings-buttons.php:165
+msgid "Settings Button"
+msgstr "Settings Button"
+
+#: admin/modules/cookies/views/necessary-settings.php:26
+#: admin/views/admin_necessary_cookie.php:26
+msgid "Necessary Cookie Settings"
+msgstr "Necessary Cookie Settings"
+
+#: admin/partials/cookie-law-info-privacy_overview.php:60
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: admin/class-cookie-law-info-admin.php:559
+msgid "Verdana"
+msgstr "Verdana"
+
+#: admin/class-cookie-law-info-admin.php:555
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: admin/class-cookie-law-info-admin.php:551
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: admin/class-cookie-law-info-admin.php:547
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: admin/class-cookie-law-info-admin.php:543
+msgid "Lucida"
+msgstr "Lucida"
+
+#: admin/class-cookie-law-info-admin.php:539
+msgid "Helvetica"
+msgstr "Helvetica"
+
+#: admin/class-cookie-law-info-admin.php:535
+msgid "Georgia, serif"
+msgstr "Georgia, serif"
+
+#: admin/class-cookie-law-info-admin.php:531
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: admin/class-cookie-law-info-admin.php:527
+msgid "Arial"
+msgstr "Arial"
+
+#: admin/class-cookie-law-info-admin.php:523
+msgid "Serif"
+msgstr "Serif"
+
+#: admin/class-cookie-law-info-admin.php:519
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#: admin/class-cookie-law-info-admin.php:515
+msgid "Default theme font"
+msgstr "Default theme font"
+
+#: admin/class-cookie-law-info-admin.php:501
+msgid "Small"
+msgstr "Small"
+
+#: admin/class-cookie-law-info-admin.php:497
+msgid "Medium"
+msgstr "Medium"
+
+#: admin/class-cookie-law-info-admin.php:493
+msgid "Large"
+msgstr "Large"
+
+#: admin/class-cookie-law-info-admin.php:489
+msgid "Extra Large"
+msgstr "Extra Large"
+
+#: admin/modules/cookies/cookies.php:190
+msgid "Cookie Sensitivity"
+msgstr "Cookie Sensitivity"
+
+#: admin/modules/cookies/cookies.php:188
+msgid "Cookie Type"
+msgstr "Cookie Type"
+
+#: admin/class-cookie-law-info-admin.php:194
+#: admin/class-cookie-law-info-admin.php:195
+#: admin/partials/cookie-law-info-privacy_overview.php:25
+msgid "Privacy Overview"
+msgstr "Privacy Overview"
+
+#: admin/views/goto-pro.php:96
+msgid "Cookie bar theme customizer for banner/ widgets/ popup"
+msgstr "Cookie bar theme Customiser for banner/widgets/popup"
+
+#: public/modules/shortcode/shortcode.php:107
+msgid "Manage your consent."
+msgstr "Manage your consent."
+
+#: public/modules/shortcode/shortcode.php:105
+msgid "No consent given."
+msgstr "No consent given."
+
+#: public/modules/shortcode/shortcode.php:101
+msgid "Consent rejected."
+msgstr "Consent rejected."
+
+#: public/modules/shortcode/shortcode.php:96
+msgid "Your current state:"
+msgstr "Your current state:"
+
+#: admin/views/admin-settings-help.php:82
+msgid "Will print all columns by default."
+msgstr "Will print all columns by default."
+
+#: admin/views/admin-settings-help.php:82
+msgid "Columns available"
+msgstr "Columns available"
+
+#: admin/views/admin-settings-help.php:80
+msgid "Styles included"
+msgstr "Styles included"
+
+#: admin/views/admin-settings-help.php:36
+msgid "Setup margin for above buttons"
+msgstr "Set up margin for above buttons"
+
+#: admin/views/admin-settings-buttons.php:209
+msgid " to generate content for Cookie Policy page."
+msgstr " to generate content for Cookie Policy page."
+
+#: admin/views/admin-settings-buttons.php:209
+msgid "here"
+msgstr "here"
+
+#: admin/views/admin-settings-buttons.php:209
+msgid "Click"
+msgstr "Click"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:92
+msgid "Live preview"
+msgstr "Live preview"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:88
+msgid "Create Cookie Policy page"
+msgstr "Create Cookie Policy page"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:82
+msgid "Update existing Cookie Policy page"
+msgstr "Update existing Cookie Policy page"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:65
+msgid "Enabling this option will help us spread the word by placing a credit to WebToffee at the very end of the Cookie Policy page."
+msgstr "Enabling this option will help us spread the word by placing a credit to WebToffee at the very end of the Cookie Policy page."
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:53
+msgid "Heading"
+msgstr "Heading"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:49
+msgid "Add new"
+msgstr "Add new"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:27
+msgid "Delete"
+msgstr "Delete"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:26
+msgid "Sample content"
+msgstr "Sample content"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:25
+msgid "Sample heading"
+msgstr "Sample heading"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:133
+#: admin/modules/cookie-scaner/cookie-scaner.php:340
+msgid "Success"
+msgstr "Success"
+
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:106
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:107
+#: admin/modules/cli-policy-generator/views/policy-generator.php:21
+msgid "Policy generator"
+msgstr "Policy generator"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:86
+msgid "Auto reload preview"
+msgstr "Auto reload preview"
+
+#: admin/modules/cli-policy-generator/classes/class-preview-page.php:27
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:96
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:130
+#: admin/modules/cli-policy-generator/cli-policy-generator.php:132
+#: admin/modules/cookie-scaner/cookie-scaner.php:320
+msgid "Error"
+msgstr "Error"
+
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:26
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:29
+msgid "Unable to handle your request."
+msgstr "Unable to handle your request."
+
+#: admin/views/goto-pro.php:95
+msgid "Advanced support for cache plugins"
+msgstr "Advanced support for cache plugins"
+
+#: admin/views/goto-pro.php:93
+msgid "Customized privacy overview"
+msgstr "Customised privacy overview"
+
+#: admin/views/goto-pro.php:91
+msgid "User consent audit logs"
+msgstr "User consent audit logs"
+
+#: admin/views/goto-pro.php:90
+msgid "Granular control over the cookies/scipts used by the website"
+msgstr "Granular control over the cookies/scripts used by the website"
+
+#: admin/views/goto-pro.php:88
+msgid "Auto block scripts - Google Analytics, Facebook Pixel, Google Tag Manager, Hotjar Analytics, Google Publisher Tag, Youtube embed, Vimeo embed, Google maps, Addthis widget, Sharethis widget, Twitter widget, Soundcloud embed, Slideshare embed, Linkedin widget, Instagram embed, Pinterest widget"
+msgstr "Auto block scripts - Google Analytics, Facebook Pixel, Google Tag Manager, Hotjar Analytics, Google Publisher Tag, YouTube embed, Vimeo embed, Google Maps, Addthis widget, Sharethis widget, Twitter widget, Soundcloud embed, Slideshare embed, LinkedIn widget, Instagram embed, Pinterest widget"
+
+#: admin/views/goto-pro.php:87
+msgid "Automatic Cookie Scanner"
+msgstr "Automatic Cookie Scanner"
+
+#: admin/views/goto-pro.php:79
+msgid "Upgrade to Premium"
+msgstr "Upgrade to Premium"
+
+#: admin/views/goto-pro.php:74
+msgid "Fast and Superior Support"
+msgstr "Fast and Superior Support"
+
+#: admin/views/goto-pro.php:68
+msgid "30 Day Money Back Guarantee"
+msgstr "30 Day Money Back Guarantee"
+
+#: admin/class-cookie-law-info-admin.php:272
+msgid "Premium Upgrade"
+msgstr "Premium Upgrade"
+
+#: admin/views/goto-pro.php:94
+msgid "Cookie bar preview in admin settings page"
+msgstr "Cookie bar preview in admin settings page"
+
+#: admin/views/admin-settings-messagebar.php:188
+msgid "Top Left"
+msgstr "Top Left"
+
+#: admin/views/admin-settings-messagebar.php:185
+msgid "Top Right"
+msgstr "Top Right"
+
+#: admin/views/admin-settings-messagebar.php:182
+msgid "Bottom Left"
+msgstr "Bottom Left"
+
+#: admin/views/admin-settings-messagebar.php:179
+msgid "Bottom Right"
+msgstr "Bottom Right"
+
+#: admin/views/admin-settings-messagebar.php:73
+msgid "Position"
+msgstr "Position"
+
+#: admin/views/admin-settings-messagebar.php:69
+msgid "Widget"
+msgstr "Widget"
+
+#: admin/views/admin-settings-messagebar.php:68
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/views/admin-settings-messagebar.php:67
+msgid "Banner"
+msgstr "Banner"
+
+#: admin/views/admin-settings-help.php:94
+msgid "Add content after accepting the cookie notice."
+msgstr "Add content after accepting the cookie notice."
+
+#: admin/views/admin-settings-buttons.php:286
+msgid "The currently selected page does not exist. Please select a new page."
+msgstr "The currently selected page does not exist. Please select a new page."
+
+#: admin/views/admin-settings-buttons.php:266
+msgid "Select One"
+msgstr "Select One"
+
+#: admin/views/admin-settings-buttons.php:252
+#: admin/views/admin-settings-buttons.php:263
+msgid "Page"
+msgstr "Page"
+
+#: admin/views/admin-settings-buttons.php:248
+msgid "URL or Page?"
+msgstr "URL or Page?"
+
+#: public/modules/shortcode/shortcode.php:142
+msgid "Delete Cookies"
+msgstr "Delete Cookies"
+
+#: admin/modules/cookies/cookies.php:125
+msgid "Add New"
+msgstr "Add New"
+
+#: admin/views/goto-pro.php:89
+msgid "Location based exclusion of cookie notice for EU countries"
+msgstr "Location based exclusion of cookie notice for EU countries"
+
+#: admin/modules/cookies/views/necessary-settings.php:52
+#: admin/modules/cookies/views/non-necessary-settings.php:87
+#: admin/views/admin-settings-save-button.php:12
+#: admin/views/admin_necessary_cookie.php:52
+#: admin/views/admin_non_necessary_cookie.php:87
+msgid "Update Settings"
+msgstr "Update Settings"
+
+#: admin/views/admin-settings-messagebar.php:17
+msgid "Message Heading"
+msgstr "Message Heading"
+
+#: admin/views/admin-settings-help.php:118
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: admin/views/admin-settings-help.php:116
+msgid "We would love to help you on any queries or issues."
+msgstr "We would love to help you on any queries or issues."
+
+#: admin/views/admin-settings-help.php:108
+msgid "Refer to our documentation to set and get started"
+msgstr "Refer to our documentation to set and get started"
+
+#: admin/views/admin-settings-help.php:107
+#: admin/views/admin-settings-help.php:110 admin/views/goto-pro.php:101
+msgid "Documentation"
+msgstr "Documentation"
+
+#: admin/views/admin-settings-help.php:33
+msgid "This is the \"read more\" link you customise above."
+msgstr "This is the \"read more\" link you customise above."
+
+#: admin/views/admin-settings-help.php:26
+msgid "This is the cookie reject button shortcode."
+msgstr "This is the cookie reject button shortcode."
+
+#: admin/views/admin-settings-help.php:22
+msgid "This is the \"main button\" you customise above."
+msgstr "This is the \"main button\" you customise above."
+
+#: admin/views/admin-settings-help.php:10
+#: admin/views/admin-settings-help.php:103
+msgid "Help Links"
+msgstr "Help Links"
+
+#: admin/views/admin-settings-help.php:9
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/views/admin-settings-general.php:87
+msgid "Reload after Reject button click"
+msgstr "Reload after Reject button click"
+
+#: admin/views/admin-settings-general.php:57
+msgid "This option will not work along with `Popup overlay`."
+msgstr "This option will not work along with `Popup overlay`."
+
+#: admin/views/admin-settings-general.php:56
+msgid "As per latest GDPR policies it is required to take an explicit consent for the cookies. Use this option with discretion especially if you serve EU"
+msgstr "As per latest GDPR policies it is required to take an explicit consent for the cookies. Use this option with discretion especially if you serve EU"
+
+#: admin/views/admin-settings-general.php:46
+msgid "seconds"
+msgstr "seconds"
+
+#: admin/views/admin-settings-general.php:36
+msgid "Auto-hide(Accept) cookie bar after delay?"
+msgstr "Auto-hide (Accept) cookie bar after delay?"
+
+#: admin/views/admin-settings-messagebar.php:88
+msgid "`Accept on scroll` will not work along with this option."
+msgstr "`Accept on scroll` will not work along with this option."
+
+#: admin/views/admin-settings-messagebar.php:87
+msgid "When the popup is active, an overlay will block the user from browsing the site."
+msgstr "When the popup is active, an overlay will block the user from browsing the site."
+
+#: admin/views/admin-settings-messagebar.php:83
+msgid "Add overlay?"
+msgstr "Add overlay?"
+
+#: admin/views/admin-settings-general.php:20
+msgid "Off"
+msgstr "Off"
+
+#: admin/views/admin-settings-general.php:19
+msgid "On"
+msgstr "On"
+
+#: admin/modules/uninstall-feedback/uninstall-feedback.php:99
+#: admin/views/admin-settings-general.php:10
+#: admin/views/admin-settings-general.php:66
+msgid "Other"
+msgstr "Other"
+
+#: admin/views/admin-settings-buttons.php:399
+msgid "Size"
+msgstr "Size"
+
+#: admin/modules/cookies/views/non-necessary-settings.php:33
+#: admin/views/admin-settings-buttons.php:76
+#: admin/views/admin-settings-buttons.php:151
+#: admin/views/admin-settings-buttons.php:297
+#: admin/views/admin-settings-buttons.php:304
+#: admin/views/admin-settings-buttons.php:395
+#: admin/views/admin-settings-general.php:39
+#: admin/views/admin-settings-general.php:55
+#: admin/views/admin-settings-general.php:75
+#: admin/views/admin-settings-general.php:83
+#: admin/views/admin-settings-general.php:90
+#: admin/views/admin-settings-messagebar.php:86
+#: admin/views/admin_non_necessary_cookie.php:33
+#: public/modules/script-blocker/views/settings.php:143
+msgid "No"
+msgstr "No"
+
+#: admin/modules/cookies/views/non-necessary-settings.php:32
+#: admin/views/admin-settings-buttons.php:74
+#: admin/views/admin-settings-buttons.php:150
+#: admin/views/admin-settings-buttons.php:296
+#: admin/views/admin-settings-buttons.php:303
+#: admin/views/admin-settings-buttons.php:393
+#: admin/views/admin-settings-general.php:38
+#: admin/views/admin-settings-general.php:54
+#: admin/views/admin-settings-general.php:74
+#: admin/views/admin-settings-general.php:82
+#: admin/views/admin-settings-general.php:89
+#: admin/views/admin-settings-messagebar.php:85
+#: admin/views/admin_non_necessary_cookie.php:32
+msgid "Yes"
+msgstr "Yes"
+
+#: admin/views/admin-settings-buttons.php:386
+msgid "Button will only link to URL if Action = Open URL"
+msgstr "Button will only link to URL if Action = Open URL"
+
+#: admin/views/admin-settings-buttons.php:64
+#: admin/views/admin-settings-buttons.php:140
+#: admin/views/admin-settings-buttons.php:250
+#: admin/views/admin-settings-buttons.php:257
+#: admin/views/admin-settings-buttons.php:383
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/admin-settings-buttons.php:47
+#: admin/views/admin-settings-buttons.php:120
+#: admin/views/admin-settings-buttons.php:191
+#: admin/views/admin-settings-buttons.php:239
+#: admin/views/admin-settings-buttons.php:367
+msgid "Background colour"
+msgstr "Background colour"
+
+#: admin/views/admin-settings-buttons.php:43
+#: admin/views/admin-settings-buttons.php:116
+#: admin/views/admin-settings-buttons.php:187
+#: admin/views/admin-settings-buttons.php:235
+#: admin/views/admin-settings-buttons.php:323
+#: admin/views/admin-settings-buttons.php:363
+msgid "Link"
+msgstr "Link"
+
+#: admin/views/admin-settings-buttons.php:41
+#: admin/views/admin-settings-buttons.php:114
+#: admin/views/admin-settings-buttons.php:185
+#: admin/views/admin-settings-buttons.php:233
+#: admin/views/admin-settings-buttons.php:361
+msgid "Button"
+msgstr "Button"
+
+#: admin/views/admin-settings-buttons.php:39
+#: admin/views/admin-settings-buttons.php:112
+#: admin/views/admin-settings-buttons.php:183
+#: admin/views/admin-settings-buttons.php:231
+#: admin/views/admin-settings-buttons.php:321
+#: admin/views/admin-settings-buttons.php:359
+msgid "Show as"
+msgstr "Show as"
+
+#: admin/views/admin-settings-buttons.php:31
+#: admin/views/admin-settings-buttons.php:104
+#: admin/views/admin-settings-buttons.php:175
+#: admin/views/admin-settings-buttons.php:223
+#: admin/views/admin-settings-buttons.php:331
+#: admin/views/admin-settings-buttons.php:351
+msgid "Text colour"
+msgstr "Text colour"
+
+#: admin/views/admin-settings-buttons.php:25
+#: admin/views/admin-settings-buttons.php:98
+#: admin/views/admin-settings-buttons.php:169
+#: admin/views/admin-settings-buttons.php:217
+#: admin/views/admin-settings-buttons.php:345
+msgid "Text"
+msgstr "Text"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Are you sure you want to delete all your settings?"
+msgstr "Are you sure you want to delete all your settings?"
+
+#: admin/views/admin-settings-advanced.php:15
+msgid "Delete settings and reset"
+msgstr "Delete settings and reset"
+
+#: admin/partials/cookie-law-info-admin_settings.php:85
+msgid "Help Guide"
+msgstr "Help Guide"
+
+#: admin/partials/cookie-law-info-admin_settings.php:82
+msgid "Customise Cookie Bar"
+msgstr "Customise Cookie Bar"
+
+#: admin/partials/cookie-law-info-admin_settings.php:81
+#: admin/views/admin-settings-general.php:9
+msgid "General"
+msgstr "General"
+
+#: admin/partials/cookie-law-info-admin_settings.php:28
+msgid "Unable to reset settings."
+msgstr "Unable to reset settings."
+
+#: admin/partials/cookie-law-info-admin_settings.php:27
+msgid "Settings reset to defaults."
+msgstr "Settings reset to defaults."
+
+#: admin/modules/cookies/views/necessary-settings.php:21
+#: admin/modules/cookies/views/non-necessary-settings.php:18
+#: admin/partials/cookie-law-info-admin_settings.php:26
+#: admin/views/admin_necessary_cookie.php:21
+#: admin/views/admin_non_necessary_cookie.php:18
+msgid "Unable to update Settings."
+msgstr "Unable to update Settings."
+
+#: admin/modules/cookies/views/necessary-settings.php:20
+#: admin/modules/cookies/views/non-necessary-settings.php:17
+#: admin/partials/cookie-law-info-admin_settings.php:25
+#: admin/views/admin_necessary_cookie.php:20
+#: admin/views/admin_non_necessary_cookie.php:17
+msgid "Settings updated."
+msgstr "Settings updated."
+
+#: admin/class-cookie-law-info-admin.php:271
+msgid "Support"
+msgstr "Support"
+
+#. Author of the plugin
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#: admin/views/admin-settings-general.php:52
+msgid "Auto-hide cookie bar if the user scrolls ( Accept on Scroll )?"
+msgstr "Auto-hide cookie bar if the user scrolls (Accept on Scroll)?"
+
+#: admin/views/admin-settings-general.php:80
+msgid "Reload after Accept button click"
+msgstr "Reload after Accept button click"
+
+#. Plugin URI of the plugin
+msgid "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+msgstr "https://www.webtoffee.com/product/gdpr-cookie-consent/"
+
+#. Description of the plugin
+msgid "A simple way to show your website complies with the EU Cookie Law / GDPR."
+msgstr "A simple way to show your website complies with the EU Cookie Law / GDPR."
+
+#. Plugin Name of the plugin
+#: admin/modules/cookies/cookies.php:122
+msgid "GDPR Cookie Consent"
+msgstr "GDPR Cookie Consent"
+
+#: admin/modules/cli-policy-generator/views/policy-generator.php:57
+#: admin/modules/cookie-scaner/cookie-scaner.php:978
+#: admin/modules/cookies/cookies.php:262
+#: admin/modules/cookies/views/necessary-settings.php:39
+#: admin/modules/cookies/views/non-necessary-settings.php:54
+#: admin/views/admin_necessary_cookie.php:39
+#: admin/views/admin_non_necessary_cookie.php:54
+#: public/modules/script-blocker/views/settings.php:149
+#: public/modules/shortcode/shortcode.php:246
+msgid "Description"
+msgstr "Description"
+
+#: admin/modules/cookie-scaner/cookie-scaner.php:976
+#: admin/modules/cookies/cookies.php:259
+#: public/modules/shortcode/shortcode.php:243
+msgid "Duration"
+msgstr "Duration"
+
+#: admin/modules/cookies/cookies.php:257
+#: public/modules/shortcode/shortcode.php:240
+msgid "Type"
+msgstr "Type"
+
+#: admin/modules/cookies/cookies.php:124
+#: public/modules/shortcode/shortcode.php:237
+msgid "Cookie"
+msgstr "Cookie"
+
+#: admin/modules/cookies/cookies.php:187 admin/modules/cookies/cookies.php:198
+msgid "Cookie ID"
+msgstr "Cookie ID"
+
+#: admin/modules/cookies/cookies.php:232
+msgid "Cookie Sensitivity: ( necessary , non-necessary )"
+msgstr "Cookie Sensitivity: (necessary , non-necessary)"
+
+#: admin/modules/cookies/cookies.php:189
+msgid "Cookie Duration"
+msgstr "Cookie Duration"
+
+#: admin/modules/cookies/cookies.php:209
+msgid "Cookie Type: (persistent, session, third party )"
+msgstr "Cookie Type: (persistent, session, third party)"
+
+#: admin/modules/cookies/cookies.php:132
+msgid "Nothing found in Trash"
+msgstr "Nothing found in Bin"
+
+#: admin/modules/cookies/cookies.php:131
+msgid "Nothing found"
+msgstr "Nothing found"
+
+#: admin/modules/cookies/cookies.php:130
+msgid "Search Cookies"
+msgstr "Search Cookies"
+
+#: admin/modules/cookies/cookies.php:129
+msgid "View Cookie Type"
+msgstr "View Cookie Type"
+
+#: admin/modules/cookies/cookies.php:128
+msgid "New Cookie Type"
+msgstr "New Cookie Type"
+
+#: admin/modules/cookies/cookies.php:127
+msgid "Edit Cookie Type"
+msgstr "Edit Cookie Type"
+
+#: admin/modules/cookies/cookies.php:126
+msgid "Add New Cookie Type"
+msgstr "Add New Cookie Type"
+
+#: admin/modules/cookies/cookies.php:123
+msgid "Cookie List"
+msgstr "Cookie List"
+
+#: admin/modules/cookies/views/non-necessary-settings.php:77
+#: admin/views/admin_non_necessary_cookie.php:77
+msgid "Print scripts before the closing body tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "Print scripts before the closing body tag on the front end if above cookie settings is enabled and user has given consent."
+
+#: admin/modules/cookies/views/non-necessary-settings.php:74
+#: admin/views/admin_non_necessary_cookie.php:74
+msgid "This script will be added right after the BODY section if the above settings is enabled and user has given consent."
+msgstr "This script will be added right after the BODY section if the above settings is enabled and user has given consent."
+
+#: admin/modules/cookies/views/non-necessary-settings.php:67
+#: admin/views/admin_non_necessary_cookie.php:67
+msgid "Print scripts in the head tag on the front end if above cookie settings is enabled and user has given consent."
+msgstr "Print scripts in the head tag on the front end if above cookie settings is enabled and user has given consent."
+
+#: admin/modules/cookies/views/non-necessary-settings.php:62
+#: admin/views/admin_non_necessary_cookie.php:62
+msgid "This script will be added to the page HEAD section if the above settings is enabled and user has give consent."
+msgstr "This script will be added to the page HEAD section if the above settings is enabled and user has give consent."
+
+#: admin/modules/cookies/views/non-necessary-settings.php:31
+#: admin/views/admin_non_necessary_cookie.php:31
+msgid "Enable Non-necessary Cookie"
+msgstr "Enable Non-necessary Cookie"
+
+#: admin/modules/cookies/views/non-necessary-settings.php:23
+#: admin/views/admin_non_necessary_cookie.php:23
+msgid "Non-necessary Cookie Settings"
+msgstr "Non-necessary Cookie Settings"
+
+#: admin/views/admin-settings-help.php:115
+msgid "Help and Support"
+msgstr "Help and Support"
+
+#: admin/views/goto-pro.php:110
+msgid "  much appreciated!"
+msgstr "  much appreciated!"
+
+#: admin/views/goto-pro.php:110
+msgid " on"
+msgstr " on"
+
+#: admin/views/goto-pro.php:110
+msgid "If you find this plugin useful please show your support and rate it"
+msgstr "If you find this plugin useful please show your support and rate it"
+
+#: admin/views/goto-pro.php:109
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/views/admin-settings-advanced.php:9
+msgid "Sometimes themes apply settings that clash with plugins. If that happens, try adjusting these settings."
+msgstr "Sometimes themes apply settings that clash with plugins. If that happens, try adjusting these settings."
+
+#: admin/partials/cookie-law-info-admin_settings.php:84
+#: admin/views/admin-settings-advanced.php:8
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/views/admin-settings-help.php:90
+msgid "Add any text you like- useful if you want e.g. another language to English."
+msgstr "Add any text you like- useful if you want e.g. another language to English."
+
+#: admin/views/admin-settings-help.php:86
+msgid "This shortcode will display a normal HTML link which when clicked, will delete the cookie set by Cookie Law Info (this cookie is used to remember that the cookie bar is closed)."
+msgstr "This shortcode will display a normal HTML link which when clicked, will delete the cookie set by Cookie Law Info (this cookie is used to remember that the cookie bar is closed)."
+
+#: admin/views/admin-settings-help.php:72
+msgid "You need to enter the cookies your website uses via the Cookie Law Info menu in your WordPress dashboard."
+msgstr "You need to enter the cookies your website uses via the Cookie Law Info menu in your WordPress dashboard."
+
+#: admin/views/admin-settings-help.php:72
+msgid "This prints out a nice table of cookies, in line with the guidance given by the ICO."
+msgstr "This prints out a nice table of cookies, in line with the guidance given by the ICO."
+
+#: admin/views/admin-settings-help.php:66
+msgid "These shortcodes can be used in pages and posts on your website. It is not recommended to use these inside the cookie bar itself."
+msgstr "These shortcodes can be used in pages and posts on your website. It is not recommended to use these inside the cookie bar itself."
+
+#: admin/views/admin-settings-help.php:65
+msgid "Other shortcodes"
+msgstr "Other shortcodes"
+
+#: admin/views/admin-settings-help.php:16
+msgid "Cookie bar shortcodes"
+msgstr "Cookie bar shortcodes"
+
+#: admin/views/admin-settings-buttons.php:12
+#: admin/views/admin-settings-buttons.php:94
+msgid "Reject Button"
+msgstr "Reject Button"
+
+#: admin/views/admin-settings-buttons.php:83
+#: admin/views/admin-settings-buttons.php:155
+msgid "Button Size"
+msgstr "Button Size"
+
+#: admin/views/admin-settings-buttons.php:391
+msgid "Open URL in new window?"
+msgstr "Open URL in new window?"
+
+#: admin/views/admin-settings-buttons.php:56
+#: admin/views/admin-settings-buttons.php:128
+#: admin/views/admin-settings-buttons.php:375
+msgid "Action"
+msgstr "Action"
+
+#: admin/views/admin-settings-buttons.php:342
+msgid "This button/link can be customised to either simply close the cookie bar, or follow a link. You can also customise the colours and styles, and show it as a link or a button."
+msgstr "This button/link can be customised to either simply close the cookie bar, or follow a link. You can also customise the colours and styles, and show it as a link or a button."
+
+#: admin/views/admin-settings-buttons.php:11
+#: admin/views/admin-settings-buttons.php:21
+msgid "Accept Button"
+msgstr "Accept Button"
+
+#: admin/partials/cookie-law-info-admin_settings.php:83
+msgid "Customise Buttons"
+msgstr "Customise Buttons"
+
+#: admin/views/admin-settings-messagebar.php:54
+msgid "Font"
+msgstr "Font"
+
+#: admin/views/admin-settings-messagebar.php:45
+msgid "Text Colour"
+msgstr "Text Colour"
+
+#: admin/views/admin-settings-messagebar.php:35
+msgid "Cookie Bar Colour"
+msgstr "Cookie Bar Colour"
+
+#: admin/views/admin-settings-messagebar.php:25
+msgid "Message"
+msgstr "Message"
+
+#: admin/views/admin-settings-messagebar.php:195
+msgid "From Left Margin"
+msgstr "From Left Margin"
+
+#: admin/views/admin-settings-messagebar.php:77
+#: admin/views/admin-settings-messagebar.php:167
+msgid "Left"
+msgstr "Left"
+
+#: admin/views/admin-settings-messagebar.php:78
+#: admin/views/admin-settings-messagebar.php:166
+msgid "Right"
+msgstr "Right"
+
+#: admin/views/admin-settings-messagebar.php:172
+msgid "Tab Position"
+msgstr "Tab Position"
+
+#: admin/views/admin-settings-general.php:69
+msgid "Reload after \"scroll accept\" event?"
+msgstr "Reload after \"scroll accept\" event?"
+
+#: admin/views/admin-settings-general.php:46
+msgid "Specify milliseconds (not seconds)"
+msgstr "Specify milliseconds (not seconds)"
+
+#: admin/views/admin-settings-general.php:43
+msgid "Milliseconds until hidden"
+msgstr "Milliseconds until hidden"
+
+#: admin/views/admin-settings-messagebar.php:132
+msgid "On hide"
+msgstr "On hide"
+
+#: admin/views/admin-settings-messagebar.php:128
+#: admin/views/admin-settings-messagebar.php:138
+msgid "Sticky"
+msgstr "Sticky"
+
+#: admin/views/admin-settings-messagebar.php:127
+#: admin/views/admin-settings-messagebar.php:137
+msgid "Animate"
+msgstr "Animate"
+
+#: admin/views/admin-settings-messagebar.php:122
+msgid "On load"
+msgstr "On load"
+
+#: admin/views/admin-settings-messagebar.php:98
+msgid "Footer"
+msgstr "Footer"
+
+#: admin/views/admin-settings-messagebar.php:97
+msgid "Header"
+msgstr "Header"
+
+#: admin/class-cookie-law-info-admin.php:186
+#: admin/class-cookie-law-info-admin.php:187
+#: admin/class-cookie-law-info-admin.php:270
+#: admin/partials/cookie-law-info-admin_settings.php:31
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/class-cookie-law-info-admin.php:324
+msgid "ERROR MIGRATING SETTINGS (ERROR: 2)"
+msgstr "ERROR MIGRATING SETTINGS (ERROR: 2)"
+
+#: admin/class-cookie-law-info-admin.php:263
+#: admin/class-cookie-law-info-admin.php:309
+#: admin/modules/cookies/cookies.php:823
+msgid "Settings Updated."
+msgstr "Settings Updated."
+
+#: admin/class-cookie-law-info-admin.php:244
+#: admin/class-cookie-law-info-admin.php:284
+#: admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php:22
+#: admin/modules/cookie-scaner/classes/class-cookie-law-info-cookie-scanner-ajax.php:24
+#: admin/modules/cookie-scaner/cookie-scaner.php:297
+#: admin/modules/cookies/cookies.php:774 admin/modules/cookies/cookies.php:787
+#: includes/class-cookie-law-info-cookieyes.php:125
+#: includes/class-cookie-law-info-cookieyes.php:913
+#: public/modules/script-blocker/script-blocker.php:176
+#: public/modules/script-blocker/script-blocker.php:216
+#: public/modules/script-blocker/script-blocker.php:348
+#: public/modules/script-blocker/script-blocker.php:663
+msgid "You do not have sufficient permission to perform this operation"
+msgstr "You do not have sufficient permission to perform this operation"

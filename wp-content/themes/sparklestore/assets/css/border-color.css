@@ -1,0 +1,277 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+}
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+table {
+    border: 1px solid #eee;
+}
+th,
+td {
+    border-color: #eee;
+}
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+:focus {
+    outline: 1px dotted #ccc;
+}
+
+.top-bar-menu ul li.cart_items {
+    border: 1px dotted #232529;
+}
+
+/**
+ * BLOCK MINI CART 
+*/
+.widget-heading {
+    border-color: rgba(129,129,129,.2);
+}
+.woocommerce-mini-cart {
+    border-bottom: 1px solid #eee;
+}
+.woocommerce .widget .woocommerce-mini-cart__buttons a.button {
+    border-color: #efefee;
+}
+/****
+ * Vertical Menu
+*/
+.block-nav-category .vertical-menu li:not(:first-child)::before{
+    border-top: 1px dashed #efefef;
+}
+.box-header-nav .main-menu .children li:not(:first-child)::before,
+.box-header-nav .main-menu .sub-menu li:not(:first-child)::before {
+    border-top: 1px dashed #efefef;
+}
+
+/****
+ * General Button
+*/
+.btn-primary {
+    border: 1px solid #003772;
+}
+.btn-primary:hover{
+    border: 1px solid #f33c3c;
+}
+/****
+ * Promo Block Widget
+*/
+.promo_block_area .promo-banner-img-inner:before {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.promo_block_area .promo-banner-img-inner:after {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+/*--------------------------------------------------------------
+## WooCommerce Product Display Details
+--------------------------------------------------------------*/
+/**
+ * Plugins Itmes Hover Tooltip
+*/
+.store_products_items_info .yith-wcwl-add-button a.add_to_wishlist span:before,
+.store_products_items_info .sparkle-tooltip-label:before {
+    border-color: transparent;
+    border-left-color: #f33c3c;
+}
+
+/*--------------------------------------------------------------
+## WooCommerce Add to Cart button
+--------------------------------------------------------------*/
+.woocommerce a.added_to_cart,
+.woocommerce a.product_type_simple,
+.woocommerce a.button.add_to_cart_button,
+.woocommerce a.button.product_type_grouped,
+.woocommerce a.button.product_type_external,
+.woocommerce a.button.product_type_variable{
+    border: 1px solid #f33c3c;
+}
+.woocommerce a.added_to_cart:before,
+.woocommerce a.product_type_simple:before,
+.woocommerce a.button.add_to_cart_button:before,
+.woocommerce a.button.product_type_grouped:before,
+.woocommerce a.button.product_type_external:before,
+.woocommerce a.button.product_type_variable:before{
+    border-right: 1px solid #ffffff;
+}
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button {
+    border: 1px solid #f33c3c;
+}
+/*--------------------------------------------------------------
+## WooCommerce Pagination
+--------------------------------------------------------------*/
+.woocommerce nav.woocommerce-pagination ul li {
+    border: 1px solid #f33c3c;
+}
+/*--------------------------------------------------------------
+## Woocommerce My Account
+--------------------------------------------------------------*/
+.logged-in.woocommerce-account .articlesListing .entry-content .woocommerce{
+    border:1px solid rgb(240, 240, 240);
+}
+.woocommerce-MyAccount-navigation ul li a {
+    border: 1px solid rgba(243, 60, 60, 0.08);
+}
+.woocommerce-MyAccount-navigation ul li a:hover{
+    border: 1px solid #f33c3c;
+}
+.woocommerce-MyAccount-content .woocommerce-EditAccountForm fieldset {
+    border: 1px solid #eee;
+}
+/*--------------------------------------------------------------
+## WooCommerce Cart
+--------------------------------------------------------------*/
+.woocommerce-message,
+.woocommerce-info{
+    border-top-color: #f33c3c; 
+}
+.woocommerce form.checkout_coupon{
+    border: 1px solid #f33c3c;
+}
+/* Single Summary Wrapper */
+.single-product div.product .entry-summary .woocommerce-product-details__short-description {
+    border-top: 1px dotted rgba(136, 136, 136, 0.05);
+}
+/* Quntity input & Add to Cart **/
+.single-product div.product .entry-summary .single_add_to_cart_button {
+    border: 1px solid #f33c3c;
+}
+.single-product div.product .entry-summary .single_add_to_cart_button:before {
+    border-right: 1px solid #ffffff;
+}
+/** Group Product */
+.woocommerce div.product form.cart .group_table td {
+    border: 1px dotted rgba(169, 162, 162, 0.24);
+}
+/**
+ * Product Meta
+*/
+.product_meta {
+    border-top: 1px dotted rgba(136, 136, 136, 0.05);
+}
+.product_meta span {
+    border-bottom: 1px dotted rgba(136, 136, 136, 0.05);
+}
+/**
+ * Default Tabs Layout
+*/
+.woocommerce div.product .woocommerce-tabs .panel {
+    border: 2px solid #003772;
+    border-top: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+    border-bottom: 2px solid #003772;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: 2px solid #003772;
+}
+.woocommerce-tabs.nav-line .tab-panels {
+    border: 2px solid #003772;
+    border-top: 0;
+}
+
+/*--------------------------------------------------------------
+ ## Pagination Type
+--------------------------------------------------------------*/
+.page-numbers{
+    border: 1px solid #f33c3c;
+}
+.page-numbers:hover{
+    border: 1px solid #f33c3c;
+}
+/** Comments List
+--------------------------------------------- */
+.comment-author img {
+    border: 1px solid #e1e1e1;
+}
+/*--------------------------------------------------------------
+## Widget Area
+--------------------------------------------------------------*/
+/***************
+* Widget Title
+*/
+.cross-sells h2,
+.cart_totals h2,
+.up-sells>h2,
+.related>h2,
+.woocommerce-billing-fields h3,
+.woocommerce-shipping-fields h3,
+.woocommerce-additional-fields h3,
+#order_review_heading,
+.woocommerce-order-details h2,
+.woocommerce-column--billing-address h2,
+.woocommerce-column--shipping-address h2,
+.woocommerce-Address-title h3,
+.woocommerce-MyAccount-content h3,
+.wishlist-title  h2,
+.comments-area  h2.comments-title,
+.woocommerce-Reviews h2.woocommerce-Reviews-title,
+.woocommerce-Reviews #review_form_wrapper .comment-reply-title, 
+.woocommerce-account .woocommerce h2,
+.woocommerce-customer-details h2.woocommerce-column__title,
+.widget .widget-title{
+    border-left: 3px solid #033772;
+}
+/***********
+ * All Widget
+*/
+/** Widget Calender
+--------------------------------------------- */
+.calendar_wrap table th {
+    border: 1px solid #cccccc;
+}
+.calendar_wrap table td {
+    border: 1px solid #cccccc;
+}
+/** WooCommerce Yith Extrenal Plugins Widget
+--------------------------------------------- */
+.widget.yith-woocompare-widget .compare,
+.widget.yith-woocompare-widget .clear-all {
+    border: 1px solid #f33c3c;
+}
+.widget.yith-woocompare-widget .compare:hover,
+.widget.yith-woocompare-widget .clear-all:hover {
+    border: 1px solid #f33c3c;
+}
+/**
+ * Footer Folumn  
+*/
+.footer-widgets .widget .widget-title{
+    border-bottom: 2px solid #313131;
+}
+.footer-widgets .widget .widget-title:before {
+    border-bottom: 2px solid #f33c3c;
+}
+
+/* Footer Social Icon */
+.sub-top-inner .social ul li a:hover {
+    border-color: #ffffff;
+}
+/** Social Media */
+.social ul li a {
+    border: 1px solid #003772;
+}
+/**
+ * Copyright and Privacy Policy
+*/
+.sub-footer .activemenu .coppyright{
+    border-top: 1px solid rgba(224, 224, 224, 0.1);
+}
+/**
+ * Main Slider Next & Prev Arrow
+*/
+.flex-direction-nav li a {
+    border: 1px solid #f33c3c;
+}
+.flex-direction-nav li a:hover {
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,580 @@
+/**
+ * Media Query CSS
+*/
+@media (max-width: 1180px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .block-search .input {
+        width: 380px;
+    }
+}
+
+@media (max-width: 1024px) {
+    /*****
+    * Top Header
+    */
+    .top-header-inner {
+        display: block;
+        text-align: center;
+    }
+    .menu-description{
+        right: 0;
+    }
+    /**
+     * Main Header
+    */
+    .mainheader.mobile-only{
+        display: block;
+    }
+    .mainheader{
+        display: none;
+    }
+
+    .mobile-only .rightheaderwrap{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .mobile-only .sparklelogo {
+        display: block;
+        text-align: center;
+    }
+
+    /***
+     * Main Menu
+    */
+    .header-nav {
+        display: none;
+    }
+
+    .categorproducts .categoryproductslider .homeblockinner {
+        height: 400px;
+    }
+}
+
+@media (max-width: 920px) {
+
+    /*****
+     * Main Header Banner Slider
+    */
+    .fullwidthslider {
+        margin-bottom:25px;
+    }
+
+    .slider-inner-wrap.sliderpromo {
+        grid-template-columns: 100%;
+    }
+
+    .sparklestore_wrap_promo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+    .sparklestore_wrap_promo .sparklestore_promo_wrap:first-child {
+        margin-bottom: 0;
+    }
+    
+    /*****
+    * Services Area
+    */
+    .services_area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*****
+    * Grid Product Item List
+    */
+    .layout2 .storeproductlist,
+    .layout2 .storeproductlist.category-style-2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /*****
+     * Container Wrap
+    */
+    .site-wrapper {
+        display: block;
+    }
+    #primary {
+        width: 100%;
+        float: unset;
+    }
+    .widget-area {
+        width: 100%;
+        float: unset;
+    }
+
+    .leftsidebar .widget-area,
+    .leftsidebar #primary {
+        float: unset;
+    }
+
+    .fullwidth-sidebar #primary, 
+    .fullwidth #primary, 
+    .nosidebar #primary {
+        width: 100%;
+    }
+
+    /****
+     * Breadcrumbs
+    */
+    .breadcrumbs-wrap {
+        margin-bottom: 25px;
+    }
+
+    /*****
+     * HomePage Widget Area
+    */
+    .promoarea h2 {
+        font-weight: normal;
+    }
+
+    /****
+     * Category and Product
+    */
+    .categorproducts .categoryproductslider .categoryproductwrap {
+        display: block;
+    }
+    .categorproducts .categoryproductslider.leftalign .homeblockinner, 
+    .categorproducts .categoryproductslider.rightalign .homeblockinner {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .categorproducts .categoryproductslider.leftalign .productwrap, 
+    .categorproducts .categoryproductslider.rightalign .productwrap {
+        width: 100%;
+    }
+    
+    /* .categorproducts .categoryproductslider.leftalign .categoryproductwrap,
+    .categorproducts .categoryproductslider.rightalign .categoryproductwrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .categorproducts .categoryproductslider .homeblockinner {
+        height: 400px;
+        margin-bottom: 25px;
+    } */
+
+    /*******
+     * Main Footer Area
+    */
+    .middle-footer-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /******
+     * Footer
+    */
+    .sub-footer {
+        padding: 25px 0;
+    } 
+}
+
+@media (max-width: 768px) {
+    /**
+     * Main Header Banner Slider
+    */
+    .banner-height {
+        height: 400px;
+    }
+    .sparklestore-slider .slides li {
+        height: 400px;
+    }
+    .sparklestore-caption h2 {
+        font-size: 35px;
+    }
+    /**
+     * Main Slider Next & Prev Arrow
+    */
+    .sparklestore-slider .flex-direction-nav a {
+        width: 40px;
+        top: 45%;
+    }
+    .flex-direction-nav .flex-prev{
+        left: 15px;
+        opacity:0.8;
+        visibility: visible;
+        cursor: pointer;
+    }
+    .flex-direction-nav .flex-next {
+        right: 15px;
+        text-align: center;
+        opacity:0.8;
+        visibility: visible;
+        cursor: pointer;
+    }
+    .flex-direction-nav a:before{
+        display: none;
+    }
+    .flex-direction-nav li a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height:43px;
+        text-align: center;
+        text-shadow: none;
+        display: inline-block;
+        font-size: 30px;
+        opacity:0;
+        visibility: hidden;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    .flex-direction-nav li a:hover {
+        opacity:1;
+    }
+
+    /******
+     * Section Title
+    */
+    .blocktitle h2 {
+        flex: 1;
+    }
+    .layout_two .blocktitle p {
+        display: none;
+    }
+    .layout_two .sparkletabs .sparkletablinks {
+        flex: 1;
+    }
+    .layout_one .blocktitlewrap {
+        width: 100%;
+    }
+    
+    /*****
+     * Grid Product Item List
+    */
+    .layout2 .storeproductlist,
+    .layout2 .storeproductlist.category-style-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /****
+     * Full Promo
+    */ 
+    .fullpromobanner .header-banner {
+        height: 400px;
+    }
+    .promobanner-caption h2 {
+        font-size: 32px;
+    }
+
+    /****
+     * Category and Product
+    */
+    
+    /* .categorproducts .categoryproductslider.leftalign .categoryproductwrap,
+    .categorproducts .categoryproductslider.rightalign .categoryproductwrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .categorproducts .categoryproductslider .homeblockinner {
+        height: 400px;
+        margin-bottom: 25px;
+    } */
+
+    /****
+     * Grid Promo
+    */
+    .promosection.onetotwo .promoarea-div,
+    .promosection.onetothree .promoarea-div,
+    .promosection.twotoone .promoarea-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /*.promosection.onetotwo .promoarea-div {
+        grid-template-columns: 50% 50%;
+    }*/
+    .promoarea h2 {
+        font-weight: normal;
+        font-size: 22px;
+    }
+
+    /****
+     * WooCommerce Product & Single
+    */
+    .woocommerce #content div.product div.summary, 
+    .woocommerce div.product div.summary, 
+    .woocommerce-page #content div.product div.summary, 
+    .woocommerce-page div.product div.summary {
+        width: 100%;
+    }
+
+    .woocommerce-account .woocommerce-MyAccount-content {
+        width: 100%;
+        float: unset;
+        padding:10px;
+        font-size: 18px;
+    }
+
+    .sub-top-inner {
+        display: block;
+        text-align: center;
+    }
+    .sub-top-inner .sociallink{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 620px) {
+    /*****
+     * Main Header Banner Slider
+    */
+    .banner-height {
+        height: 350px;
+    }
+    .sparklestore-slider .slides li {
+        height: 350px;
+    }
+    .sparklestore-slider .flex-control-nav {
+        display: none;
+    }
+    /* .sliderpromo {
+        margin: 0 0 25px;
+    } */
+    /*****
+    * Services Area
+    */
+    .services_area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /***
+     * Section title
+    */
+    .blocktitle {
+        padding: 5px;
+    }
+    .blocktitle h2 {
+        text-transform: capitalize;
+    }
+
+    /****
+     * Full Promo Widget
+    */
+    .fullpromobanner .header-banner {
+        height: 350px;
+    }
+    .promobanner-caption h2 {
+        font-size: 26px;
+    }
+    .fullpromobanner .promobanner-caption {
+        width: 100%;
+    }
+
+    /**
+     * Section Title
+    */
+    .layout_one .blocktitlewrap .blocktitle h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        font-weight: normal;
+        text-transform: capitalize;
+    }
+
+    /***
+     * Sub Footer ( Social & Payment Logo )
+    */
+    .sub-top-inner {
+        display: block;
+        text-align: center;
+    }
+    .sub-top-inner .social ul {
+        padding: 20px 0;
+        margin: 0;
+    }
+    .sub-top-footer {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    /****
+     * Main Header
+    */
+    .header-middle-inner {
+        padding: 20px 0;
+    }
+    .site-cart-items-wrap .item {
+        display: none;
+    }
+    .site-cart-items-wrap .count {
+        left: 14px;
+        top: -5px;
+    }
+    .toggle-text {
+        display: none;
+    }
+    /****
+     * Search ( Advance Search )
+    */
+    .block-search .form-search {
+        display: inline-block;
+    }
+    .chosen-container {
+        width: 100% !important;
+    }
+    .block-search .input {
+        width: 400px;
+    }
+    .block-search .btn-submit {
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+
+    .block-search .category select {
+        background-position-x: 80%;
+    }
+    .chosen-container-single .chosen-single::after {
+        right: 60px;
+    }
+    /***
+     * Banner Slider
+    */
+    .banner-height {
+        height: 300px;
+    }
+    .sparklestore-slider .slides li {
+        height: 300px;
+    }
+    .sparklestore-caption h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .sparklestore_wrap_promo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flex-direction-nav .flex-next {
+        right: 0;
+    }
+    .flex-direction-nav .flex-prev {
+        left: 0;
+    }
+
+    /***
+     * Breadcrumbs
+    */
+    .breadcrumbs-wrap {
+        background-size: unset !important;
+    }
+    .breadcrumbs-wrap h2 {
+        font-size: 22px;
+    }
+
+    /***
+     * Grid Layout
+    */
+    .layout2 .storeproductlist, 
+    .layout2 .storeproductlist.category-style-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .lSSlideWrapper .lSPrev, 
+    .lSSlideWrapper .lSNext {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    /****
+     * Full Promo Widget
+    */
+    .fullpromobanner .header-banner {
+        height: 180px;
+    }
+    .promobanner-caption .slider-btn-wrap {
+        margin-top: 0;
+    }
+    .btn {
+        padding: 11px 20px;
+        border-radius: 30px;
+        font-size: 17px;
+        letter-spacing:0;
+    }
+    .proppocaption-wrap p {
+        display: none;
+    }
+
+    /*****
+     * Grid Promo Widget
+    */
+    .promosection.onetotwo .promoarea-div,
+    .promosection.onetothree .promoarea-div,
+    .promosection.twotoone .promoarea-div,
+    .promosection.twototwo .promoarea-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .promosection .promoarea a figure img {
+        height: 230px;
+    }
+
+    /***
+     * Main Footer Area
+    */
+    .middle-footer-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /***
+     * Masonry Blog
+    */
+    [data-layout*="masonry"] .article {
+        width: 100%;
+        width: 100%;
+    }
+
+    /****
+     * 404 Page ( Not Found )
+    */
+    .page-not-found {
+        padding: 50px 0;
+    }
+
+    /***
+     * Shop Page
+    */
+    .woocommerce ul.products[class*="columns-"] li.product, 
+    .woocommerce-page ul.products[class*="columns-"] li.product {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin: 0 0 0.992em;
+    }
+
+}
+
+@media (max-width: 380px) {
+    /****
+     * Search
+    */
+    .block-search .input {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    /****
+     * Search
+    */
+    .block-search .input {
+        width: 300px;
+    }
+
+    .site-branding h1 {
+        font-size: 20px;
+    }
+    .mobile-only .sparklelogo img {
+        width: 180px;
+    }
+
+}

@@ -1,0 +1,8 @@
+2021-12-20T20:16:57+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(352): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractProductGrid.php(617): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(323): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->enqueue_data(Array)
+#3 C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(85): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#4 C:\xampp\htdocs\wp\wp-includes\class-wp-block.ph in C:\xampp\htdocs\wp\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php on line 64
+

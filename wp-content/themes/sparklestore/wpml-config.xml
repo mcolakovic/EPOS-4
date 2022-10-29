@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_sparklestore">
+
+            <key name="sparklestore_search_placeholder_text" />
+            <key name="sparklestore_vertical_menu_show_all_menu" />
+            <key name="sparklestore_vertical_menu_show_all_menu_close" />
+            <key name="sparklestore_blogtemplate_btn" />
+        </key>
+    </admin-texts> 
+</wpml-config>

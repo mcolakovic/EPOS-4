@@ -1,0 +1,649 @@
+.sparklestore-activation-notice {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-left: 0 !important;
+    border-top: 1px solid #0085BA;
+}
+
+.sparklestore-activation-notice h1 {
+    margin-bottom: 0 !important;
+}
+
+.sparklestore-activation-notice p:first-of-type {
+    margin-bottom: 20px !important;
+}
+
+
+.sparklestore-multiplecat {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+
+/**
+ * Selector section on widget
+*/
+.widget-content .selector-labels label {
+    display: inline-block;
+    padding: 10px 5px 0;
+    position: relative;
+    max-width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.widget-content .selector-labels label.selector-selected:after {
+    content: "";
+    height: 35px;
+    width: 35px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background: url(../images/selected.png) no-repeat right top;
+}
+
+
+/**
+ * Demo Import Hidden
+*/
+.ocdi__gl-item .ocdi__gl-item-button.js-ocdi-gl-import-data {
+    display: none;
+}
+
+.ocdi__gl-item:first-child .ocdi__gl-item-button.js-ocdi-gl-import-data{
+  display: block;
+}
+
+/**
+ * Radio Image Control
+*/
+.customize-control-radio-image input[type=radio]{
+    display: none;
+}
+
+.customize-control-radio-image .ui-button {
+    margin:0;
+    border-radius:0;
+    background:transparent;
+    box-shadow: none;
+    display: inline;
+    border: 0;
+    padding: 0;
+}
+
+.customize-control-radio-image img {
+    box-sizing: border-box;
+    width: 125px;
+    height:auto;
+    padding:1px;
+    border:4px solid transparent;
+}
+
+.customize-control-radio-image img:hover,
+.customize-control-radio-image img:focus {
+    border-color: #00a0d2;
+}
+
+.customize-control-radio-image .buttonset .img-btn-wrap.active img{
+    border-color: #00a0d2;
+}
+.customize-control-radio-image .buttonset{
+  display: flex;
+}
+
+/*Additional Styles*/
+.sparklestore-repeater-field-control{
+  background: #FFF;
+  margin-bottom: 12px;
+  display: block;
+}
+.sparklestore-repeater-footer{
+  margin-top: 15px;
+  text-align: right;
+}
+.sparklestore-repeater-field-control:first-child .sparklestore-repeater-footer{
+  display: none;
+}
+.sparklestore-repeater-field-title{
+  padding: 13px 15px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 1em;
+  border: 1px solid #e5e5e5;
+  cursor: move;
+  position: relative;
+  border-bottom: 0;
+}
+#customize-theme-controls .sparklestore-repeater-field-title.accordion-section-title:after {
+  content: "\f142";
+  font: 400 20px/1 dashicons;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 2px 1px 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sparklestore-repeater-field-control.expanded .sparklestore-repeater-field-title:after{
+  content: "\f140";
+}
+.sparklestore-repeater-fields{
+  padding: 0 10px 25px;
+  border-top: none;
+  line-height: 16px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  display: none;
+}
+.sparklestore-repeater-fields .customize-control-title{
+  margin-top: 10px;
+}
+.sparklestore-repeater-field-control.expanded .sparklestore-repeater-fields{
+  display: block;
+}
+.sparklestore-add-control-field {
+  float: right;
+}
+.sparklestore-add-control-field:before {
+    content: "\f132";
+    display: inline-block;
+    position: relative;
+    left: -2px;
+    top: -1px;
+    font: 400 18px/1 dashicons;
+    vertical-align: middle;
+}
+.sparklestore-fields textarea{
+  width: 100%;
+  min-height: 100px;
+}
+.sparklestore-fields select{
+  width: 100%;
+  min-width: none;
+}
+.sparklestore-type-checkbox{
+  margin-top: 10px;
+}
+.sparklestore-type-checkbox label{
+    line-height: 20px;
+    display: block;
+    margin-left: 24px;
+    padding-top: 6px;
+}
+.sparklestore-type-checkbox input[type=checkbox]{
+    margin-right: 8px;
+    margin-left: -24px;
+}
+.sparklestore-type-selector .selector-labels{
+  margin: 0 -5px;
+}
+.sparklestore-type-selector .selector-labels label{
+  display: inline-block;
+  padding: 10px 5px 0;
+  position: relative;
+  max-width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.sparklestore-type-selector .selector-labels label img{
+  vertical-align: middle;
+}
+.sparklestore-type-selector .selector-labels label.selector-selected:after{
+  content: "";
+  height: 35px;
+  width: 35px;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background: url(images/selected.png) no-repeat right top;
+}
+.sparklestore-type-radio .radio-labels label{
+  display: block;
+  padding: 5px 0;
+}
+
+/**
+ * Switch Control
+*/
+.onoffswitch {
+    position: relative;
+    width: 140px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin .3s ease-in 0s;
+    -webkit-transition: margin .3s ease-in 0s;
+    -o-transition: margin .3s ease-in 0s;
+    transition: margin .3s ease-in 0s
+}
+
+.onoffswitch-inner > div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    background-color: #d4d4d4;
+    color: #FFF
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    background-color: #d4d4d4;
+    color: #FFF;
+    text-align: right
+}
+
+.onoffswitch-switch {
+    width: 70px;
+    margin: 0;
+    text-align: center;
+    border: 0 solid #999;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.onoffswitch-active .onoffswitch-switch {
+    background: #0073aa;
+    left: 0
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #7D7D7D;
+    right: 0
+}
+.switch-on .onoffswitch-inner {
+    margin-left: 0
+}
+
+
+.pt-visual-selector{
+    margin-top: 10px;
+}
+.visual-selector a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    outline: 0 !important;
+    border: 1px solid #EEE;
+}
+.visual-selector a img{
+    vertical-align: middle;
+}
+.visual-selector a .selector-tick {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../../images/admin/pt-item-tick-selector.png) no-repeat
+}
+.sparklestore-range-slider .range-input{
+  height: 12px;
+  position: relative;
+  background: #EEE;
+  border-radius: 4px;
+  margin: 0 4px 18px;
+}
+.sparklestore-range-slider .range-input-selector{
+  width: 80px !important;
+  margin-right: 10px !important;
+  border-radius: 12px;
+  text-align: center;
+  height: 32px;
+}
+.sparklestore-range-slider .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background: #0073aa;
+}
+.sparklestore-range-slider .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+    left: 0;
+    border-radius: 4px;
+}
+.sparklestore-range-slider .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #EEE;
+    border: 2px solid #0073aa;
+    border-radius: 50%;
+    margin-top: -3px;
+    margin-left: -9px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.sparklestore-type-icon{
+  overflow: hidden;
+}
+.sparklestore-selected-icon{
+  background: #F6F6F6;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+}
+.sparklestore-selected-icon span{
+  position: absolute;
+  background: #F6F6F6;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+.sparklestore-icon-list{
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.sparklestore-icon-list li{
+  float: left;
+  margin: 4% 3% 0;
+  height: 40px;
+  width: 16%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;
+}
+.sparklestore-icon-list li:hover{
+  background: #333;
+  border: 1px solid #333;
+  color: #FFF;
+}
+.sparklestore-icon-list li.icon-active{
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+
+
+/**
+ * Customizer Title
+*/
+.customize-control-title {
+    color: #0073aa;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    background: #FFF;
+    margin: 0 -12px 0;
+    border-left: 4px solid #0073aa;
+    margin-bottom: 15px;
+}
+
+/**
+ * Customizer Icon Settings Area
+*/
+.customize-pane-parent .control-section .accordion-section-title:before,
+#sub-accordion-panel-sparklestore_general_settings .control-section .accordion-section-title:before,
+#sub-accordion-panel-woocommerce .control-section .accordion-section-title:before,
+#sub-accordion-panel-sparklestore_design_settings_panel .control-section .accordion-section-title:before,
+#sub-accordion-panel-sparklestore_header_settings_panel .control-section .accordion-section-title:before{
+    font-family: dashicons;
+    content: "\f545";
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#accordion-panel-sparklestore_general_settings .accordion-section-title:before{
+    content: "\f108";
+}
+
+#accordion-panel-sparklestore_header_settings_panel .accordion-section-title:before {
+    content: "\f175";
+}
+
+#accordion-section-sparklestore_services_area .accordion-section-title:before {
+    content: "\f12e";
+}
+
+#accordion-panel-sparklestore_design_settings_panel .accordion-section-title:before {
+    content: "\f547";
+}
+
+#accordion-section-sparklestore_social_link_activate_settings .accordion-section-title:before {
+    content: "\f237";
+}
+
+#accordion-section-sparklestore_footer_settings .accordion-section-title:before {
+    content: "\f212";
+}
+
+#accordion-section-colors .accordion-section-title:before{
+    content: "\f226";
+}
+
+#accordion-panel-nav_menus .accordion-section-title:before{
+    content: "\f333";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-panel-widgets .accordion-section-title:before{
+    content: "\f116";
+}
+
+#accordion-section-custom_css .accordion-section-title:before{
+    content: "\f499";
+}
+#accordion-section-sparklestore_banner_slider .accordion-section-title:before{
+    content: "\f233";
+}
+
+
+/**
+ * Some important information link
+*/
+.implink{
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2;
+  box-shadow: none;
+  font-style: normal;
+  text-decoration: none;
+  background: #0073aa;
+  padding: 10px;
+  color: #FFF !important;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.implink:hover{
+  background: #0c5e86;
+}
+
+#customize-control-sparklestore_pro_theme_features .description ul,
+#customize-control-sparklestore_setup_instruction .description ul{
+  font-style: normal;
+  font-size: 14px;
+}
+
+#customize-control-sparklestore_pro_theme_features .description ul li,
+#customize-control-sparklestore_setup_instruction .description ul li{
+    border: 1px dashed #ababab;
+    padding: 10px;
+}
+
+
+/*--------------------------------------------------------------
+## Gutenberg Default ( WooCommerce Block )
+--------------------------------------------------------------*/
+.wc-block-grid__product-onsale{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.wc-block-components-product-sale-badge,
+.wc-block-grid__product-onsale {
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 12px;
+  border: 1px solid #f33c3c;
+  background-color: #f33c3c;
+  color: #fff;
+}
+
+.wc-block-grid .wc-block-components-product-title,
+.wc-block-grid__product-title {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  /* font-size: 20px; */
+  padding: 0;
+}
+
+.wc-block-grid__product-price{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.wc-block-grid__product-price__value,
+.wc-block-grid__product-price .woocommerce-Price-amount{
+  color: #009966;
+}
+.wc-block-grid__product-price__regular,
+.wc-block-grid__product-price del .woocommerce-Price-amount{
+  color: #f33c3c;
+  opacity: 0.5;
+}
+
+.woocommerce .star-rating.wc-block-grid__product-rating {
+  /* position: unset; */
+  height: auto;
+  font-size: 1em;
+  letter-spacing: unset;
+}
+.wc-block-grid__product-rating .star-rating span::before, 
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars span::before {
+  color: #ffc60a;
+}
+
+.wc-block-grid__product-add-to-cart .add_to_cart_button{
+  height: 40px;
+  padding: 0px 12px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+  border-radius: 0;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  background-color: #f33c3c;
+  border: 1px solid #f33c3c;
+  color:#fff;
+}
+.wc-block-grid__product-add-to-cart .add_to_cart_button::before{
+  content: '\f07a';
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  left: 0px;
+  top: 0px;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #f33c3c;
+  border-right: 1px solid #ffffff !important;
+  color: #fff;
+}
+.wc-block-grid__product-add-to-cart .add_to_cart_button:hover{
+  background-color: transparent;
+  color: #f33c3c;
+}
+
+.wc-block-pagination-page {
+  padding: 2px;
+  float: none;
+  border: 1px solid #f33c3c;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0 5px;
+  background-color: #f33c3c;
+  color: #fff;
+  padding: 5px;
+}
+
+.wc-block-pagination-page.wc-block-components-pagination__page {
+  cursor: pointer;
+  background-color: #f33c3c;
+  color: #fff;
+  padding: 5px;
+}
+.wc-block-pagination-page--active.wc-block-components-pagination__page--active {
+  background-color: transparent !important;
+  color: #f33c3c;
+}
+
+.wc-block-product-search .wc-block-product-search__button {
+  margin: 0;
+  background-color: #f33c3c;
+  color: #fff;
+  border-radius: 0;
+}
+.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+  padding: 15px;
+}
